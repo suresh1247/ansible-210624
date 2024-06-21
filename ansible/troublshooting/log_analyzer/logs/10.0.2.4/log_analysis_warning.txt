@@ -1,0 +1,643 @@
+15987-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.228966] audit: type=1400 audit(1714377090.313:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=793 comm="apparmor_parser"
+15988-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.229381] audit: type=1400 audit(1714377090.313:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=793 comm="apparmor_parser"
+15989-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.229704] audit: type=1400 audit(1714377090.313:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=793 comm="apparmor_parser"
+15990-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.230013] audit: type=1400 audit(1714377090.313:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=793 comm="apparmor_parser"
+15991-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.245178] audit: type=1400 audit(1714377090.329:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=803 comm="apparmor_parser"
+15992-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.354580] audit: type=1400 audit(1714377090.437:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=805 comm="apparmor_parser"
+15993-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.620017] UDF-fs: INFO Mounting volume 'UDF Volume', timestamp 2024/04/30 00:00 (1000)
+15994-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.681105] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+15995-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.681119] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+15996-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    9.860099] random: crng init done
+15997:/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    9.860100] random: 7 urandom warning(s) missed due to ratelimiting
+15998-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [   53.294231] hv_balloon: Max. dynamic memory size: 3584 MB
+15999-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1650.567100] EXT4-fs (sda1): resizing filesystem from 548091 to 7836155 blocks
+16000-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1650.580515] EXT4-fs (sda1): resized filesystem to 7836155
+16001-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1651.057378]  sdb: sdb1
+16002-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1652.208056] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+16003-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1653.257617] new mount options do not match the existing superblock, will be ignored
+16004-/var/log/kern.log:Apr 29 08:18:58 devlinux-vm1 kernel: [ 1655.791738] ip_tables: (C) 2000-2006 Netfilter Core Team
+16005-/var/log/kern.log:Apr 29 08:18:58 devlinux-vm1 kernel: [ 1655.822553] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+16006-/var/log/kern.log:Apr 29 11:42:19 devlinux-vm1 kernel: [13856.192262] hv_utils: Shutdown request received - graceful shutdown initiated
+16007-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    0.000000] Linux version 4.15.0-1113-azure (buildd@lcy01-amd64-010) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)) #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 4.15.0-1113.126~16.04.1-azure 4.15.18)
+--
+16474-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.339843] audit: type=1400 audit(1714400608.270:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=843 comm="apparmor_parser"
+16475-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361533] audit: type=1400 audit(1714400608.294:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=845 comm="apparmor_parser"
+16476-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361537] audit: type=1400 audit(1714400608.294:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=845 comm="apparmor_parser"
+16477-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361538] audit: type=1400 audit(1714400608.294:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=845 comm="apparmor_parser"
+16478-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361540] audit: type=1400 audit(1714400608.294:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=845 comm="apparmor_parser"
+16479-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.364022] audit: type=1400 audit(1714400608.294:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=846 comm="apparmor_parser"
+16480-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.366521] audit: type=1400 audit(1714400608.298:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=847 comm="apparmor_parser"
+16481-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.919948] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+16482-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.919969] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+16483-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.920603] random: crng init done
+16484:/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.920604] random: 7 urandom warning(s) missed due to ratelimiting
+16485-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [   12.082290]  sdb: sdb1
+16486-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [   16.463163] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+16487-/var/log/kern.log:Apr 29 14:23:38 devlinux-vm1 kernel: [   17.698925] new mount options do not match the existing superblock, will be ignored
+16488-/var/log/kern.log:Apr 29 14:24:14 devlinux-vm1 kernel: [   54.760929] hv_balloon: Max. dynamic memory size: 3584 MB
+16489-/var/log/kern.log:Apr 29 16:02:18 devlinux-vm1 kernel: [ 5938.609151] hv_utils: Shutdown request received - graceful shutdown initiated
+16490-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    0.000000] Linux version 4.15.0-1113-azure (buildd@lcy01-amd64-010) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)) #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 4.15.0-1113.126~16.04.1-azure 4.15.18)
+16491-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1113-azure root=UUID=dcc4cfd4-06c2-44f7-b16f-9e2e9410521f ro console=tty1 console=ttyS0 earlyprintk=ttyS0
+16492-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    0.000000] KERNEL supported cpus:
+16493-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    0.000000]   Intel GenuineIntel
+16494-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    0.000000]   AMD AuthenticAMD
+16966-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.556730] audit: type=1400 audit(1714442978.833:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=813 comm="apparmor_parser"
+16967-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.556732] audit: type=1400 audit(1714442978.833:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=813 comm="apparmor_parser"
+16968-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576865] audit: type=1400 audit(1714442978.853:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=826 comm="apparmor_parser"
+16969-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576868] audit: type=1400 audit(1714442978.853:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=826 comm="apparmor_parser"
+16970-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576869] audit: type=1400 audit(1714442978.853:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=826 comm="apparmor_parser"
+16971-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576871] audit: type=1400 audit(1714442978.853:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=826 comm="apparmor_parser"
+16972-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.580575] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+16973-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.583355] audit: type=1400 audit(1714442978.857:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=833 comm="apparmor_parser"
+16974-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.585011] audit: type=1400 audit(1714442978.861:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=836 comm="apparmor_parser"
+16975-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.994853] random: crng init done
+16976:/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.994854] random: 7 urandom warning(s) missed due to ratelimiting
+16977-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    7.075235] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+16978-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    7.075248] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+16979-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [    9.763569]  sdb: sdb1
+16980-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [   10.654267] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+16981-/var/log/kern.log:Apr 30 02:09:43 devlinux-vm1 kernel: [   11.103156] new mount options do not match the existing superblock, will be ignored
+16982-/var/log/kern.log:Apr 30 02:10:25 devlinux-vm1 kernel: [   53.426196] hv_balloon: Max. dynamic memory size: 3584 MB
+16983-/var/log/kern.log:Apr 30 02:26:18 devlinux-vm1 kernel: [ 1006.538184] kauditd_printk_skb: 3 callbacks suppressed
+16984-/var/log/kern.log:Apr 30 02:26:18 devlinux-vm1 kernel: [ 1006.538185] audit: type=1400 audit(1714443978.812:15): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=20350 comm="apparmor_parser"
+16985-/var/log/kern.log:Apr 30 02:26:26 devlinux-vm1 kernel: [ 1014.677739] audit: type=1400 audit(1714443986.952:16): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default" pid=20751 comm="apparmor_parser"
+16986-/var/log/kern.log:Apr 30 02:26:26 devlinux-vm1 kernel: [ 1014.678182] audit: type=1400 audit(1714443986.952:17): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="lxc-container-default-cgns" pid=20751 comm="apparmor_parser"
+17471-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211549] audit: type=1400 audit(1714457660.777:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=808 comm="apparmor_parser"
+17472-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211550] audit: type=1400 audit(1714457660.777:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=808 comm="apparmor_parser"
+17473-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211552] audit: type=1400 audit(1714457660.777:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=808 comm="apparmor_parser"
+17474-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221404] audit: type=1400 audit(1714457660.789:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=812 comm="apparmor_parser"
+17475-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221406] audit: type=1400 audit(1714457660.789:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=812 comm="apparmor_parser"
+17476-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221408] audit: type=1400 audit(1714457660.789:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=812 comm="apparmor_parser"
+17477-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221410] audit: type=1400 audit(1714457660.789:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=812 comm="apparmor_parser"
+17478-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.224374] audit: type=1400 audit(1714457660.793:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=820 comm="apparmor_parser"
+17479-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.227443] audit: type=1400 audit(1714457660.793:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=821 comm="apparmor_parser"
+17480-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.612032] random: crng init done
+17481:/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.612033] random: 7 urandom warning(s) missed due to ratelimiting
+17482-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.716102] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+17483-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.716117] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+17484-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    9.561666] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+17485-/var/log/kern.log:Apr 30 06:14:24 devlinux-vm1 kernel: [    9.735641] new mount options do not match the existing superblock, will be ignored
+17486-/var/log/kern.log:Apr 30 06:15:07 devlinux-vm1 kernel: [   53.061855] hv_balloon: Max. dynamic memory size: 3584 MB
+17487-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    0.000000] Linux version 4.15.0-1113-azure (buildd@lcy01-amd64-010) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)) #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 4.15.0-1113.126~16.04.1-azure 4.15.18)
+17488-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1113-azure root=UUID=dcc4cfd4-06c2-44f7-b16f-9e2e9410521f ro console=tty1 console=ttyS0 earlyprintk=ttyS0
+17489-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    0.000000] KERNEL supported cpus:
+17490-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    0.000000]   Intel GenuineIntel
+17491-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    0.000000]   AMD AuthenticAMD
+17965-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.661358] audit: type=1400 audit(1714581617.953:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=848 comm="apparmor_parser"
+17966-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.661360] audit: type=1400 audit(1714581617.953:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=848 comm="apparmor_parser"
+17967-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.661362] audit: type=1400 audit(1714581617.953:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=848 comm="apparmor_parser"
+17968-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.667476] audit: type=1400 audit(1714581617.957:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=850 comm="apparmor_parser"
+17969-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.667478] audit: type=1400 audit(1714581617.957:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=850 comm="apparmor_parser"
+17970-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.667480] audit: type=1400 audit(1714581617.957:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=850 comm="apparmor_parser"
+17971-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.667482] audit: type=1400 audit(1714581617.957:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=850 comm="apparmor_parser"
+17972-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.669706] audit: type=1400 audit(1714581617.961:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=851 comm="apparmor_parser"
+17973-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.672716] audit: type=1400 audit(1714581617.965:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=852 comm="apparmor_parser"
+17974-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.903138] random: crng init done
+17975:/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    6.903139] random: 7 urandom warning(s) missed due to ratelimiting
+17976-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    7.095922] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+17977-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    7.095943] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+17978-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    9.334527] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+17979-/var/log/kern.log:May  1 16:40:21 devlinux-vm1 kernel: [    9.449441] new mount options do not match the existing superblock, will be ignored
+17980-/var/log/kern.log:May  1 16:41:04 devlinux-vm1 kernel: [   53.543325] hv_balloon: Max. dynamic memory size: 3584 MB
+17981-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    0.000000] Linux version 4.15.0-1113-azure (buildd@lcy01-amd64-010) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)) #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 4.15.0-1113.126~16.04.1-azure 4.15.18)
+17982-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1113-azure root=UUID=dcc4cfd4-06c2-44f7-b16f-9e2e9410521f ro console=tty1 console=ttyS0 earlyprintk=ttyS0
+17983-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    0.000000] KERNEL supported cpus:
+17984-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    0.000000]   Intel GenuineIntel
+17985-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    0.000000]   AMD AuthenticAMD
+18457-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.265827] audit: type=1400 audit(1714582444.088:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=816 comm="apparmor_parser"
+18458-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.265829] audit: type=1400 audit(1714582444.088:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=816 comm="apparmor_parser"
+18459-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.265830] audit: type=1400 audit(1714582444.088:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=816 comm="apparmor_parser"
+18460-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.272173] audit: type=1400 audit(1714582444.096:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=818 comm="apparmor_parser"
+18461-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.272175] audit: type=1400 audit(1714582444.096:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=818 comm="apparmor_parser"
+18462-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.272176] audit: type=1400 audit(1714582444.096:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=818 comm="apparmor_parser"
+18463-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.272178] audit: type=1400 audit(1714582444.096:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=818 comm="apparmor_parser"
+18464-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.281334] audit: type=1400 audit(1714582444.104:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=819 comm="apparmor_parser"
+18465-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.282528] audit: type=1400 audit(1714582444.104:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=820 comm="apparmor_parser"
+18466-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.660027] random: crng init done
+18467:/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.660028] random: 7 urandom warning(s) missed due to ratelimiting
+18468-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.712050] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+18469-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    6.712064] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+18470-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    8.696601] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+18471-/var/log/kern.log:May  1 16:54:07 devlinux-vm1 kernel: [    8.949825] new mount options do not match the existing superblock, will be ignored
+18472-/var/log/kern.log:May  1 16:54:50 devlinux-vm1 kernel: [   53.107123] hv_balloon: Max. dynamic memory size: 3584 MB
+18473-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    0.000000] Linux version 4.15.0-1113-azure (buildd@lcy01-amd64-010) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)) #126~16.04.1-Ubuntu SMP Tue Apr 13 16:55:24 UTC 2021 (Ubuntu 4.15.0-1113.126~16.04.1-azure 4.15.18)
+18474-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1113-azure root=UUID=dcc4cfd4-06c2-44f7-b16f-9e2e9410521f ro console=tty1 console=ttyS0 earlyprintk=ttyS0
+18475-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    0.000000] KERNEL supported cpus:
+18476-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    0.000000]   Intel GenuineIntel
+18477-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    0.000000]   AMD AuthenticAMD
+18939-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    4.691325] Loading iSCSI transport class v2.0-870.
+18940-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    4.713162] iscsi: registered transport (tcp)
+18941-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    4.747615] EXT4-fs (sda1): re-mounted. Opts: discard
+18942-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    4.835894] iscsi: registered transport (iser)
+18943-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    5.487859] hv_vmbus: registering driver hv_balloon
+18944-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    5.500450] hv_balloon: Using Dynamic Memory protocol version 2.0
+18945-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    5.766691] hv_utils: KVP IC version 4.0
+18946-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    5.877956] ip_tables: (C) 2000-2006 Netfilter Core Team
+18947-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    5.915082] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+18948-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.514754] random: crng init done
+18949:/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.514755] random: 7 urandom warning(s) missed due to ratelimiting
+18950-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.567378] audit: type=1400 audit(1714583067.411:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=807 comm="apparmor_parser"
+18951-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.567381] audit: type=1400 audit(1714583067.411:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=807 comm="apparmor_parser"
+18952-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.567382] audit: type=1400 audit(1714583067.411:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=807 comm="apparmor_parser"
+18953-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.567383] audit: type=1400 audit(1714583067.411:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=807 comm="apparmor_parser"
+18954-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.575637] audit: type=1400 audit(1714583067.419:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=809 comm="apparmor_parser"
+18955-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.575640] audit: type=1400 audit(1714583067.419:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=809 comm="apparmor_parser"
+18956-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.575641] audit: type=1400 audit(1714583067.419:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=809 comm="apparmor_parser"
+18957-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.575643] audit: type=1400 audit(1714583067.419:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=809 comm="apparmor_parser"
+18958-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.579829] audit: type=1400 audit(1714583067.423:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=810 comm="apparmor_parser"
+18959-/var/log/kern.log:May  1 17:04:30 devlinux-vm1 kernel: [    6.584765] audit: type=1400 audit(1714583067.431:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=811 comm="apparmor_parser"
+19440-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.233866] audit: type=1400 audit(1714583337.847:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=814 comm="apparmor_parser"
+19441-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.233867] audit: type=1400 audit(1714583337.847:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=814 comm="apparmor_parser"
+19442-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.233869] audit: type=1400 audit(1714583337.847:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=814 comm="apparmor_parser"
+19443-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.239974] audit: type=1400 audit(1714583337.851:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=816 comm="apparmor_parser"
+19444-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.239976] audit: type=1400 audit(1714583337.851:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=816 comm="apparmor_parser"
+19445-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.239977] audit: type=1400 audit(1714583337.851:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=816 comm="apparmor_parser"
+19446-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.239979] audit: type=1400 audit(1714583337.851:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=816 comm="apparmor_parser"
+19447-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.244395] audit: type=1400 audit(1714583337.859:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=821 comm="apparmor_parser"
+19448-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.246109] audit: type=1400 audit(1714583337.859:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=826 comm="apparmor_parser"
+19449-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.588032] random: crng init done
+19450:/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.588033] random: 7 urandom warning(s) missed due to ratelimiting
+19451-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.705650] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+19452-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    6.705664] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+19453-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    8.928655] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+19454-/var/log/kern.log:May  1 17:09:01 devlinux-vm1 kernel: [    8.945267] new mount options do not match the existing superblock, will be ignored
+19455-/var/log/kern.log:May  1 17:09:44 devlinux-vm1 kernel: [   53.104513] hv_balloon: Max. dynamic memory size: 3584 MB
+19456-Binary file /var/log/lastlog matches
+19457-/var/log/syslog:May  1 06:29:57 devlinux-vm1 systemd[1]: Starting Cleanup of Temporary Directories...
+19458-/var/log/syslog:May  1 06:29:57 devlinux-vm1 systemd-tmpfiles[811]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+19459-/var/log/syslog:May  1 06:29:57 devlinux-vm1 systemd[1]: Started Cleanup of Temporary Directories.
+19460-/var/log/syslog:May  1 06:30:01 devlinux-vm1 CRON[841]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+19769-/var/log/syslog:May  1 16:00:01 devlinux-vm1 CRON[30450]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+19770-/var/log/syslog:May  1 16:00:01 devlinux-vm1 CRON[30451]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+19771-/var/log/syslog:May  1 16:04:01 devlinux-vm1 CRON[30967]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+19772-/var/log/syslog:May  1 16:04:25 devlinux-vm1 systemd[1]: Started Session 734 of user azureuser.
+19773-/var/log/syslog:May  1 16:04:26 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=ping removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19774-/var/log/syslog:May  1 16:04:47 devlinux-vm1 ansible-ping: Invoked with data=pong
+19775-/var/log/syslog:May  1 16:05:01 devlinux-vm1 CRON[31349]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+19776-/var/log/syslog:May  1 16:05:53 devlinux-vm1 systemd[1]: Started Session 736 of user azureuser.
+19777-/var/log/syslog:May  1 16:05:53 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+19778-/var/log/syslog:May  1 16:05:54 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19779:/var/log/syslog:May  1 16:05:54 devlinux-vm1 ansible-command: [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+19780-/var/log/syslog:May  1 16:05:55 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: list packages for update #012'; apt update && apt list --upgradable;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19781-/var/log/syslog:May  1 16:05:55 devlinux-vm1 systemd[1]: Starting Update APT News...
+19782-/var/log/syslog:May  1 16:05:55 devlinux-vm1 systemd[1]: Starting Update the local ESM caches...
+19783-/var/log/syslog:May  1 16:05:56 devlinux-vm1 systemd[1]: Started Update the local ESM caches.
+19784-/var/log/syslog:May  1 16:05:56 devlinux-vm1 systemd[1]: Started Update APT News.
+19785-/var/log/syslog:May  1 16:06:14 devlinux-vm1 ansible-slurp: Invoked with src=patches-list.csv
+19786-/var/log/syslog:May  1 16:07:41 devlinux-vm1 systemd[1]: Started Session 737 of user azureuser.
+19787-/var/log/syslog:May  1 16:07:41 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+19788-/var/log/syslog:May  1 16:07:42 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19789:/var/log/syslog:May  1 16:07:42 devlinux-vm1 ansible-command: [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+19790-/var/log/syslog:May  1 16:07:44 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: list packages for update #012'; apt update && apt list --upgradable;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19791-/var/log/syslog:May  1 16:07:44 devlinux-vm1 systemd[1]: Starting Update the local ESM caches...
+19792-/var/log/syslog:May  1 16:07:44 devlinux-vm1 systemd[1]: Starting Update APT News...
+19793-/var/log/syslog:May  1 16:07:45 devlinux-vm1 systemd[1]: Started Update the local ESM caches.
+19794-/var/log/syslog:May  1 16:07:45 devlinux-vm1 systemd[1]: Started Update APT News.
+19795-/var/log/syslog:May  1 16:08:03 devlinux-vm1 ansible-slurp: Invoked with src=patches-list.csv
+19796-/var/log/syslog:May  1 16:08:44 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+19797-/var/log/syslog:May  1 16:08:45 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: cat /etc/redhat-release (Display Distribution information)#012'; cat /etc/redhat-release; echo -e '#012CMD: lsb_release -a (Display Distribution information)#012'; lsb_release -a; echo -e '#012CMD: date (Display Date of system)#012'; date; echo -e '#012CMD: ifconfig -a (Nic Card Details with Ips assigned)#012'; ifconfig -a; echo -e '#012CMD: df -Th (Filesystem with sizes and Type)#012'; df -h; echo -e '#012CMD: netstat -planetu (List of Services Running with their Ports)#012'; netstat -planetu; echo -e '#012CMD: uptime (Server Uptime Details)#012'; uptime; echo -e '#012CMD: route -n (Routing Details)#012'; route -n; echo -e '#012CMD: chronyc sources (Chrony Sources)#012'; chronyc sources; echo -e '#012CMD: chronyd status (Chrony Status)#012'; systemctl status chronyd; echo -e '#012CMD: uname -a (Print all information)#012'; uname -a; echo -e '#012CMD: free -h (Memory Details)#012'; free -h; echo -e '#012CMD: cat /etc/fstab (List of Mount Points in the directory)#012'; cat /etc/fstab; echo -e '#012CMD: cat /proc/mounts (List of Mount Points)#012'; cat /proc/mounts; echo -e '#012CMD: cat /etc/exports (List of file systems Exported)#012'; cat /etc/exports; echo -e '#012CMD: (uname -r) Kernel Version#012'; uname -r; echo -e '#012CMD: ip addr list (List of IP Address)#012'; ip addr list; echo -e '#012CMD: lsblk (Disk Allocated)#012'; lsblk; echo -e '#012CMD: cat /proc/cpuinfo | grep -i processor | wc -l (Total Cpus)#012'; cat /proc/cpuinfo | grep -i processor | wc -l; echo -e '#012CMD: dmidecode (Display Product details of Server)#012'; dmidecode | grep -i Product; echo -e '#012CMD: sestatus (Display SELinux status)#012'; sestatus | grep -i SELinux; echo -e '#012CMD: cat /etc/sysconfig/network-scripts/ifcfg* (Display Nic Details) #012'; cat /etc/sysconfig/network-scripts/ifcfg*; echo -e '#012CMD: ps -ef (Display Process running) #012'; ps -ef;) >> Beforeartifacts.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19798-/var/log/syslog:May  1 16:08:46 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl list-units --type=service --state=running --no-pager | awk '{print $1}' > running_services.txt && sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '1d;$d' running_services.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+19799-/var/log/syslog:May  1 16:09:39 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=apt update && apt upgrade -y removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+20529-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.661358] audit: type=1400 audit(1714581617.953:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=848 comm="apparmor_parser"
+20530-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.661360] audit: type=1400 audit(1714581617.953:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=848 comm="apparmor_parser"
+20531-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.661362] audit: type=1400 audit(1714581617.953:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=848 comm="apparmor_parser"
+20532-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.667476] audit: type=1400 audit(1714581617.957:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=850 comm="apparmor_parser"
+20533-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.667478] audit: type=1400 audit(1714581617.957:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=850 comm="apparmor_parser"
+20534-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.667480] audit: type=1400 audit(1714581617.957:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=850 comm="apparmor_parser"
+20535-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.667482] audit: type=1400 audit(1714581617.957:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=850 comm="apparmor_parser"
+20536-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.669706] audit: type=1400 audit(1714581617.961:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=851 comm="apparmor_parser"
+20537-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.672716] audit: type=1400 audit(1714581617.965:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=852 comm="apparmor_parser"
+20538-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.903138] random: crng init done
+20539:/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    6.903139] random: 7 urandom warning(s) missed due to ratelimiting
+20540-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    7.095922] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+20541-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    7.095943] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+20542-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    9.334527] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+20543-/var/log/syslog:May  1 16:40:21 devlinux-vm1 kernel: [    9.449441] new mount options do not match the existing superblock, will be ignored
+20544-/var/log/syslog:May  1 16:40:21 devlinux-vm1 systemd[1]: Reached target System Initialization.
+20545-/var/log/syslog:May  1 16:40:21 devlinux-vm1 iscsid: iSCSI logger with pid=1278 started!
+20546-/var/log/syslog:May  1 16:40:21 devlinux-vm1 systemd[1]: Starting LXD - unix socket.
+20547-/var/log/syslog:May  1 16:40:21 devlinux-vm1 iscsid: iSCSI daemon with pid=1280 started!
+20548-/var/log/syslog:May  1 16:40:21 devlinux-vm1 systemd[1]: Started ACPI Events Check.
+20549-/var/log/syslog:May  1 16:40:21 devlinux-vm1 dbus[1286]: [system] AppArmor D-Bus mediation is enabled
+20784-/var/log/syslog:May  1 16:40:23 devlinux-vm1 python3[1318]: 2024-05-01T16:40:23.308065Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+20785-/var/log/syslog:May  1 16:40:23 devlinux-vm1 python3[1318]: 2024-05-01T16:40:23.313694Z INFO ExtHandler ExtHandler Started extension in unit 'enable_58f28761-ee72-4f4b-acd2-f3d17f666258.scope'
+20786-/var/log/syslog:May  1 16:40:23 devlinux-vm1 python3[1318]: 2024-05-01T16:40:23.315915Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+20787-/var/log/syslog:May  1 16:40:23 devlinux-vm1 python3[1318]: 2024-05-01T16:40:23.316050Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+20788-/var/log/syslog:May  1 16:40:23 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+20789-/var/log/syslog:May  1 16:40:23 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+20790-/var/log/syslog:May  1 16:40:23 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+20791-/var/log/syslog:May  1 16:40:24 devlinux-vm1 cloud-init[1495]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Wed, 01 May 2024 16:40:23 +0000. Up 12.40 seconds.
+20792-/var/log/syslog:May  1 16:40:24 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+20793-/var/log/syslog:May  1 16:40:24 devlinux-vm1 systemd[1]: Starting cloud-id shim...
+20794:/var/log/syslog:May  1 16:40:24 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+20795:/var/log/syslog:May  1 16:40:24 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+20796-/var/log/syslog:May  1 16:40:25 devlinux-vm1 sh[1632]: Created symlink /run/cloud-init/cloud-id -> /run/cloud-init/cloud-id-azure.
+20797-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Started cloud-id shim.
+20798-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Started Ubuntu Pro Background Auto Attach.
+20799-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+20800-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+20801-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+20802-/var/log/syslog:May  1 16:40:25 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+20803-/var/log/syslog:May  1 16:40:26 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+20804-/var/log/syslog:May  1 16:40:26 devlinux-vm1 snapd[1328]: daemon.go:589: gracefully waiting for running hooks
+20805-/var/log/syslog:May  1 16:40:26 devlinux-vm1 snapd[1328]: daemon.go:591: done waiting for running hooks
+21600-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.265827] audit: type=1400 audit(1714582444.088:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=816 comm="apparmor_parser"
+21601-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.265829] audit: type=1400 audit(1714582444.088:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=816 comm="apparmor_parser"
+21602-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.265830] audit: type=1400 audit(1714582444.088:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=816 comm="apparmor_parser"
+21603-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.272173] audit: type=1400 audit(1714582444.096:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=818 comm="apparmor_parser"
+21604-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.272175] audit: type=1400 audit(1714582444.096:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=818 comm="apparmor_parser"
+21605-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.272176] audit: type=1400 audit(1714582444.096:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=818 comm="apparmor_parser"
+21606-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.272178] audit: type=1400 audit(1714582444.096:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=818 comm="apparmor_parser"
+21607-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.281334] audit: type=1400 audit(1714582444.104:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=819 comm="apparmor_parser"
+21608-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.282528] audit: type=1400 audit(1714582444.104:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=820 comm="apparmor_parser"
+21609-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.660027] random: crng init done
+21610:/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.660028] random: 7 urandom warning(s) missed due to ratelimiting
+21611-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.712050] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+21612-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    6.712064] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+21613-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    8.696601] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+21614-/var/log/syslog:May  1 16:54:07 devlinux-vm1 kernel: [    8.949825] new mount options do not match the existing superblock, will be ignored
+21615-/var/log/syslog:May  1 16:54:07 devlinux-vm1 cloud-init[1153]: ci-info: |   0   |  fe80::/64  |    ::   |    eth0   |   U   |
+21616-/var/log/syslog:May  1 16:54:07 devlinux-vm1 cloud-init[1153]: ci-info: |   2   |   ff00::/8  |    ::   |    eth0   |   U   |
+21617-/var/log/syslog:May  1 16:54:07 devlinux-vm1 cloud-init[1153]: ci-info: +-------+-------------+---------+-----------+-------+
+21618-/var/log/syslog:May  1 16:54:07 devlinux-vm1 iscsid: iSCSI daemon with pid=1254 started!
+21619-/var/log/syslog:May  1 16:54:07 devlinux-vm1 systemd[1]: Reached target Cloud-config availability.
+21620-/var/log/syslog:May  1 16:54:07 devlinux-vm1 dbus[1263]: [system] AppArmor D-Bus mediation is enabled
+21855-/var/log/syslog:May  1 16:54:09 devlinux-vm1 python3[1290]: 2024-05-01T16:54:09.110706Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0"}
+21856-/var/log/syslog:May  1 16:54:09 devlinux-vm1 python3[1290]: 2024-05-01T16:54:09.113633Z INFO ExtHandler ExtHandler Started extension in unit 'enable_a8ee0f75-62d1-498a-9765-31ba6fdef5dc.scope'
+21857-/var/log/syslog:May  1 16:54:09 devlinux-vm1 python3[1290]: 2024-05-01T16:54:09.115815Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+21858-/var/log/syslog:May  1 16:54:09 devlinux-vm1 python3[1290]: 2024-05-01T16:54:09.115916Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+21859-/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+21860-/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+21861-/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+21862-/var/log/syslog:May  1 16:54:09 devlinux-vm1 cloud-init[1465]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Wed, 01 May 2024 16:54:09 +0000. Up 11.42 seconds.
+21863-/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+21864-/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Starting cloud-id shim...
+21865:/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+21866:/var/log/syslog:May  1 16:54:09 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+21867-/var/log/syslog:May  1 16:54:11 devlinux-vm1 sh[1602]: Created symlink /run/cloud-init/cloud-id -> /run/cloud-init/cloud-id-azure.
+21868-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Started cloud-id shim.
+21869-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Started Ubuntu Pro Background Auto Attach.
+21870-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+21871-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+21872-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+21873-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+21874-/var/log/syslog:May  1 16:54:11 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+21875-/var/log/syslog:May  1 16:54:12 devlinux-vm1 python3[1717]: ["2024-05-01T16:54:12.419", "DEBUG", "ubuntupro.daemon", "main", 52, "daemon starting", {}]
+21876-/var/log/syslog:May  1 16:54:12 devlinux-vm1 python3[1717]: ["2024-05-01T16:54:12.442", "DEBUG", "ubuntupro.daemon", "_wait_for_cloud_config", 20, "waiting for cloud-config.service to finish", {}]
+22505-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    4.691325] Loading iSCSI transport class v2.0-870.
+22506-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    4.713162] iscsi: registered transport (tcp)
+22507-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    4.747615] EXT4-fs (sda1): re-mounted. Opts: discard
+22508-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    4.835894] iscsi: registered transport (iser)
+22509-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    5.487859] hv_vmbus: registering driver hv_balloon
+22510-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    5.500450] hv_balloon: Using Dynamic Memory protocol version 2.0
+22511-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    5.766691] hv_utils: KVP IC version 4.0
+22512-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    5.877956] ip_tables: (C) 2000-2006 Netfilter Core Team
+22513-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    5.915082] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+22514-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.514754] random: crng init done
+22515:/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.514755] random: 7 urandom warning(s) missed due to ratelimiting
+22516-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.567378] audit: type=1400 audit(1714583067.411:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=807 comm="apparmor_parser"
+22517-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.567381] audit: type=1400 audit(1714583067.411:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=807 comm="apparmor_parser"
+22518-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.567382] audit: type=1400 audit(1714583067.411:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=807 comm="apparmor_parser"
+22519-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.567383] audit: type=1400 audit(1714583067.411:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=807 comm="apparmor_parser"
+22520-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.575637] audit: type=1400 audit(1714583067.419:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=809 comm="apparmor_parser"
+22521-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.575640] audit: type=1400 audit(1714583067.419:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=809 comm="apparmor_parser"
+22522-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.575641] audit: type=1400 audit(1714583067.419:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=809 comm="apparmor_parser"
+22523-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.575643] audit: type=1400 audit(1714583067.419:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=809 comm="apparmor_parser"
+22524-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.579829] audit: type=1400 audit(1714583067.423:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=810 comm="apparmor_parser"
+22525-/var/log/syslog:May  1 17:04:30 devlinux-vm1 kernel: [    6.584765] audit: type=1400 audit(1714583067.431:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=811 comm="apparmor_parser"
+22926-/var/log/syslog:May  1 17:04:32 devlinux-vm1 python3[1271]: 2024-05-01T17:04:32.644736Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable extension: [omsagent_shim.sh -enable]
+22927-/var/log/syslog:May  1 17:04:32 devlinux-vm1 python3[1271]: 2024-05-01T17:04:32.645038Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]", "AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN"}
+22928-/var/log/syslog:May  1 17:04:32 devlinux-vm1 python3[1271]: 2024-05-01T17:04:32.649472Z INFO ExtHandler ExtHandler Started extension in unit 'enable_7e6d1d79-3ac4-4db7-909d-f515e05ead55.scope'
+22929-/var/log/syslog:May  1 17:04:32 devlinux-vm1 python3[1271]: 2024-05-01T17:04:32.651584Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+22930-/var/log/syslog:May  1 17:04:32 devlinux-vm1 python3[1271]: 2024-05-01T17:04:32.651704Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+22931-/var/log/syslog:May  1 17:04:32 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+22932-/var/log/syslog:May  1 17:04:32 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+22933-/var/log/syslog:May  1 17:04:32 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+22934-/var/log/syslog:May  1 17:04:33 devlinux-vm1 cloud-init[1456]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Wed, 01 May 2024 17:04:32 +0000. Up 11.84 seconds.
+22935-/var/log/syslog:May  1 17:04:33 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+22936:/var/log/syslog:May  1 17:04:33 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+22937-/var/log/syslog:May  1 17:04:33 devlinux-vm1 systemd[1]: Starting cloud-id shim...
+22938:/var/log/syslog:May  1 17:04:33 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+22939-/var/log/syslog:May  1 17:04:34 devlinux-vm1 sh[1595]: Created symlink /run/cloud-init/cloud-id -> /run/cloud-init/cloud-id-azure.
+22940-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Started cloud-id shim.
+22941-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Started Ubuntu Pro Background Auto Attach.
+22942-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+22943-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+22944-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+22945-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+22946-/var/log/syslog:May  1 17:04:34 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+22947-/var/log/syslog:May  1 17:04:36 devlinux-vm1 python3[1716]: ["2024-05-01T17:04:36.034", "DEBUG", "ubuntupro.daemon", "main", 52, "daemon starting", {}]
+22948-/var/log/syslog:May  1 17:04:36 devlinux-vm1 python3[1716]: ["2024-05-01T17:04:36.041", "DEBUG", "ubuntupro.daemon", "_wait_for_cloud_config", 20, "waiting for cloud-config.service to finish", {}]
+23512-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.233866] audit: type=1400 audit(1714583337.847:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=814 comm="apparmor_parser"
+23513-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.233867] audit: type=1400 audit(1714583337.847:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=814 comm="apparmor_parser"
+23514-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.233869] audit: type=1400 audit(1714583337.847:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=814 comm="apparmor_parser"
+23515-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.239974] audit: type=1400 audit(1714583337.851:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=816 comm="apparmor_parser"
+23516-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.239976] audit: type=1400 audit(1714583337.851:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=816 comm="apparmor_parser"
+23517-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.239977] audit: type=1400 audit(1714583337.851:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=816 comm="apparmor_parser"
+23518-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.239979] audit: type=1400 audit(1714583337.851:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=816 comm="apparmor_parser"
+23519-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.244395] audit: type=1400 audit(1714583337.859:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=821 comm="apparmor_parser"
+23520-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.246109] audit: type=1400 audit(1714583337.859:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=826 comm="apparmor_parser"
+23521-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.588032] random: crng init done
+23522:/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.588033] random: 7 urandom warning(s) missed due to ratelimiting
+23523-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.705650] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+23524-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    6.705664] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+23525-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    8.928655] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+23526-/var/log/syslog:May  1 17:09:01 devlinux-vm1 kernel: [    8.945267] new mount options do not match the existing superblock, will be ignored
+23527-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd-modules-load[418]: Inserted module 'iscsi_tcp'
+23528-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd-modules-load[418]: Inserted module 'ib_iser'
+23529-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd[1]: Started LVM2 metadata daemon.
+23530-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd[1]: Starting Load/Save Random Seed...
+23531-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd[1]: Starting Flush Journal to Persistent Storage...
+23532-/var/log/syslog:May  1 17:09:01 devlinux-vm1 systemd[1]: Starting udev Coldplug all Devices...
+23926-/var/log/syslog:May  1 17:09:03 devlinux-vm1 python3[1269]: 2024-05-01T17:09:03.119591Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Value\": \"1.0\", \"Key\": \"ExtensionTelemetryPipeline\"}]", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "ConfigSequenceNumber": "0"}
+23927-/var/log/syslog:May  1 17:09:03 devlinux-vm1 python3[1269]: 2024-05-01T17:09:03.127415Z INFO ExtHandler ExtHandler Started extension in unit 'enable_afb49e5e-c800-454c-90b7-8b435eaaf56c.scope'
+23928-/var/log/syslog:May  1 17:09:03 devlinux-vm1 python3[1269]: 2024-05-01T17:09:03.128071Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+23929-/var/log/syslog:May  1 17:09:03 devlinux-vm1 python3[1269]: 2024-05-01T17:09:03.128170Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+23930-/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+23931-/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+23932-/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+23933-/var/log/syslog:May  1 17:09:03 devlinux-vm1 cloud-init[1473]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Wed, 01 May 2024 17:09:03 +0000. Up 11.48 seconds.
+23934-/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+23935-/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Starting cloud-id shim...
+23936:/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+23937:/var/log/syslog:May  1 17:09:03 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+23938-/var/log/syslog:May  1 17:09:05 devlinux-vm1 sh[1610]: Created symlink /run/cloud-init/cloud-id -> /run/cloud-init/cloud-id-azure.
+23939-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Started cloud-id shim.
+23940-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Started Ubuntu Pro Background Auto Attach.
+23941-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+23942-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+23943-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+23944-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+23945-/var/log/syslog:May  1 17:09:05 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+23946-/var/log/syslog:May  1 17:09:06 devlinux-vm1 python3[1736]: ["2024-05-01T17:09:06.500", "DEBUG", "ubuntupro.daemon", "main", 52, "daemon starting", {}]
+23947-/var/log/syslog:May  1 17:09:06 devlinux-vm1 python3[1736]: ["2024-05-01T17:09:06.508", "DEBUG", "ubuntupro.daemon", "_wait_for_cloud_config", 20, "waiting for cloud-config.service to finish", {}]
+24014-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Reached target Timers.
+24015-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Reached target Paths.
+24016-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Listening on REST API socket for snapd user session agent.
+24017-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Reached target Sockets.
+24018-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Reached target Basic System.
+24019-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Reached target Default.
+24020-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[2547]: Startup finished in 20ms.
+24021-/var/log/syslog:May  1 17:12:00 devlinux-vm1 systemd[1]: Started User Manager for UID 1000.
+24022-/var/log/syslog:May  1 17:12:01 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+24023-/var/log/syslog:May  1 17:12:02 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf server_usage.txt service-uptime.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+24024:/var/log/syslog:May  1 17:12:02 devlinux-vm1 ansible-command: [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+24025-/var/log/syslog:May  1 17:12:24 devlinux-vm1 ansible-stat: Invoked with checksum_algorithm=sha1 get_checksum=True follow=False path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+24026-/var/log/syslog:May  1 17:12:24 devlinux-vm1 ansible-copy: Invoked with directory_mode=None force=True remote_src=None _original_basename=tmp0py1w3nw owner=None follow=False local_follow=None group=None unsafe_writes=None setype=None content=NOT_LOGGING_PARAMETER serole=None dest=service-uptime.txt selevel=None regexp=None validate=None src=/home/azureuser/.ansible/tmp/ansible-tmp-1714583543.907574-94777571822453/source checksum=deb8493d2be0fd535a52751a52015ce7529437df seuser=None delimiter=None mode=None attributes=None backup=False
+24027-/var/log/syslog:May  1 17:12:24 devlinux-vm1 ansible-stat: Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+24028-/var/log/syslog:May  1 17:12:25 devlinux-vm1 ansible-stat: Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=server_usage.txt get_md5=False get_mime=True get_attributes=True
+24029-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[1]: Stopping User Manager for UID 1000...
+24030-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[2547]: Stopped target Default.
+24031-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[2547]: Stopped target Basic System.
+24032-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[2547]: Stopped target Paths.
+24033-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[2547]: Stopped target Sockets.
+24034-/var/log/syslog:May  1 17:13:25 devlinux-vm1 systemd[2547]: Closed REST API socket for snapd user session agent.
+25094-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.228966] audit: type=1400 audit(1714377090.313:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=793 comm="apparmor_parser"
+25095-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.229381] audit: type=1400 audit(1714377090.313:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=793 comm="apparmor_parser"
+25096-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.229704] audit: type=1400 audit(1714377090.313:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=793 comm="apparmor_parser"
+25097-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.230013] audit: type=1400 audit(1714377090.313:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=793 comm="apparmor_parser"
+25098-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.245178] audit: type=1400 audit(1714377090.329:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=803 comm="apparmor_parser"
+25099-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.354580] audit: type=1400 audit(1714377090.437:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=805 comm="apparmor_parser"
+25100-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.620017] UDF-fs: INFO Mounting volume 'UDF Volume', timestamp 2024/04/30 00:00 (1000)
+25101-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.681105] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+25102-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    7.681119] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+25103-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    9.860099] random: crng init done
+25104:/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    9.860100] random: 7 urandom warning(s) missed due to ratelimiting
+25105-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [   53.294231] hv_balloon: Max. dynamic memory size: 3584 MB
+25106-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1650.567100] EXT4-fs (sda1): resizing filesystem from 548091 to 7836155 blocks
+25107-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1650.580515] EXT4-fs (sda1): resized filesystem to 7836155
+25108-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1651.057378]  sdb: sdb1
+25109-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1652.208056] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+25110-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [ 1653.257617] new mount options do not match the existing superblock, will be ignored
+25111-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 systemd-modules-load[426]: Inserted module 'iscsi_tcp'
+25112-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 systemd-modules-load[426]: Inserted module 'ib_iser'
+25113-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 systemd[1]: Started Uncomplicated firewall.
+25114-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 systemd[1]: Started Load Kernel Modules.
+25645-/var/log/syslog.1:Apr 29 08:19:02 devlinux-vm1 cloud-init[1868]: Generation complete.
+25646-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 systemd[1]: Stopping OpenBSD Secure Shell server...
+25647-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 systemd[1]: Stopped OpenBSD Secure Shell server.
+25648-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 systemd[1]: Starting OpenBSD Secure Shell server...
+25649-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 systemd[1]: Started OpenBSD Secure Shell server.
+25650-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 snapd[1429]: daemon.go:589: gracefully waiting for running hooks
+25651-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 snapd[1429]: daemon.go:591: done waiting for running hooks
+25652-/var/log/syslog.1:Apr 29 08:19:03 devlinux-vm1 snapd[1429]: daemon stop requested to wait for socket activation
+25653-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 cloud-init[1868]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Mon, 29 Apr 2024 08:19:01 +0000. Up 1658.46 seconds.
+25654-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+25655:/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+25656:/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 root: Added ephemeral disk warning to /mnt/DATALOSS_WARNING_README.txt
+25657:/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+25658-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+25659-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+25660-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+25661-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+25662-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+25663-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 ec2: 
+25664-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 ec2: #############################################################
+25665-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+25666-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 ec2: 1024 SHA256:KFWNOCALvWTvkCJXlL4kTj19SMMGjiNZQqv8Vb2CuAs root@devlinux-vm1 (DSA)
+25667-/var/log/syslog.1:Apr 29 08:19:04 devlinux-vm1 ec2: 256 SHA256:P5IAl9q+qVauUlBHz8idkJHqjYUCYrEWiVuoU8/fYxw root@devlinux-vm1 (ECDSA)
+26502-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.339843] audit: type=1400 audit(1714400608.270:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=843 comm="apparmor_parser"
+26503-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361533] audit: type=1400 audit(1714400608.294:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=845 comm="apparmor_parser"
+26504-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361537] audit: type=1400 audit(1714400608.294:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=845 comm="apparmor_parser"
+26505-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361538] audit: type=1400 audit(1714400608.294:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=845 comm="apparmor_parser"
+26506-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.361540] audit: type=1400 audit(1714400608.294:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=845 comm="apparmor_parser"
+26507-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.364022] audit: type=1400 audit(1714400608.294:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=846 comm="apparmor_parser"
+26508-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.366521] audit: type=1400 audit(1714400608.298:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=847 comm="apparmor_parser"
+26509-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.919948] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+26510-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.919969] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+26511-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.920603] random: crng init done
+26512:/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [    8.920604] random: 7 urandom warning(s) missed due to ratelimiting
+26513-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [   12.082290]  sdb: sdb1
+26514-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [   16.463163] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+26515-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 kernel: [   17.698925] new mount options do not match the existing superblock, will be ignored
+26516-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Started Uncomplicated firewall.
+26517-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Started Create list of required static device nodes for the current kernel.
+26518-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Started Remount Root and Kernel File Systems.
+26519-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Started Nameserver information manager.
+26520-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd-modules-load[437]: Inserted module 'iscsi_tcp'
+26521-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Started LVM2 metadata daemon.
+26522-/var/log/syslog.1:Apr 29 14:23:38 devlinux-vm1 systemd[1]: Starting udev Coldplug all Devices...
+26936-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 python3[1398]: 2024-04-29T14:23:40.305826Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable extension: [omsagent_shim.sh -enable]
+26937-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 python3[1398]: 2024-04-29T14:23:40.306300Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+26938-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 python3[1398]: 2024-04-29T14:23:40.312424Z INFO ExtHandler ExtHandler Started extension in unit 'enable_027d7d58-90e9-4b40-8dd9-25dcd6a84d65.scope'
+26939-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 python3[1398]: 2024-04-29T14:23:40.313064Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+26940-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 python3[1398]: 2024-04-29T14:23:40.313188Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+26941-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+26942-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+26943-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+26944-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 cloud-init[1677]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Mon, 29 Apr 2024 14:23:40 +0000. Up 20.49 seconds.
+26945-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+26946:/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+26947:/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 root: Added ephemeral disk warning to /mnt/DATALOSS_WARNING_README.txt
+26948:/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+26949-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+26950-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+26951-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+26952-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+26953-/var/log/syslog.1:Apr 29 14:23:40 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+26954-/var/log/syslog.1:Apr 29 14:23:41 devlinux-vm1 cloud-init[1809]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:final' at Mon, 29 Apr 2024 14:23:41 +0000. Up 21.50 seconds.
+26955-/var/log/syslog.1:Apr 29 14:23:41 devlinux-vm1 cloud-init[1809]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 finished at Mon, 29 Apr 2024 14:23:41 +0000. Datasource DataSourceAzure [seed=/var/lib/waagent].  Up 21.74 seconds
+26956-/var/log/syslog.1:Apr 29 14:23:41 devlinux-vm1 systemd[1]: Started Execute cloud user/final scripts.
+26957-/var/log/syslog.1:Apr 29 14:23:41 devlinux-vm1 systemd[1]: Reached target Cloud-init target.
+26958-/var/log/syslog.1:Apr 29 14:23:44 devlinux-vm1 snapd[1460]: daemon.go:589: gracefully waiting for running hooks
+27076-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Unmounting /mnt...
+27077-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Execute cloud user/final scripts.
+27078-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped target Timers.
+27079-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Message of the Day.
+27080-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+27081-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Ubuntu Advantage update messaging.
+27082-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+27083-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped target Multi-User System.
+27084-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping LSB: Record successful boot for GRUB...
+27085-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+27086:/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Write warning to Azure ephemeral disk.
+27087-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped Apply the settings specified in cloud-config.
+27088-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped target Cloud-config availability.
+27089-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping FUSE filesystem for LXC...
+27090-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopped target Login Prompts.
+27091-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping Getty on tty1...
+27092-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping Serial Getty on ttyS0...
+27093-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping Name Service Cache Daemon...
+27094-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping LSB: MD monitoring daemon...
+27095-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping D-Bus System Message Bus...
+27096-/var/log/syslog.1:Apr 29 16:02:18 devlinux-vm1 systemd[1]: Stopping OpenBSD Secure Shell server...
+27580-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.556730] audit: type=1400 audit(1714442978.833:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=813 comm="apparmor_parser"
+27581-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.556732] audit: type=1400 audit(1714442978.833:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=813 comm="apparmor_parser"
+27582-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576865] audit: type=1400 audit(1714442978.853:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=826 comm="apparmor_parser"
+27583-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576868] audit: type=1400 audit(1714442978.853:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=826 comm="apparmor_parser"
+27584-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576869] audit: type=1400 audit(1714442978.853:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=826 comm="apparmor_parser"
+27585-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.576871] audit: type=1400 audit(1714442978.853:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=826 comm="apparmor_parser"
+27586-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.580575] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+27587-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.583355] audit: type=1400 audit(1714442978.857:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=833 comm="apparmor_parser"
+27588-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.585011] audit: type=1400 audit(1714442978.861:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=836 comm="apparmor_parser"
+27589-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.994853] random: crng init done
+27590:/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    6.994854] random: 7 urandom warning(s) missed due to ratelimiting
+27591-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    7.075235] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+27592-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    7.075248] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+27593-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [    9.763569]  sdb: sdb1
+27594-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [   10.654267] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+27595-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 kernel: [   11.103156] new mount options do not match the existing superblock, will be ignored
+27596-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 systemd-modules-load[422]: Inserted module 'iscsi_tcp'
+27597-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 systemd-modules-load[422]: Inserted module 'ib_iser'
+27598-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 loadkeys[424]: Loading /etc/console-setup/cached.kmap.gz
+27599-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 systemd[1]: Started Load Kernel Modules.
+27600-/var/log/syslog.1:Apr 30 02:09:43 devlinux-vm1 systemd[1]: Started Set console keymap.
+28013-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 python3[1379]: 2024-04-30T02:09:46.046547Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable extension: [omsagent_shim.sh -enable]
+28014-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 python3[1379]: 2024-04-30T02:09:46.046914Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Value\": \"1.0\", \"Key\": \"ExtensionTelemetryPipeline\"}]", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0"}
+28015-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 python3[1379]: 2024-04-30T02:09:46.049877Z INFO ExtHandler ExtHandler Started extension in unit 'enable_de7bb3ca-8fb1-43dd-bc23-c4f942466e8b.scope'
+28016-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 python3[1379]: 2024-04-30T02:09:46.053062Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+28017-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 python3[1379]: 2024-04-30T02:09:46.053173Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+28018-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 cloud-init[1687]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Tue, 30 Apr 2024 02:09:45 +0000. Up 13.63 seconds.
+28019-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+28020-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+28021-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+28022-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+28023:/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+28024:/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 root: Added ephemeral disk warning to /mnt/DATALOSS_WARNING_README.txt
+28025:/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+28026-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+28027-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+28028-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+28029-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+28030-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+28031-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 cloud-init[1840]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:final' at Tue, 30 Apr 2024 02:09:46 +0000. Up 14.46 seconds.
+28032-/var/log/syslog.1:Apr 30 02:09:46 devlinux-vm1 cloud-init[1840]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 finished at Tue, 30 Apr 2024 02:09:46 +0000. Datasource DataSourceAzure [seed=/var/lib/waagent].  Up 14.67 seconds
+28033-/var/log/syslog.1:Apr 30 02:09:47 devlinux-vm1 systemd[1]: Started Execute cloud user/final scripts.
+28034-/var/log/syslog.1:Apr 30 02:09:47 devlinux-vm1 systemd[1]: Reached target Cloud-init target.
+28035-/var/log/syslog.1:Apr 30 02:09:47 devlinux-vm1 systemd[1]: Starting Daily apt download activities...
+28293-/var/log/syslog.1:Apr 30 05:47:41 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=df -h --exclude-type=tmpfs --exclude-type=devtmpfs | awk 'NR > 1 {print $6}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28294-/var/log/syslog.1:Apr 30 05:47:42 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl status kdump.service | grep Active | awk '{ print $2}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28295-/var/log/syslog.1:Apr 30 05:47:42 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl status chronyd.service | grep Active | awk '{ print $2}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28296-/var/log/syslog.1:Apr 30 05:47:42 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=uptime removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28297-/var/log/syslog.1:Apr 30 05:47:43 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=getenforce removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28298-/var/log/syslog.1:Apr 30 05:47:43 devlinux-vm1 ansible-command: Error Executing CMD:getenforce Exception:[Errno 2] No such file or directory
+28299-/var/log/syslog.1:Apr 30 05:49:01 devlinux-vm1 CRON[13158]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+28300-/var/log/syslog.1:Apr 30 05:49:50 devlinux-vm1 systemd[1]: Started Session 83 of user azureuser.
+28301-/var/log/syslog.1:Apr 30 05:49:51 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+28302-/var/log/syslog.1:Apr 30 05:49:52 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28303:/var/log/syslog.1:Apr 30 05:49:52 devlinux-vm1 ansible-command: [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+28304-/var/log/syslog.1:Apr 30 05:49:52 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: yum check-update #012'; yum check-update  || test $? -eq 100;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28305-/var/log/syslog.1:Apr 30 05:50:01 devlinux-vm1 CRON[13524]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+28306-/var/log/syslog.1:Apr 30 05:50:47 devlinux-vm1 systemd[1]: Started Session 85 of user azureuser.
+28307-/var/log/syslog.1:Apr 30 05:55:01 devlinux-vm1 CRON[13983]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+28308-/var/log/syslog.1:Apr 30 06:00:01 devlinux-vm1 CRON[14534]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+28309-/var/log/syslog.1:Apr 30 06:00:01 devlinux-vm1 CRON[14535]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+28310-/var/log/syslog.1:Apr 30 06:03:20 devlinux-vm1 systemd[1]: Started Session 89 of user azureuser.
+28311-/var/log/syslog.1:Apr 30 06:03:20 devlinux-vm1 ansible-setup: Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+28312-/var/log/syslog.1:Apr 30 06:03:21 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28313:/var/log/syslog.1:Apr 30 06:03:21 devlinux-vm1 ansible-command: [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+28314-/var/log/syslog.1:Apr 30 06:03:23 devlinux-vm1 ansible-command: Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: list packages for update #012'; apt update && apt list --upgradable;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+28315-/var/log/syslog.1:Apr 30 06:03:23 devlinux-vm1 systemd[1]: Starting Update APT News...
+28316-/var/log/syslog.1:Apr 30 06:03:23 devlinux-vm1 systemd[1]: Starting Update the local ESM caches...
+28317-/var/log/syslog.1:Apr 30 06:03:24 devlinux-vm1 systemd[1]: Started Update the local ESM caches.
+28318-/var/log/syslog.1:Apr 30 06:03:24 devlinux-vm1 systemd[1]: Started Update APT News.
+28319-/var/log/syslog.1:Apr 30 06:03:37 devlinux-vm1 ansible-slurp: Invoked with src=patches-list.csv
+28320-/var/log/syslog.1:Apr 30 06:04:01 devlinux-vm1 CRON[15335]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+28321-/var/log/syslog.1:Apr 30 06:05:01 devlinux-vm1 CRON[15564]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+28322-/var/log/syslog.1:Apr 30 06:08:03 devlinux-vm1 systemd[1]: Starting Daily apt download activities...
+28323-/var/log/syslog.1:Apr 30 06:08:04 devlinux-vm1 systemd[1]: Started Daily apt download activities.
+28373-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Unattended Upgrades Shutdown...
+28374-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Regular background program processing daemon...
+28375-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Deferred execution scheduler...
+28376-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping FUSE filesystem for LXC...
+28377-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping OpenBSD Secure Shell server...
+28378-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping OMI CIM Server...
+28379-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping D-Bus System Message Bus...
+28380-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Azure Linux Agent...
+28381-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 python3[1379]: 2024/04/30 06:14:07.879786 INFO Daemon Agent WALinuxAgent-2.2.45 forwarding signal 15 to WALinuxAgent-2.10.0.8
+28382-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Operations Management Suite agent...
+28383:/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopped Write warning to Azure ephemeral disk.
+28384-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 omiserver[17311]: /opt/omi/bin/omiserver: stopped server
+28385-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopped Apply the settings specified in cloud-config.
+28386-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopped Wait until snapd is fully seeded.
+28387-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopped target Cloud-config availability.
+28388-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Name Service Cache Daemon...
+28389-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopped target Login Prompts.
+28390-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Getty on tty1...
+28391-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 systemd[1]: Stopping Serial Getty on ttyS0...
+28392-/var/log/syslog.1:Apr 30 06:14:07 devlinux-vm1 rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="1378" x-info="http://www.rsyslog.com"] exiting on signal 15.
+28393-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="1294" x-info="http://www.rsyslog.com"] start
+28875-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211549] audit: type=1400 audit(1714457660.777:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=808 comm="apparmor_parser"
+28876-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211550] audit: type=1400 audit(1714457660.777:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=808 comm="apparmor_parser"
+28877-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.211552] audit: type=1400 audit(1714457660.777:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=808 comm="apparmor_parser"
+28878-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221404] audit: type=1400 audit(1714457660.789:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=812 comm="apparmor_parser"
+28879-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221406] audit: type=1400 audit(1714457660.789:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=812 comm="apparmor_parser"
+28880-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221408] audit: type=1400 audit(1714457660.789:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=812 comm="apparmor_parser"
+28881-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.221410] audit: type=1400 audit(1714457660.789:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=812 comm="apparmor_parser"
+28882-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.224374] audit: type=1400 audit(1714457660.793:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=820 comm="apparmor_parser"
+28883-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.227443] audit: type=1400 audit(1714457660.793:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=821 comm="apparmor_parser"
+28884-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.612032] random: crng init done
+28885:/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.612033] random: 7 urandom warning(s) missed due to ratelimiting
+28886-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.716102] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+28887-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    6.716117] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+28888-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    9.561666] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+28889-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 kernel: [    9.735641] new mount options do not match the existing superblock, will be ignored
+28890-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd-modules-load[419]: Inserted module 'iscsi_tcp'
+28891-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd-modules-load[419]: Inserted module 'ib_iser'
+28892-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd[1]: Started LVM2 metadata daemon.
+28893-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd[1]: Starting Load/Save Random Seed...
+28894-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd[1]: Starting Flush Journal to Persistent Storage...
+28895-/var/log/syslog.1:Apr 30 06:14:24 devlinux-vm1 systemd[1]: Starting udev Coldplug all Devices...
+29289-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 python3[1307]: 2024-04-30T06:14:26.578204Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable extension: [omsagent_shim.sh -enable]
+29290-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 python3[1307]: 2024-04-30T06:14:26.578509Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Value\": \"1.0\", \"Key\": \"ExtensionTelemetryPipeline\"}]", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16"}
+29291-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 python3[1307]: 2024-04-30T06:14:26.584783Z INFO ExtHandler ExtHandler Started extension in unit 'enable_0ba3e554-9d16-44f1-9aa8-a294b038ceeb.scope'
+29292-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 python3[1307]: 2024-04-30T06:14:26.585386Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/cpu,cpuacct/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+29293-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 python3[1307]: 2024-04-30T06:14:26.585492Z INFO ExtHandler ExtHandler Started tracking cgroup Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0 [/sys/fs/cgroup/memory/azure.slice/azure-vmextensions.slice/azure-vmextensions-Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux.slice]
+29294-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM Extensions.
+29295-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 systemd[1]: Created slice Slice for Azure VM extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0.
+29296-/var/log/syslog.1:Apr 30 06:14:26 devlinux-vm1 systemd[1]: Started /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable.
+29297-/var/log/syslog.1:Apr 30 06:14:27 devlinux-vm1 cloud-init[1521]: Cloud-init v. 21.1-19-gbad84ad4-0ubuntu1~16.04.2 running 'modules:config' at Tue, 30 Apr 2024 06:14:27 +0000. Up 12.69 seconds.
+29298-/var/log/syslog.1:Apr 30 06:14:27 devlinux-vm1 systemd[1]: Started Apply the settings specified in cloud-config.
+29299:/var/log/syslog.1:Apr 30 06:14:27 devlinux-vm1 systemd[1]: Starting Write warning to Azure ephemeral disk...
+29300-/var/log/syslog.1:Apr 30 06:14:28 devlinux-vm1 systemd[1]: Starting cloud-id shim...
+29301:/var/log/syslog.1:Apr 30 06:14:28 devlinux-vm1 systemd[1]: Started Write warning to Azure ephemeral disk.
+29302-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 sh[1739]: Created symlink /run/cloud-init/cloud-id -> /run/cloud-init/cloud-id-azure.
+29303-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Started cloud-id shim.
+29304-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Started Ubuntu Pro Background Auto Attach.
+29305-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Reached target Multi-User System.
+29306-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Reached target Graphical Interface.
+29307-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Starting Execute cloud user/final scripts...
+29308-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+29309-/var/log/syslog.1:Apr 30 06:14:29 devlinux-vm1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+29310-/var/log/syslog.1:Apr 30 06:14:30 devlinux-vm1 python3[1820]: ["2024-04-30T06:14:30.098", "DEBUG", "ubuntupro.daemon", "main", 52, "daemon starting", {}]
+29311-/var/log/syslog.1:Apr 30 06:14:30 devlinux-vm1 python3[1820]: ["2024-04-30T06:14:30.106", "DEBUG", "ubuntupro.daemon", "_wait_for_cloud_config", 20, "waiting for cloud-config.service to finish", {}]

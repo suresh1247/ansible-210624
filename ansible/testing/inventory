@@ -1,0 +1,16 @@
+[servers]
+centos1 ansible_host=10.0.0.7
+suse1 ansible_host=10.0.0.8
+ubuntu1 ansible_host=10.0.0.6
+ubuntu3 ansible_host=10.0.0.11
+centos3 ansible_host=10.0.0.12
+suse3 ansible_host=10.0.0.13
+centos4 ansible_host=10.0.0.14
+
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_port=22
+ansible_ssh_user=suresh
+ansible_ssh_pass="ctrls@1234$#$"
+ansible_sudo_pass="ctrls@1234$#$"
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'

@@ -1,0 +1,11 @@
+---
+- name: Shutdown Servers
+  hosts: all 
+  become: yes
+  become_method: sudo
+
+  tasks:
+          - name: Shutdown the server
+            shell: "/sbin/shutdown -h now"
+            ignore_errors: true
+

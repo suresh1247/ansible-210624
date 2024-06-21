@@ -1,0 +1,600 @@
+1169-/var/log/auth.log:Apr 30 06:14:25 devlinux-vm1 systemd-logind[1301]: Watching system buttons on /dev/input/event0 (Power Button)
+1170-/var/log/auth.log:Apr 30 06:14:25 devlinux-vm1 systemd-logind[1301]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+1171-/var/log/auth.log:Apr 30 06:14:30 devlinux-vm1 sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAptUpdates.sh
+1172-/var/log/auth.log:Apr 30 06:14:30 devlinux-vm1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+1173-/var/log/auth.log:Apr 30 06:14:32 devlinux-vm1 sudo: pam_unix(sudo:session): session closed for user root
+1174-/var/log/auth.log:Apr 30 06:14:40 devlinux-vm1 sshd[2315]: Invalid user suresh from 10.0.2.5
+1175-/var/log/auth.log:Apr 30 06:14:40 devlinux-vm1 sshd[2315]: input_userauth_request: invalid user suresh [preauth]
+1176-/var/log/auth.log:Apr 30 06:14:45 devlinux-vm1 sshd[2315]: pam_unix(sshd:auth): check pass; user unknown
+1177-/var/log/auth.log:Apr 30 06:14:45 devlinux-vm1 sshd[2315]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.5
+1178-/var/log/auth.log:Apr 30 06:14:47 devlinux-vm1 sshd[2315]: Failed password for invalid user suresh from 10.0.2.5 port 59937 ssh2
+1179:/var/log/auth.log:Apr 30 06:14:59 devlinux-vm1 sshd[2315]: error: Received disconnect from 10.0.2.5 port 59937:13: Unable to authenticate [preauth]
+1180-/var/log/auth.log:Apr 30 06:14:59 devlinux-vm1 sshd[2315]: Disconnected from 10.0.2.5 port 59937 [preauth]
+1181-/var/log/auth.log:Apr 30 06:15:01 devlinux-vm1 CRON[2360]: pam_unix(cron:session): session opened for user root by (uid=0)
+1182-/var/log/auth.log:Apr 30 06:15:01 devlinux-vm1 CRON[2359]: pam_unix(cron:session): session opened for user root by (uid=0)
+1183-/var/log/auth.log:Apr 30 06:15:01 devlinux-vm1 CRON[2360]: pam_unix(cron:session): session closed for user root
+1184-/var/log/auth.log:Apr 30 06:15:01 devlinux-vm1 CRON[2359]: pam_unix(cron:session): session closed for user root
+1185-/var/log/auth.log:Apr 30 06:15:27 devlinux-vm1 sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/plugin/collectantimalwareinfo.rb
+1186-/var/log/auth.log:Apr 30 06:15:27 devlinux-vm1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+1187-/var/log/auth.log:Apr 30 06:15:27 devlinux-vm1 sudo: pam_unix(sudo:session): session closed for user root
+1188-/var/log/auth.log:Apr 30 06:15:27 devlinux-vm1 sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+1189-/var/log/auth.log:Apr 30 06:15:27 devlinux-vm1 sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/omsbaseline -d /opt/microsoft/omsagent/plugin/
+--
+5182-/var/log/cloud-init.log:2024-04-29 07:51:30,501 - handlers.py[DEBUG]: start: azure-ds/crawl_metadata: crawl_metadata
+5183-/var/log/cloud-init.log:2024-04-29 07:51:30,501 - handlers.py[DEBUG]: start: azure-ds/list_possible_azure_ds_devs: list_possible_azure_ds_devs
+5184-/var/log/cloud-init.log:2024-04-29 07:51:30,501 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+5185-/var/log/cloud-init.log:2024-04-29 07:51:30,564 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=udf', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+5186-/var/log/cloud-init.log:2024-04-29 07:51:30,576 - handlers.py[DEBUG]: finish: azure-ds/list_possible_azure_ds_devs: SUCCESS: list_possible_azure_ds_devs
+5187-/var/log/cloud-init.log:2024-04-29 07:51:30,576 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+5188-/var/log/cloud-init.log:2024-04-29 07:51:30,576 - handlers.py[DEBUG]: finish: azure-ds/load_azure_ds_dir: FAIL: load_azure_ds_dir
+5189-/var/log/cloud-init.log:2024-04-29 07:51:30,576 - azure.py[DEBUG]: Did not find Azure data source in /var/lib/cloud/seed/azure
+5190-/var/log/cloud-init.log:2024-04-29 07:51:30,576 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+5191-/var/log/cloud-init.log:2024-04-29 07:51:30,577 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+5192:/var/log/cloud-init.log:2024-04-29 07:51:30,577 - util.py[DEBUG]: Fetched {'sysfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'sysfs', 'mountpoint': '/sys'}, 'securityfs': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security'}, 'pstore': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore'}, 'configfs': {'opts': 'rw,relatime', 'fstype': 'configfs', 'mountpoint': '/sys/kernel/config'}, 'debugfs': {'opts': 'rw,relatime', 'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug'}, 'tmpfs': {'opts': 'ro,nosuid,nodev,noexec,mode=755', 'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup'}, 'proc': {'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'proc', 'mountpoint': '/proc'}, 'fusectl': {'opts': 'rw,relatime', 'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections'}, 'systemd-1': {'opts': 'rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12097', 'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc'}, '/dev/sda15': {'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro', 'fstype': 'vfat', 'mountpoint': '/boot/efi'}, 'hugetlbfs': {'opts': 'rw,relatime,pagesize=2M', 'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages'}, 'udev': {'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755', 'fstype': 'devtmpfs', 'mountpoint': '/dev'}, 'devpts': {'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'fstype': 'devpts', 'mountpoint': '/dev/pts'}, 'cgroup': {'opts': 'rw,nosuid,nodev,noexec,relatime,freezer', 'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/freezer'}, '/dev/sda1': {'opts': 'rw,relatime,discard,data=ordered', 'fstype': 'ext4', 'mountpoint': '/'}, 'mqueue': {'opts': 'rw,relatime', 'fstype': 'mqueue', 'mountpoint': '/dev/mqueue'}} mounts from proc
+5193-/var/log/cloud-init.log:2024-04-29 07:51:30,577 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'auto', '/dev/sr0', '/run/cloud-init/tmp/tmp91gay_3d'] with allowed return codes [0] (shell=False, capture=True)
+5194-/var/log/cloud-init.log:2024-04-29 07:51:30,710 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+5195-/var/log/cloud-init.log:2024-04-29 07:51:30,713 - handlers.py[DEBUG]: start: azure-ds/read_azure_ovf: read_azure_ovf
+5196-/var/log/cloud-init.log:2024-04-29 07:51:30,723 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisioning_cfgs: _get_preprovisioning_cfgs
+5197-/var/log/cloud-init.log:2024-04-29 07:51:30,723 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisionedvm_cfg_value: _get_preprovisionedvm_cfg_value
+5198-/var/log/cloud-init.log:2024-04-29 07:51:30,723 - azure.py[INFO]: PreprovisionedVm: True
+5199-/var/log/cloud-init.log:2024-04-29 07:51:30,723 - handlers.py[DEBUG]: finish: azure-ds/_get_preprovisionedvm_cfg_value: SUCCESS: _get_preprovisionedvm_cfg_value
+5200-/var/log/cloud-init.log:2024-04-29 07:51:30,723 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisionedvmtype_cfg_value: _get_preprovisionedvmtype_cfg_value
+5201-/var/log/cloud-init.log:2024-04-29 07:51:30,724 - azure.py[INFO]: PreprovisionedVMType: Running
+5202-/var/log/cloud-init.log:2024-04-29 07:51:30,724 - handlers.py[DEBUG]: finish: azure-ds/_get_preprovisionedvmtype_cfg_value: SUCCESS: _get_preprovisionedvmtype_cfg_value
+5223-/var/log/cloud-init.log:2024-04-29 07:51:30,761 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+5224-/var/log/cloud-init.log:2024-04-29 07:51:30,768 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+5225-/var/log/cloud-init.log:2024-04-29 07:51:30,845 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhcp.leases']
+5226-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhcp.leases']
+5227-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient.pid (quiet=False)
+5228-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-9jsbrb8c/dhclient.pid
+5229-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - util.py[DEBUG]: Reading from /proc/835/stat (quiet=True)
+5230-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - util.py[DEBUG]: Read 297 bytes from /proc/835/stat
+5231-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - dhcp.py[DEBUG]: killing dhclient with pid=835
+5232-/var/log/cloud-init.log:2024-04-29 07:51:30,856 - azure.py[DEBUG]: dhclient output stream: 
+5233:/var/log/cloud-init.log:2024-04-29 07:51:30,857 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+5234-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+5235-/var/log/cloud-init.log:All rights reserved.
+5236-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+5237-/var/log/cloud-init.log:
+5238-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+5239-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+5240-/var/log/cloud-init.log:Sending on   Socket/fallback
+5241-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x72983b7b)
+5242-/var/log/cloud-init.log:DHCPREQUEST of 10.0.0.4 on eth0 to 255.255.255.255 port 67 (xid=0x7b3b9872)
+5243-/var/log/cloud-init.log:DHCPOFFER of 10.0.0.4 from 168.63.129.16
+5345-/var/log/cloud-init.log:2024-04-29 08:18:49,293 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+5346-/var/log/cloud-init.log:2024-04-29 08:18:49,298 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+5347-/var/log/cloud-init.log:2024-04-29 08:18:49,498 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhcp.leases']
+5348-/var/log/cloud-init.log:2024-04-29 08:18:49,508 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhcp.leases']
+5349-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient.pid (quiet=False)
+5350-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-caaimg75/dhclient.pid
+5351-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - util.py[DEBUG]: Reading from /proc/897/stat (quiet=True)
+5352-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - util.py[DEBUG]: Read 300 bytes from /proc/897/stat
+5353-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - dhcp.py[DEBUG]: killing dhclient with pid=897
+5354-/var/log/cloud-init.log:2024-04-29 08:18:49,509 - azure.py[DEBUG]: dhclient output stream: 
+5355:/var/log/cloud-init.log:2024-04-29 08:18:49,509 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+5356-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+5357-/var/log/cloud-init.log:All rights reserved.
+5358-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+5359-/var/log/cloud-init.log:
+5360-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+5361-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+5362-/var/log/cloud-init.log:Sending on   Socket/fallback
+5363-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x28463d40)
+5364-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x403d4628)
+5365-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+5962-/var/log/cloud-init.log:2024-04-29 08:18:52,844 - azure.py[DEBUG]: Ephemeral resource disk '/dev/disk/cloud/azure_resource' exists.
+5963-/var/log/cloud-init.log:2024-04-29 08:18:52,844 - handlers.py[DEBUG]: start: azure-ds/can_dev_be_reformatted: can_dev_be_reformatted
+5964-/var/log/cloud-init.log:2024-04-29 08:18:52,844 - DataSourceAzure.py[DEBUG]: Resolving realpath of /dev/disk/cloud/azure_resource -> /dev/sdb
+5965-/var/log/cloud-init.log:2024-04-29 08:18:52,844 - handlers.py[DEBUG]: start: azure-ds/_has_ntfs_filesystem: _has_ntfs_filesystem
+5966-/var/log/cloud-init.log:2024-04-29 08:18:52,844 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=ntfs', '-c', '/dev/null', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+5967-/var/log/cloud-init.log:2024-04-29 08:18:52,937 - DataSourceAzure.py[DEBUG]: ntfs_devices found = ['/dev/sdb1']
+5968-/var/log/cloud-init.log:2024-04-29 08:18:52,937 - handlers.py[DEBUG]: finish: azure-ds/_has_ntfs_filesystem: SUCCESS: _has_ntfs_filesystem
+5969-/var/log/cloud-init.log:2024-04-29 08:18:52,937 - handlers.py[DEBUG]: start: azure-ds/mount-ntfs-and-count: mount-ntfs-and-count
+5970-/var/log/cloud-init.log:2024-04-29 08:18:52,938 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+5971-/var/log/cloud-init.log:2024-04-29 08:18:52,938 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+5972:/var/log/cloud-init.log:2024-04-29 08:18:52,938 - util.py[DEBUG]: Fetched {'configfs': {'mountpoint': '/sys/kernel/config', 'fstype': 'configfs', 'opts': 'rw,relatime'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/freezer', 'fstype': 'cgroup', 'opts': 'rw,nosuid,nodev,noexec,relatime,freezer'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl', 'opts': 'rw,relatime'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'fstype': 'vfat', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, 'proc': {'mountpoint': '/proc', 'fstype': 'proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'sysfs': {'mountpoint': '/sys', 'fstype': 'sysfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'fstype': 'mqueue', 'opts': 'rw,relatime'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'devpts': {'mountpoint': '/dev/pts', 'fstype': 'devpts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs', 'opts': 'rw,relatime'}, 'udev': {'mountpoint': '/dev', 'fstype': 'devtmpfs', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs', 'opts': 'rw,relatime,pagesize=2M'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs', 'opts': 'rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12097'}, '/dev/sda1': {'mountpoint': '/', 'fstype': 'ext4', 'opts': 'rw,relatime,discard,data=ordered'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}} mounts from proc
+5973-/var/log/cloud-init.log:2024-04-29 08:18:52,938 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'ntfs', '/dev/sdb1', '/run/cloud-init/tmp/tmp_cpf6jxy'] with allowed return codes [0] (shell=False, capture=True)
+5974-/var/log/cloud-init.log:2024-04-29 08:18:53,024 - handlers.py[DEBUG]: start: azure-ds/count_files: count_files
+5975-/var/log/cloud-init.log:2024-04-29 08:18:53,027 - handlers.py[DEBUG]: finish: azure-ds/count_files: SUCCESS: count_files
+5976-/var/log/cloud-init.log:2024-04-29 08:18:53,027 - subp.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmp_cpf6jxy'] with allowed return codes [0] (shell=False, capture=True)
+5977-/var/log/cloud-init.log:2024-04-29 08:18:53,033 - handlers.py[DEBUG]: finish: azure-ds/mount-ntfs-and-count: SUCCESS: mount-ntfs-and-count
+5978-/var/log/cloud-init.log:2024-04-29 08:18:53,033 - handlers.py[DEBUG]: finish: azure-ds/can_dev_be_reformatted: SUCCESS: can_dev_be_reformatted
+5979-/var/log/cloud-init.log:2024-04-29 08:18:53,034 - DataSourceAzure.py[DEBUG]: reformattable=True: partition 1 (/dev/sdb1) on device /dev/disk/cloud/azure_resource was ntfs formatted and had no important files. Safe for reformatting.
+5980-/var/log/cloud-init.log:2024-04-29 08:18:53,034 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_disk_setup" for module "disk_setup" did not exist.
+5981-/var/log/cloud-init.log:2024-04-29 08:18:53,034 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_mounts" for module "mounts" did not exist.
+5982-/var/log/cloud-init.log:2024-04-29 08:18:53,034 - handlers.py[DEBUG]: finish: azure-ds/address_ephemeral_resize: SUCCESS: address_ephemeral_resize
+6090-/var/log/cloud-init.log:2024-04-29 08:18:55,262 - util.py[DEBUG]: Read 193 bytes from /etc/fstab
+6091-/var/log/cloud-init.log:2024-04-29 08:18:55,262 - cc_mounts.py[DEBUG]: Attempting to determine the real name of ephemeral0
+6092-/var/log/cloud-init.log:2024-04-29 08:18:55,262 - cc_mounts.py[DEBUG]: Mapped metadata name ephemeral0 to /dev/disk/cloud/azure_resource
+6093-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - cc_mounts.py[DEBUG]: changed default device ephemeral0 => /dev/disk/cloud/azure_resource-part1
+6094-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - cc_mounts.py[DEBUG]: Attempting to determine the real name of swap
+6095-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - cc_mounts.py[DEBUG]: changed default device swap => None
+6096-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount swap
+6097-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - cc_mounts.py[DEBUG]: no need to setup swap
+6098-/var/log/cloud-init.log:2024-04-29 08:18:55,266 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+6099-/var/log/cloud-init.log:2024-04-29 08:18:55,267 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+6100:/var/log/cloud-init.log:2024-04-29 08:18:55,267 - util.py[DEBUG]: Fetched {'configfs': {'mountpoint': '/sys/kernel/config', 'fstype': 'configfs', 'opts': 'rw,relatime'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/freezer', 'fstype': 'cgroup', 'opts': 'rw,nosuid,nodev,noexec,relatime,freezer'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl', 'opts': 'rw,relatime'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'fstype': 'vfat', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, 'proc': {'mountpoint': '/proc', 'fstype': 'proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'sysfs': {'mountpoint': '/sys', 'fstype': 'sysfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'fstype': 'mqueue', 'opts': 'rw,relatime'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'devpts': {'mountpoint': '/dev/pts', 'fstype': 'devpts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs', 'opts': 'rw,relatime'}, 'udev': {'mountpoint': '/dev', 'fstype': 'devtmpfs', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs', 'opts': 'rw,relatime,pagesize=2M'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs', 'opts': 'rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12097'}, '/dev/sda1': {'mountpoint': '/', 'fstype': 'ext4', 'opts': 'rw,relatime,discard,data=ordered'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}} mounts from proc
+6101-/var/log/cloud-init.log:2024-04-29 08:18:55,267 - util.py[DEBUG]: Writing to /etc/fstab - wb: [644] 318 bytes
+6102-/var/log/cloud-init.log:2024-04-29 08:18:55,268 - cc_mounts.py[DEBUG]: Changes to fstab: ['+ /dev/disk/cloud/azure_resource-part1 /mnt auto defaults,nofail,x-systemd.requires=cloud-init.service,comment=cloudconfig 0 2']
+6103-/var/log/cloud-init.log:2024-04-29 08:18:55,269 - subp.py[DEBUG]: Running command ['mount', '-a'] with allowed return codes [0] (shell=False, capture=True)
+6104-/var/log/cloud-init.log:2024-04-29 08:18:55,295 - cc_mounts.py[DEBUG]: Activate mounts: PASS:mount -a
+6105-/var/log/cloud-init.log:2024-04-29 08:18:55,295 - subp.py[DEBUG]: Running command ['systemctl', 'daemon-reload'] with allowed return codes [0] (shell=False, capture=True)
+6106-/var/log/cloud-init.log:2024-04-29 08:18:55,372 - cc_mounts.py[DEBUG]: Activate mounts: PASS:systemctl daemon-reload
+6107-/var/log/cloud-init.log:2024-04-29 08:18:55,372 - handlers.py[DEBUG]: finish: init-network/config-mounts: SUCCESS: config-mounts ran successfully
+6108-/var/log/cloud-init.log:2024-04-29 08:18:55,372 - stages.py[DEBUG]: Running module set_hostname (<module 'cloudinit.config.cc_set_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_hostname.py'>) with frequency once-per-instance
+6109-/var/log/cloud-init.log:2024-04-29 08:18:55,373 - handlers.py[DEBUG]: start: init-network/config-set_hostname: running config-set_hostname with frequency once-per-instance
+6110-/var/log/cloud-init.log:2024-04-29 08:18:55,373 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/9a08bda6-9ba1-9743-8733-ea9ac08c5c56/sem/config_set_hostname - wb: [644] 23 bytes
+6565-/var/log/cloud-init.log:2024-04-29 14:23:28,848 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+6566-/var/log/cloud-init.log:2024-04-29 14:23:28,856 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+6567-/var/log/cloud-init.log:2024-04-29 14:23:28,996 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhcp.leases']
+6568-/var/log/cloud-init.log:2024-04-29 14:23:29,006 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhcp.leases']
+6569-/var/log/cloud-init.log:2024-04-29 14:23:29,007 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient.pid (quiet=False)
+6570-/var/log/cloud-init.log:2024-04-29 14:23:29,007 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-t0y4pfca/dhclient.pid
+6571-/var/log/cloud-init.log:2024-04-29 14:23:29,007 - util.py[DEBUG]: Reading from /proc/891/stat (quiet=True)
+6572-/var/log/cloud-init.log:2024-04-29 14:23:29,007 - util.py[DEBUG]: Read 297 bytes from /proc/891/stat
+6573-/var/log/cloud-init.log:2024-04-29 14:23:29,007 - dhcp.py[DEBUG]: killing dhclient with pid=891
+6574-/var/log/cloud-init.log:2024-04-29 14:23:29,008 - azure.py[DEBUG]: dhclient output stream: 
+6575:/var/log/cloud-init.log:2024-04-29 14:23:29,008 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+6576-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+6577-/var/log/cloud-init.log:All rights reserved.
+6578-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+6579-/var/log/cloud-init.log:
+6580-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+6581-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+6582-/var/log/cloud-init.log:Sending on   Socket/fallback
+6583-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xaf89c06b)
+6584-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x6bc089af)
+6585-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+6764-/var/log/cloud-init.log:2024-04-29 14:23:29,221 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+6765-/var/log/cloud-init.log:2024-04-29 14:23:29,223 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+6766-/var/log/cloud-init.log:2024-04-29 14:23:29,274 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhcp.leases']
+6767-/var/log/cloud-init.log:2024-04-29 14:23:29,284 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhcp.leases']
+6768-/var/log/cloud-init.log:2024-04-29 14:23:29,284 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient.pid (quiet=False)
+6769-/var/log/cloud-init.log:2024-04-29 14:23:29,284 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-6412c5xr/dhclient.pid
+6770-/var/log/cloud-init.log:2024-04-29 14:23:29,285 - util.py[DEBUG]: Reading from /proc/911/stat (quiet=True)
+6771-/var/log/cloud-init.log:2024-04-29 14:23:29,285 - util.py[DEBUG]: Read 297 bytes from /proc/911/stat
+6772-/var/log/cloud-init.log:2024-04-29 14:23:29,285 - dhcp.py[DEBUG]: killing dhclient with pid=911
+6773-/var/log/cloud-init.log:2024-04-29 14:23:29,285 - azure.py[DEBUG]: dhclient output stream: 
+6774:/var/log/cloud-init.log:2024-04-29 14:23:29,285 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+6775-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+6776-/var/log/cloud-init.log:All rights reserved.
+6777-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+6778-/var/log/cloud-init.log:
+6779-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+6780-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+6781-/var/log/cloud-init.log:Sending on   Socket/fallback
+6782-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xe516552f)
+6783-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x2f5516e5)
+6784-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+7246-/var/log/cloud-init.log:2024-04-29 14:23:31,163 - azure.py[DEBUG]: Ephemeral resource disk '/dev/disk/cloud/azure_resource' exists.
+7247-/var/log/cloud-init.log:2024-04-29 14:23:31,163 - handlers.py[DEBUG]: start: azure-ds/can_dev_be_reformatted: can_dev_be_reformatted
+7248-/var/log/cloud-init.log:2024-04-29 14:23:31,164 - DataSourceAzure.py[DEBUG]: Resolving realpath of /dev/disk/cloud/azure_resource -> /dev/sdb
+7249-/var/log/cloud-init.log:2024-04-29 14:23:31,164 - handlers.py[DEBUG]: start: azure-ds/_has_ntfs_filesystem: _has_ntfs_filesystem
+7250-/var/log/cloud-init.log:2024-04-29 14:23:31,164 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=ntfs', '-c', '/dev/null', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+7251-/var/log/cloud-init.log:2024-04-29 14:23:31,185 - DataSourceAzure.py[DEBUG]: ntfs_devices found = ['/dev/sdb1']
+7252-/var/log/cloud-init.log:2024-04-29 14:23:31,186 - handlers.py[DEBUG]: finish: azure-ds/_has_ntfs_filesystem: SUCCESS: _has_ntfs_filesystem
+7253-/var/log/cloud-init.log:2024-04-29 14:23:31,186 - handlers.py[DEBUG]: start: azure-ds/mount-ntfs-and-count: mount-ntfs-and-count
+7254-/var/log/cloud-init.log:2024-04-29 14:23:31,186 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+7255-/var/log/cloud-init.log:2024-04-29 14:23:31,187 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+7256:/var/log/cloud-init.log:2024-04-29 14:23:31,187 - util.py[DEBUG]: Fetched {'mqueue': {'fstype': 'mqueue', 'mountpoint': '/dev/mqueue', 'opts': 'rw,relatime'}, 'securityfs': {'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'debugfs': {'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime'}, 'hugetlbfs': {'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime,pagesize=2M'}, 'systemd-1': {'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=34,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11591'}, 'configfs': {'fstype': 'configfs', 'mountpoint': '/sys/kernel/config', 'opts': 'rw,relatime'}, 'devpts': {'fstype': 'devpts', 'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup': {'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/freezer', 'opts': 'rw,nosuid,nodev,noexec,relatime,freezer'}, 'sysfs': {'fstype': 'sysfs', 'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'pstore': {'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'fstype': 'proc', 'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tmpfs': {'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}, 'udev': {'fstype': 'devtmpfs', 'mountpoint': '/dev', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, '/dev/sda1': {'fstype': 'ext4', 'mountpoint': '/', 'opts': 'rw,relatime,discard,data=ordered'}, 'fusectl': {'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,relatime'}, '/dev/sda15': {'fstype': 'vfat', 'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}} mounts from proc
+7257-/var/log/cloud-init.log:2024-04-29 14:23:31,187 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'ntfs', '/dev/sdb1', '/run/cloud-init/tmp/tmp6s9057p_'] with allowed return codes [0] (shell=False, capture=True)
+7258-/var/log/cloud-init.log:2024-04-29 14:23:31,270 - handlers.py[DEBUG]: start: azure-ds/count_files: count_files
+7259-/var/log/cloud-init.log:2024-04-29 14:23:31,273 - handlers.py[DEBUG]: finish: azure-ds/count_files: SUCCESS: count_files
+7260-/var/log/cloud-init.log:2024-04-29 14:23:31,273 - subp.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmp6s9057p_'] with allowed return codes [0] (shell=False, capture=True)
+7261-/var/log/cloud-init.log:2024-04-29 14:23:31,280 - handlers.py[DEBUG]: finish: azure-ds/mount-ntfs-and-count: SUCCESS: mount-ntfs-and-count
+7262-/var/log/cloud-init.log:2024-04-29 14:23:31,281 - handlers.py[DEBUG]: finish: azure-ds/can_dev_be_reformatted: SUCCESS: can_dev_be_reformatted
+7263-/var/log/cloud-init.log:2024-04-29 14:23:31,281 - DataSourceAzure.py[DEBUG]: reformattable=True: partition 1 (/dev/sdb1) on device /dev/disk/cloud/azure_resource was ntfs formatted and had no important files. Safe for reformatting.
+7264-/var/log/cloud-init.log:2024-04-29 14:23:31,281 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_disk_setup" for module "disk_setup" removed.
+7265-/var/log/cloud-init.log:2024-04-29 14:23:31,281 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_mounts" for module "mounts" removed.
+7266-/var/log/cloud-init.log:2024-04-29 14:23:31,281 - handlers.py[DEBUG]: finish: azure-ds/address_ephemeral_resize: SUCCESS: address_ephemeral_resize
+7367-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - util.py[DEBUG]: Read 318 bytes from /etc/fstab
+7368-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - cc_mounts.py[DEBUG]: Attempting to determine the real name of ephemeral0
+7369-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - cc_mounts.py[DEBUG]: Mapped metadata name ephemeral0 to /dev/disk/cloud/azure_resource
+7370-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - cc_mounts.py[DEBUG]: changed default device ephemeral0 => /dev/disk/cloud/azure_resource-part1
+7371-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - cc_mounts.py[DEBUG]: Attempting to determine the real name of swap
+7372-/var/log/cloud-init.log:2024-04-29 14:23:36,371 - cc_mounts.py[DEBUG]: changed default device swap => None
+7373-/var/log/cloud-init.log:2024-04-29 14:23:36,372 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount swap
+7374-/var/log/cloud-init.log:2024-04-29 14:23:36,372 - cc_mounts.py[DEBUG]: no need to setup swap
+7375-/var/log/cloud-init.log:2024-04-29 14:23:36,372 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+7376-/var/log/cloud-init.log:2024-04-29 14:23:36,372 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+7377:/var/log/cloud-init.log:2024-04-29 14:23:36,372 - util.py[DEBUG]: Fetched {'mqueue': {'fstype': 'mqueue', 'mountpoint': '/dev/mqueue', 'opts': 'rw,relatime'}, 'securityfs': {'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'debugfs': {'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime'}, 'hugetlbfs': {'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime,pagesize=2M'}, 'systemd-1': {'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=34,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11591'}, 'configfs': {'fstype': 'configfs', 'mountpoint': '/sys/kernel/config', 'opts': 'rw,relatime'}, 'devpts': {'fstype': 'devpts', 'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup': {'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/freezer', 'opts': 'rw,nosuid,nodev,noexec,relatime,freezer'}, 'sysfs': {'fstype': 'sysfs', 'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'pstore': {'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'fstype': 'proc', 'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tmpfs': {'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}, 'udev': {'fstype': 'devtmpfs', 'mountpoint': '/dev', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, '/dev/sda1': {'fstype': 'ext4', 'mountpoint': '/', 'opts': 'rw,relatime,discard,data=ordered'}, 'fusectl': {'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,relatime'}, '/dev/sda15': {'fstype': 'vfat', 'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}} mounts from proc
+7378-/var/log/cloud-init.log:2024-04-29 14:23:36,372 - util.py[DEBUG]: Writing to /etc/fstab - wb: [644] 318 bytes
+7379-/var/log/cloud-init.log:2024-04-29 14:23:36,379 - cc_mounts.py[DEBUG]: No changes to /etc/fstab made.
+7380-/var/log/cloud-init.log:2024-04-29 14:23:36,379 - subp.py[DEBUG]: Running command ['mount', '-a'] with allowed return codes [0] (shell=False, capture=True)
+7381-/var/log/cloud-init.log:2024-04-29 14:23:36,398 - cc_mounts.py[DEBUG]: Activate mounts: PASS:mount -a
+7382-/var/log/cloud-init.log:2024-04-29 14:23:36,398 - subp.py[DEBUG]: Running command ['systemctl', 'daemon-reload'] with allowed return codes [0] (shell=False, capture=True)
+7383-/var/log/cloud-init.log:2024-04-29 14:23:36,496 - cc_mounts.py[DEBUG]: Activate mounts: PASS:systemctl daemon-reload
+7384-/var/log/cloud-init.log:2024-04-29 14:23:36,496 - handlers.py[DEBUG]: finish: init-network/config-mounts: SUCCESS: config-mounts ran successfully
+7385-/var/log/cloud-init.log:2024-04-29 14:23:36,497 - stages.py[DEBUG]: Running module set_hostname (<module 'cloudinit.config.cc_set_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_hostname.py'>) with frequency once-per-instance
+7386-/var/log/cloud-init.log:2024-04-29 14:23:36,497 - handlers.py[DEBUG]: start: init-network/config-set_hostname: running config-set_hostname with frequency once-per-instance
+7387-/var/log/cloud-init.log:2024-04-29 14:23:36,497 - helpers.py[DEBUG]: config-set_hostname already ran (freq=once-per-instance)
+7685-/var/log/cloud-init.log:2024-04-30 02:09:39,350 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+7686-/var/log/cloud-init.log:2024-04-30 02:09:39,353 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+7687-/var/log/cloud-init.log:2024-04-30 02:09:39,444 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhcp.leases']
+7688-/var/log/cloud-init.log:2024-04-30 02:09:39,454 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhcp.leases']
+7689-/var/log/cloud-init.log:2024-04-30 02:09:39,454 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient.pid (quiet=False)
+7690-/var/log/cloud-init.log:2024-04-30 02:09:39,454 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-n2g31fzf/dhclient.pid
+7691-/var/log/cloud-init.log:2024-04-30 02:09:39,454 - util.py[DEBUG]: Reading from /proc/906/stat (quiet=True)
+7692-/var/log/cloud-init.log:2024-04-30 02:09:39,455 - util.py[DEBUG]: Read 297 bytes from /proc/906/stat
+7693-/var/log/cloud-init.log:2024-04-30 02:09:39,455 - dhcp.py[DEBUG]: killing dhclient with pid=906
+7694-/var/log/cloud-init.log:2024-04-30 02:09:39,455 - azure.py[DEBUG]: dhclient output stream: 
+7695:/var/log/cloud-init.log:2024-04-30 02:09:39,455 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+7696-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+7697-/var/log/cloud-init.log:All rights reserved.
+7698-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+7699-/var/log/cloud-init.log:
+7700-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+7701-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+7702-/var/log/cloud-init.log:Sending on   Socket/fallback
+7703-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3de20810)
+7704-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x1008e23d)
+7705-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+7884-/var/log/cloud-init.log:2024-04-30 02:09:39,650 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+7885-/var/log/cloud-init.log:2024-04-30 02:09:39,653 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+7886-/var/log/cloud-init.log:2024-04-30 02:09:39,720 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhcp.leases']
+7887-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhcp.leases']
+7888-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient.pid (quiet=False)
+7889-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-f4ru09kn/dhclient.pid
+7890-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - util.py[DEBUG]: Reading from /proc/926/stat (quiet=True)
+7891-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - util.py[DEBUG]: Read 297 bytes from /proc/926/stat
+7892-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - dhcp.py[DEBUG]: killing dhclient with pid=926
+7893-/var/log/cloud-init.log:2024-04-30 02:09:39,731 - azure.py[DEBUG]: dhclient output stream: 
+7894:/var/log/cloud-init.log:2024-04-30 02:09:39,731 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+7895-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+7896-/var/log/cloud-init.log:All rights reserved.
+7897-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+7898-/var/log/cloud-init.log:
+7899-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+7900-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+7901-/var/log/cloud-init.log:Sending on   Socket/fallback
+7902-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xa9fbeb65)
+7903-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x65ebfba9)
+7904-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+8366-/var/log/cloud-init.log:2024-04-30 02:09:41,326 - azure.py[DEBUG]: Ephemeral resource disk '/dev/disk/cloud/azure_resource' exists.
+8367-/var/log/cloud-init.log:2024-04-30 02:09:41,326 - handlers.py[DEBUG]: start: azure-ds/can_dev_be_reformatted: can_dev_be_reformatted
+8368-/var/log/cloud-init.log:2024-04-30 02:09:41,326 - DataSourceAzure.py[DEBUG]: Resolving realpath of /dev/disk/cloud/azure_resource -> /dev/sdb
+8369-/var/log/cloud-init.log:2024-04-30 02:09:41,326 - handlers.py[DEBUG]: start: azure-ds/_has_ntfs_filesystem: _has_ntfs_filesystem
+8370-/var/log/cloud-init.log:2024-04-30 02:09:41,326 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=ntfs', '-c', '/dev/null', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+8371-/var/log/cloud-init.log:2024-04-30 02:09:41,337 - DataSourceAzure.py[DEBUG]: ntfs_devices found = ['/dev/sdb1']
+8372-/var/log/cloud-init.log:2024-04-30 02:09:41,338 - handlers.py[DEBUG]: finish: azure-ds/_has_ntfs_filesystem: SUCCESS: _has_ntfs_filesystem
+8373-/var/log/cloud-init.log:2024-04-30 02:09:41,338 - handlers.py[DEBUG]: start: azure-ds/mount-ntfs-and-count: mount-ntfs-and-count
+8374-/var/log/cloud-init.log:2024-04-30 02:09:41,338 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+8375-/var/log/cloud-init.log:2024-04-30 02:09:41,338 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+8376:/var/log/cloud-init.log:2024-04-30 02:09:41,338 - util.py[DEBUG]: Fetched {'sysfs': {'mountpoint': '/sys', 'fstype': 'sysfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'mountpoint': '/proc', 'fstype': 'proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'udev': {'mountpoint': '/dev', 'fstype': 'devtmpfs', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl', 'opts': 'rw,relatime'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'devpts': {'mountpoint': '/dev/pts', 'fstype': 'devpts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/memory', 'fstype': 'cgroup', 'opts': 'rw,nosuid,nodev,noexec,relatime,memory'}, '/dev/sda1': {'mountpoint': '/', 'fstype': 'ext4', 'opts': 'rw,relatime,discard,data=ordered'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs', 'opts': 'rw,relatime'}, 'configfs': {'mountpoint': '/sys/kernel/config', 'fstype': 'configfs', 'opts': 'rw,relatime'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs', 'opts': 'rw,relatime,pagesize=2M'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'fstype': 'vfat', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs', 'opts': 'rw,relatime,fd=35,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11939'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'fstype': 'mqueue', 'opts': 'rw,relatime'}} mounts from proc
+8377-/var/log/cloud-init.log:2024-04-30 02:09:41,338 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'ntfs', '/dev/sdb1', '/run/cloud-init/tmp/tmppjwsbgni'] with allowed return codes [0] (shell=False, capture=True)
+8378-/var/log/cloud-init.log:2024-04-30 02:09:41,427 - handlers.py[DEBUG]: start: azure-ds/count_files: count_files
+8379-/var/log/cloud-init.log:2024-04-30 02:09:41,429 - handlers.py[DEBUG]: finish: azure-ds/count_files: SUCCESS: count_files
+8380-/var/log/cloud-init.log:2024-04-30 02:09:41,430 - subp.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmppjwsbgni'] with allowed return codes [0] (shell=False, capture=True)
+8381-/var/log/cloud-init.log:2024-04-30 02:09:41,436 - handlers.py[DEBUG]: finish: azure-ds/mount-ntfs-and-count: SUCCESS: mount-ntfs-and-count
+8382-/var/log/cloud-init.log:2024-04-30 02:09:41,436 - handlers.py[DEBUG]: finish: azure-ds/can_dev_be_reformatted: SUCCESS: can_dev_be_reformatted
+8383-/var/log/cloud-init.log:2024-04-30 02:09:41,436 - DataSourceAzure.py[DEBUG]: reformattable=True: partition 1 (/dev/sdb1) on device /dev/disk/cloud/azure_resource was ntfs formatted and had no important files. Safe for reformatting.
+8384-/var/log/cloud-init.log:2024-04-30 02:09:41,437 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_disk_setup" for module "disk_setup" removed.
+8385-/var/log/cloud-init.log:2024-04-30 02:09:41,437 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_mounts" for module "mounts" removed.
+8386-/var/log/cloud-init.log:2024-04-30 02:09:41,437 - handlers.py[DEBUG]: finish: azure-ds/address_ephemeral_resize: SUCCESS: address_ephemeral_resize
+8487-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - util.py[DEBUG]: Read 318 bytes from /etc/fstab
+8488-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: Attempting to determine the real name of ephemeral0
+8489-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: Mapped metadata name ephemeral0 to /dev/disk/cloud/azure_resource
+8490-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: changed default device ephemeral0 => /dev/disk/cloud/azure_resource-part1
+8491-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: Attempting to determine the real name of swap
+8492-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: changed default device swap => None
+8493-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount swap
+8494-/var/log/cloud-init.log:2024-04-30 02:09:42,914 - cc_mounts.py[DEBUG]: no need to setup swap
+8495-/var/log/cloud-init.log:2024-04-30 02:09:42,915 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+8496-/var/log/cloud-init.log:2024-04-30 02:09:42,915 - util.py[DEBUG]: Read 2273 bytes from /proc/mounts
+8497:/var/log/cloud-init.log:2024-04-30 02:09:42,915 - util.py[DEBUG]: Fetched {'sysfs': {'mountpoint': '/sys', 'fstype': 'sysfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'mountpoint': '/proc', 'fstype': 'proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'fstype': 'pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'udev': {'mountpoint': '/dev', 'fstype': 'devtmpfs', 'opts': 'rw,nosuid,relatime,size=1751960k,nr_inodes=437990,mode=755'}, 'fusectl': {'mountpoint': '/sys/fs/fuse/connections', 'fstype': 'fusectl', 'opts': 'rw,relatime'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'fstype': 'securityfs', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'devpts': {'mountpoint': '/dev/pts', 'fstype': 'devpts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/memory', 'fstype': 'cgroup', 'opts': 'rw,nosuid,nodev,noexec,relatime,memory'}, '/dev/sda1': {'mountpoint': '/', 'fstype': 'ext4', 'opts': 'rw,relatime,discard,data=ordered'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'fstype': 'debugfs', 'opts': 'rw,relatime'}, 'configfs': {'mountpoint': '/sys/kernel/config', 'fstype': 'configfs', 'opts': 'rw,relatime'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'fstype': 'hugetlbfs', 'opts': 'rw,relatime,pagesize=2M'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'fstype': 'tmpfs', 'opts': 'ro,nosuid,nodev,noexec,mode=755'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'fstype': 'vfat', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'fstype': 'autofs', 'opts': 'rw,relatime,fd=35,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11939'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'fstype': 'mqueue', 'opts': 'rw,relatime'}} mounts from proc
+8498-/var/log/cloud-init.log:2024-04-30 02:09:42,915 - util.py[DEBUG]: Writing to /etc/fstab - wb: [644] 318 bytes
+8499-/var/log/cloud-init.log:2024-04-30 02:09:42,917 - cc_mounts.py[DEBUG]: No changes to /etc/fstab made.
+8500-/var/log/cloud-init.log:2024-04-30 02:09:42,917 - subp.py[DEBUG]: Running command ['mount', '-a'] with allowed return codes [0] (shell=False, capture=True)
+8501-/var/log/cloud-init.log:2024-04-30 02:09:42,932 - cc_mounts.py[DEBUG]: Activate mounts: PASS:mount -a
+8502-/var/log/cloud-init.log:2024-04-30 02:09:42,932 - subp.py[DEBUG]: Running command ['systemctl', 'daemon-reload'] with allowed return codes [0] (shell=False, capture=True)
+8503-/var/log/cloud-init.log:2024-04-30 02:09:43,013 - cc_mounts.py[DEBUG]: Activate mounts: PASS:systemctl daemon-reload
+8504-/var/log/cloud-init.log:2024-04-30 02:09:43,014 - handlers.py[DEBUG]: finish: init-network/config-mounts: SUCCESS: config-mounts ran successfully
+8505-/var/log/cloud-init.log:2024-04-30 02:09:43,014 - stages.py[DEBUG]: Running module set_hostname (<module 'cloudinit.config.cc_set_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_hostname.py'>) with frequency once-per-instance
+8506-/var/log/cloud-init.log:2024-04-30 02:09:43,015 - handlers.py[DEBUG]: start: init-network/config-set_hostname: running config-set_hostname with frequency once-per-instance
+8507-/var/log/cloud-init.log:2024-04-30 02:09:43,015 - helpers.py[DEBUG]: config-set_hostname already ran (freq=once-per-instance)
+8805-/var/log/cloud-init.log:2024-04-30 06:14:21,286 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+8806-/var/log/cloud-init.log:2024-04-30 06:14:21,290 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+8807-/var/log/cloud-init.log:2024-04-30 06:14:22,295 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhcp.leases']
+8808-/var/log/cloud-init.log:2024-04-30 06:14:22,305 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhcp.leases']
+8809-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient.pid (quiet=False)
+8810-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-dv246ymr/dhclient.pid
+8811-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - util.py[DEBUG]: Reading from /proc/878/stat (quiet=True)
+8812-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - util.py[DEBUG]: Read 297 bytes from /proc/878/stat
+8813-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - dhcp.py[DEBUG]: killing dhclient with pid=878
+8814-/var/log/cloud-init.log:2024-04-30 06:14:22,306 - azure.py[DEBUG]: dhclient output stream: 
+8815:/var/log/cloud-init.log:2024-04-30 06:14:22,307 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+8816-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+8817-/var/log/cloud-init.log:All rights reserved.
+8818-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+8819-/var/log/cloud-init.log:
+8820-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+8821-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+8822-/var/log/cloud-init.log:Sending on   Socket/fallback
+8823-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x4d697c29)
+8824-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x297c694d)
+8825-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+9004-/var/log/cloud-init.log:2024-04-30 06:14:22,466 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+9005-/var/log/cloud-init.log:2024-04-30 06:14:22,468 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+9006-/var/log/cloud-init.log:2024-04-30 06:14:22,526 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhcp.leases']
+9007-/var/log/cloud-init.log:2024-04-30 06:14:22,536 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhcp.leases']
+9008-/var/log/cloud-init.log:2024-04-30 06:14:22,536 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient.pid (quiet=False)
+9009-/var/log/cloud-init.log:2024-04-30 06:14:22,536 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-3ybcrw3r/dhclient.pid
+9010-/var/log/cloud-init.log:2024-04-30 06:14:22,536 - util.py[DEBUG]: Reading from /proc/898/stat (quiet=True)
+9011-/var/log/cloud-init.log:2024-04-30 06:14:22,537 - util.py[DEBUG]: Read 297 bytes from /proc/898/stat
+9012-/var/log/cloud-init.log:2024-04-30 06:14:22,537 - dhcp.py[DEBUG]: killing dhclient with pid=898
+9013-/var/log/cloud-init.log:2024-04-30 06:14:22,537 - azure.py[DEBUG]: dhclient output stream: 
+9014:/var/log/cloud-init.log:2024-04-30 06:14:22,537 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+9015-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+9016-/var/log/cloud-init.log:All rights reserved.
+9017-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+9018-/var/log/cloud-init.log:
+9019-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+9020-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+9021-/var/log/cloud-init.log:Sending on   Socket/fallback
+9022-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x1d3c826c)
+9023-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x6c823c1d)
+9024-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+9863-/var/log/cloud-init.log:2024-05-01 16:40:18,386 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+9864-/var/log/cloud-init.log:2024-05-01 16:40:18,390 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+9865-/var/log/cloud-init.log:2024-05-01 16:40:18,506 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhcp.leases']
+9866-/var/log/cloud-init.log:2024-05-01 16:40:18,516 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhcp.leases']
+9867-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient.pid (quiet=False)
+9868-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-7j97sfuj/dhclient.pid
+9869-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - util.py[DEBUG]: Reading from /proc/897/stat (quiet=True)
+9870-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - util.py[DEBUG]: Read 297 bytes from /proc/897/stat
+9871-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - dhcp.py[DEBUG]: killing dhclient with pid=897
+9872-/var/log/cloud-init.log:2024-05-01 16:40:18,517 - azure.py[DEBUG]: dhclient output stream: 
+9873:/var/log/cloud-init.log:2024-05-01 16:40:18,518 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+9874-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+9875-/var/log/cloud-init.log:All rights reserved.
+9876-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+9877-/var/log/cloud-init.log:
+9878-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+9879-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+9880-/var/log/cloud-init.log:Sending on   Socket/fallback
+9881-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x42840767)
+9882-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x67078442)
+9883-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+10062-/var/log/cloud-init.log:2024-05-01 16:40:18,673 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+10063-/var/log/cloud-init.log:2024-05-01 16:40:18,676 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+10064-/var/log/cloud-init.log:2024-05-01 16:40:18,717 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhcp.leases']
+10065-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhcp.leases']
+10066-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient.pid (quiet=False)
+10067-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-z3j3cll0/dhclient.pid
+10068-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - util.py[DEBUG]: Reading from /proc/917/stat (quiet=True)
+10069-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - util.py[DEBUG]: Read 297 bytes from /proc/917/stat
+10070-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - dhcp.py[DEBUG]: killing dhclient with pid=917
+10071-/var/log/cloud-init.log:2024-05-01 16:40:18,728 - azure.py[DEBUG]: dhclient output stream: 
+10072:/var/log/cloud-init.log:2024-05-01 16:40:18,728 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+10073-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+10074-/var/log/cloud-init.log:All rights reserved.
+10075-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+10076-/var/log/cloud-init.log:
+10077-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+10078-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+10079-/var/log/cloud-init.log:Sending on   Socket/fallback
+10080-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xaaebb67c)
+10081-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x7cb6ebaa)
+10082-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+10921-/var/log/cloud-init.log:2024-05-01 16:54:04,534 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+10922-/var/log/cloud-init.log:2024-05-01 16:54:04,538 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+10923-/var/log/cloud-init.log:2024-05-01 16:54:04,634 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhcp.leases']
+10924-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhcp.leases']
+10925-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient.pid (quiet=False)
+10926-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-rp7axl3q/dhclient.pid
+10927-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - util.py[DEBUG]: Reading from /proc/866/stat (quiet=True)
+10928-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - util.py[DEBUG]: Read 297 bytes from /proc/866/stat
+10929-/var/log/cloud-init.log:2024-05-01 16:54:04,645 - dhcp.py[DEBUG]: killing dhclient with pid=866
+10930-/var/log/cloud-init.log:2024-05-01 16:54:04,646 - azure.py[DEBUG]: dhclient output stream: 
+10931:/var/log/cloud-init.log:2024-05-01 16:54:04,646 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+10932-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+10933-/var/log/cloud-init.log:All rights reserved.
+10934-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+10935-/var/log/cloud-init.log:
+10936-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+10937-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+10938-/var/log/cloud-init.log:Sending on   Socket/fallback
+10939-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x20768c1b)
+10940-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x1b8c7620)
+10941-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+11120-/var/log/cloud-init.log:2024-05-01 16:54:04,801 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+11121-/var/log/cloud-init.log:2024-05-01 16:54:04,805 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+11122-/var/log/cloud-init.log:2024-05-01 16:54:04,863 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhcp.leases']
+11123-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhcp.leases']
+11124-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient.pid (quiet=False)
+11125-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-53no5ij_/dhclient.pid
+11126-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - util.py[DEBUG]: Reading from /proc/886/stat (quiet=True)
+11127-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - util.py[DEBUG]: Read 297 bytes from /proc/886/stat
+11128-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - dhcp.py[DEBUG]: killing dhclient with pid=886
+11129-/var/log/cloud-init.log:2024-05-01 16:54:04,874 - azure.py[DEBUG]: dhclient output stream: 
+11130:/var/log/cloud-init.log:2024-05-01 16:54:04,875 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+11131-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+11132-/var/log/cloud-init.log:All rights reserved.
+11133-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+11134-/var/log/cloud-init.log:
+11135-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+11136-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+11137-/var/log/cloud-init.log:Sending on   Socket/fallback
+11138-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xa9018f71)
+11139-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x718f01a9)
+11140-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+11979-/var/log/cloud-init.log:2024-05-01 17:04:27,878 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+11980-/var/log/cloud-init.log:2024-05-01 17:04:27,882 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+11981-/var/log/cloud-init.log:2024-05-01 17:04:27,984 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhcp.leases']
+11982-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhcp.leases']
+11983-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient.pid (quiet=False)
+11984-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-4yei468u/dhclient.pid
+11985-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - util.py[DEBUG]: Reading from /proc/857/stat (quiet=True)
+11986-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - util.py[DEBUG]: Read 297 bytes from /proc/857/stat
+11987-/var/log/cloud-init.log:2024-05-01 17:04:27,994 - dhcp.py[DEBUG]: killing dhclient with pid=857
+11988-/var/log/cloud-init.log:2024-05-01 17:04:27,995 - azure.py[DEBUG]: dhclient output stream: 
+11989:/var/log/cloud-init.log:2024-05-01 17:04:27,995 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+11990-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+11991-/var/log/cloud-init.log:All rights reserved.
+11992-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+11993-/var/log/cloud-init.log:
+11994-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+11995-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+11996-/var/log/cloud-init.log:Sending on   Socket/fallback
+11997-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xb1719f61)
+11998-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x619f71b1)
+11999-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+12178-/var/log/cloud-init.log:2024-05-01 17:04:28,233 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+12179-/var/log/cloud-init.log:2024-05-01 17:04:28,237 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+12180-/var/log/cloud-init.log:2024-05-01 17:04:28,306 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhcp.leases']
+12181-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhcp.leases']
+12182-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient.pid (quiet=False)
+12183-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-a3kce251/dhclient.pid
+12184-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - util.py[DEBUG]: Reading from /proc/877/stat (quiet=True)
+12185-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - util.py[DEBUG]: Read 297 bytes from /proc/877/stat
+12186-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - dhcp.py[DEBUG]: killing dhclient with pid=877
+12187-/var/log/cloud-init.log:2024-05-01 17:04:28,317 - azure.py[DEBUG]: dhclient output stream: 
+12188:/var/log/cloud-init.log:2024-05-01 17:04:28,318 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+12189-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+12190-/var/log/cloud-init.log:All rights reserved.
+12191-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+12192-/var/log/cloud-init.log:
+12193-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+12194-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+12195-/var/log/cloud-init.log:Sending on   Socket/fallback
+12196-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x499f864)
+12197-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x64f89904)
+12198-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+13037-/var/log/cloud-init.log:2024-05-01 17:08:58,321 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+13038-/var/log/cloud-init.log:2024-05-01 17:08:58,325 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+13039-/var/log/cloud-init.log:2024-05-01 17:08:58,437 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhcp.leases']
+13040-/var/log/cloud-init.log:2024-05-01 17:08:58,447 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhcp.leases']
+13041-/var/log/cloud-init.log:2024-05-01 17:08:58,447 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient.pid (quiet=False)
+13042-/var/log/cloud-init.log:2024-05-01 17:08:58,447 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-b0b2511n/dhclient.pid
+13043-/var/log/cloud-init.log:2024-05-01 17:08:58,447 - util.py[DEBUG]: Reading from /proc/883/stat (quiet=True)
+13044-/var/log/cloud-init.log:2024-05-01 17:08:58,448 - util.py[DEBUG]: Read 297 bytes from /proc/883/stat
+13045-/var/log/cloud-init.log:2024-05-01 17:08:58,448 - dhcp.py[DEBUG]: killing dhclient with pid=883
+13046-/var/log/cloud-init.log:2024-05-01 17:08:58,448 - azure.py[DEBUG]: dhclient output stream: 
+13047:/var/log/cloud-init.log:2024-05-01 17:08:58,448 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+13048-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+13049-/var/log/cloud-init.log:All rights reserved.
+13050-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+13051-/var/log/cloud-init.log:
+13052-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+13053-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+13054-/var/log/cloud-init.log:Sending on   Socket/fallback
+13055-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xd899201a)
+13056-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x1a2099d8)
+13057-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+13236-/var/log/cloud-init.log:2024-05-01 17:08:58,680 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+13237-/var/log/cloud-init.log:2024-05-01 17:08:58,682 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+13238-/var/log/cloud-init.log:2024-05-01 17:08:58,745 - util.py[DEBUG]: Waiting up to 5 seconds for the following files: ['/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhcp.leases']
+13239-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - util.py[DEBUG]: All files appeared after 0.01 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhcp.leases']
+13240-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient.pid (quiet=False)
+13241-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-yxcbx6di/dhclient.pid
+13242-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - util.py[DEBUG]: Reading from /proc/903/stat (quiet=True)
+13243-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - util.py[DEBUG]: Read 297 bytes from /proc/903/stat
+13244-/var/log/cloud-init.log:2024-05-01 17:08:58,755 - dhcp.py[DEBUG]: killing dhclient with pid=903
+13245-/var/log/cloud-init.log:2024-05-01 17:08:58,756 - azure.py[DEBUG]: dhclient output stream: 
+13246:/var/log/cloud-init.log:2024-05-01 17:08:58,756 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.3.3
+13247-/var/log/cloud-init.log:Copyright 2004-2015 Internet Systems Consortium.
+13248-/var/log/cloud-init.log:All rights reserved.
+13249-/var/log/cloud-init.log:For info, please visit https://www.isc.org/software/dhcp/
+13250-/var/log/cloud-init.log:
+13251-/var/log/cloud-init.log:Listening on LPF/eth0/7c:1e:52:1a:92:3f
+13252-/var/log/cloud-init.log:Sending on   LPF/eth0/7c:1e:52:1a:92:3f
+13253-/var/log/cloud-init.log:Sending on   Socket/fallback
+13254-/var/log/cloud-init.log:DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x5ce0826f)
+13255-/var/log/cloud-init.log:DHCPREQUEST of 10.0.2.4 on eth0 to 255.255.255.255 port 67 (xid=0x6f82e05c)
+13256-/var/log/cloud-init.log:DHCPOFFER of 10.0.2.4 from 168.63.129.16
+15873-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.964719] serio: i8042 AUX port at 0x60,0x64 irq 12
+15874-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.967973] mousedev: PS/2 mouse device common for all mice
+15875-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.971229]  sdb: sdb1
+15876-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.973339] rtc_cmos 00:00: RTC can wake from S4
+15877-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.997406] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+15878-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.000907] random: fast init done
+15879-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.003604] GPT:Primary header thinks Alt. header is not at the end of the disk.
+15880-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.011261] GPT:4612095 != 62916607
+15881-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.013620] GPT:Alternate GPT header not at the end of the disk.
+15882-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.017334] GPT:4612095 != 62916607
+15883:/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.019505] GPT: Use GNU Parted to correct GPT errors.
+15884-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.022658]  sda: sda1 sda14 sda15
+15885-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.025439] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+15886-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.030238] rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+15887-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.034007] sd 1:0:1:0: [sdb] Attached SCSI disk
+15888-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.037010] device-mapper: uevent: version 1.0.3
+15889-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.039917] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+15890-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.044740] NET: Registered protocol family 10
+15891-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.050367] Segment Routing with IPv6
+15892-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.052761] NET: Registered protocol family 17
+15893-/var/log/kern.log:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.055701] Key type dns_resolver registered
+24980-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.964719] serio: i8042 AUX port at 0x60,0x64 irq 12
+24981-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.967973] mousedev: PS/2 mouse device common for all mice
+24982-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.971229]  sdb: sdb1
+24983-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.973339] rtc_cmos 00:00: RTC can wake from S4
+24984-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    0.997406] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+24985-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.000907] random: fast init done
+24986-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.003604] GPT:Primary header thinks Alt. header is not at the end of the disk.
+24987-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.011261] GPT:4612095 != 62916607
+24988-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.013620] GPT:Alternate GPT header not at the end of the disk.
+24989-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.017334] GPT:4612095 != 62916607
+24990:/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.019505] GPT: Use GNU Parted to correct GPT errors.
+24991-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.022658]  sda: sda1 sda14 sda15
+24992-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.025439] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+24993-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.030238] rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+24994-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.034007] sd 1:0:1:0: [sdb] Attached SCSI disk
+24995-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.037010] device-mapper: uevent: version 1.0.3
+24996-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.039917] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+24997-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.044740] NET: Registered protocol family 10
+24998-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.050367] Segment Routing with IPv6
+24999-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.052761] NET: Registered protocol family 17
+25000-/var/log/syslog.1:Apr 29 08:18:56 devlinux-vm1 kernel: [    1.055701] Key type dns_resolver registered
+25473-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+25474-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 systemd[1]: Started Set console scheme.
+25475-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 python3[1349]: 2024/04/29 08:18:57.491632 INFO Daemon Found private key matching thumbprint F6C0342797118EA1A2722D489053C491740D1902
+25476-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 python3[1349]: 2024/04/29 08:18:57.507100 INFO Daemon ssh host key found at: /etc/ssh/ssh_host_rsa_key.pub
+25477-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 python3[1349]: 2024/04/29 08:18:57.514599 INFO Daemon Thumbprint obtained from : /etc/ssh/ssh_host_rsa_key.pub
+25478-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 python3[1349]: 2024/04/29 08:18:57.519072 INFO Daemon Finished provisioning
+25479-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 systemd[1]: Started LXD - container startup/shutdown.
+25480-/var/log/syslog.1:Apr 29 08:18:57 devlinux-vm1 snapd[1429]: AppArmor status: apparmor is enabled and all features are available
+25481-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 snapd[1429]: daemon.go:347: started snapd/2.48.3 (series 16; classic) ubuntu/16.04 (amd64) linux/4.15.0-1113-azure.
+25482-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 snapd[1429]: daemon.go:440: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+25483:/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 snapd[1429]: helpers.go:105: error trying to compare the snap system key: system-key missing on disk
+25484-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 systemd[1]: Started Snap Daemon.
+25485-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 systemd[1]: Starting Wait until snapd is fully seeded...
+25486-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 python3[1349]: 2024/04/29 08:18:58.541888 INFO Daemon RDMA capabilities are not enabled, skipping
+25487-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 python3[1349]: 2024/04/29 08:18:58.549660 INFO Daemon Installed Agent WALinuxAgent-2.2.45 is the most current agent
+25488-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 pollinate[1350]: client verified challenge/response with [https://entropy.ubuntu.com/]
+25489-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 pollinate[1350]: client hashed response from [https://entropy.ubuntu.com/]
+25490-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 pollinate[1350]: client successfully seeded [/dev/urandom]
+25491-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 systemd[1]: Started Pollinate to seed the pseudo random number generator.
+25492-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 systemd[1]: Starting OpenBSD Secure Shell server...
+25493-/var/log/syslog.1:Apr 29 08:18:58 devlinux-vm1 python3[1349]: 2024/04/29 08:18:58.712917 INFO ExtHandler Agent WALinuxAgent-2.2.45 is running as the goal state agent
+29976-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     incarnation, xml_text, xml_doc = GoalState._fetch_goal_state(self._wire_client)
+29977-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/protocol/goal_state.py", line 390, in _fetch_goal_state
+29978-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     xml_text = wire_client.fetch_config(uri, wire_client.get_header())
+29979-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/protocol/wire.py", line 571, in fetch_config
+29980-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     resp = self.call_wireserver(restutil.http_get, uri, headers=headers)
+29981-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/protocol/wire.py", line 546, in call_wireserver
+29982-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     resp = http_req(*args, **kwargs)
+29983-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/utils/restutil.py", line 535, in http_get
+29984-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     return_raw_response=return_raw_response)
+29985-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/utils/restutil.py", line 478, in http_request
+29986:/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     raise ResourceGoneError(response_error)
+29987-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]: azurelinuxagent.common.exception.ResourceGoneError: [ResourceGoneError] [HTTP Failed] [410: Gone] b'<?xml version="1.0" encoding="utf-8"?>\n<Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">\n    <Code>ResourceNotAvailable</Code>\n    <Message>The resource requested is no longer available. Please refresh your cache.</Message>\n    <Details></Details>\n</Error>'
+29988-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]: During handling of the above exception, another exception occurred:
+29989-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]: Traceback (most recent call last):
+29990-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/ga/update.py", line 523, in _try_update_goal_state
+29991:/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     protocol.client.update_goal_state(silent=self._update_goal_state_error_count >= max_errors_to_log, save_to_history=True)
+29992-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:   File "bin/WALinuxAgent-2.10.0.8-py3.9.egg/azurelinuxagent/common/protocol/wire.py", line 793, in update_goal_state
+29993-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]:     raise ProtocolError("Error fetching goal state: {0}".format(ustr(exception)))
+29994-/var/log/syslog.1:Apr 30 22:03:41 devlinux-vm1 python3[1307]: azurelinuxagent.common.exception.ProtocolError: [ProtocolError] Error fetching goal state: [ResourceGoneError] [HTTP Failed] [410: Gone] b'<?xml version="1.0" encoding="utf-8"?>\n<Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">\n    <Code>ResourceNotAvailable</Code>\n    <Message>The resource requested is no longer available. Please refresh your cache.</Message>\n    <Details></Details>\n</Error>'
+29995:/var/log/syslog.1:Apr 30 22:03:42 devlinux-vm1 python3[1307]: 2024-04-30T22:03:42.749743Z WARNING MonitorHandler ExtHandler Error in SendHostPluginHeartbeat: [ResourceGoneError] [HTTP Failed] [410: Gone] b'<?xml version="1.0" encoding="utf-8"?>\n<Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">\n    <Code>ResourceNotAvailable</Code>\n    <Message>The resource requested is no longer available. Please refresh your cache.</Message>\n    <Details></Details>\n</Error>' --- [NOTE: Will not log the same error for the next hour]
+29996-/var/log/syslog.1:Apr 30 22:04:01 devlinux-vm1 CRON[10032]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+29997:/var/log/syslog.1:Apr 30 22:04:35 devlinux-vm1 python3[1307]: 2024-04-30T22:04:35.258100Z INFO ExtHandler ExtHandler Fetching the goal state recovered from previous errors. Fetched incarnation_1 (certificates: [{'thumbprint': '0C4C16A2E2F125DB424E261484ABA4B6AC999440', 'hasPrivateKey': True}])
+29998-/var/log/syslog.1:Apr 30 22:05:01 devlinux-vm1 CRON[10244]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+29999-/var/log/syslog.1:Apr 30 22:10:01 devlinux-vm1 CRON[10664]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+30000-/var/log/syslog.1:Apr 30 22:15:01 devlinux-vm1 CRON[11075]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+30001-/var/log/syslog.1:Apr 30 22:15:01 devlinux-vm1 CRON[11076]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+30002-/var/log/syslog.1:Apr 30 22:15:07 devlinux-vm1 python3[1307]: 2024-04-30T22:15:07.567582Z INFO ExtHandler ExtHandler Downloading agent manifest
+30003-/var/log/syslog.1:Apr 30 22:15:13 devlinux-vm1 python3[1307]: 2024-04-30T22:15:13.620005Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.10.0.8 is running as the goal state agent [DEBUG HeartbeatCounter: 32;HeartbeatId: 4F1022EF-31A9-4824-8A24-3F2AA5E34E98;DroppedPackets: 0;UpdateGSErrors: 1;AutoUpdate: 1]
+30004-/var/log/syslog.1:Apr 30 22:15:20 devlinux-vm1 systemd[1]: Starting Update APT News...
+30005-/var/log/syslog.1:Apr 30 22:15:20 devlinux-vm1 systemd[1]: Starting Update the local ESM caches...
+30006-/var/log/syslog.1:Apr 30 22:15:21 devlinux-vm1 systemd[1]: Started Update the local ESM caches.
+30007-/var/log/syslog.1:Apr 30 22:15:21 devlinux-vm1 systemd[1]: Started Update APT News.

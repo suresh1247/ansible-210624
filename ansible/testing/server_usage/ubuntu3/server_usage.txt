@@ -1,0 +1,314 @@
+-e ###########################################################
+
+-e Processes which are consuming more than 75% CPU 
+
+ 126790 omsagent  20   0  163500  60820   8856 R  93.8   6.6   0:02.14 ruby
+-e ###########################################################
+
+-e  Top 7 processes which are consuming high CPU: 
+
+    PID    PPID CMD                         %MEM %CPU
+ 126790  126719 /opt/microsoft/omsagent/rub  6.6 53.7
+      1       0 /sbin/init                   1.2  0.9
+ 126847  126769 sshd: suresh@pts/2           0.6  0.6
+ 126769    1590 sshd: suresh [priv]          0.9  0.5
+  13084       1 /opt/microsoft/omsagent/rub  6.6  0.2
+   1088     788 python3 -u bin/WALinuxAgent  3.3  0.1
+-e ###########################################################
+
+-e mount points which are consuming more than 75% from the server and their detaile usage: 
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        29G  2.3G   27G   8% /
+-e ###########################################################
+
+2.9G	/
+-e ###########################################################
+
+-e  Processes which are consuming high memory in the server:
+MiB Mem :    894.1 total,    207.3 free,    342.2 used,    344.6 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    324.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  13084 omsagent  20   0  334000  60888   4516 S   0.0   6.7   1:54.45 omsagent
+   1088 root      20   0  402908  30144   7572 S   0.0   3.3   1:31.93 python3
+ 101210 root      20   0 1172916  23536   2580 S   0.0   2.6   0:00.84 snapd
+  11722 root      20   0  175004  19620   6596 S   0.0   2.1   0:03.36 python3
+  12700 nxautom+  20   0  175084  18468   6956 S   0.0   2.0   0:17.26 python3
+    409 root      rt   0  280336  18144   8212 S   0.0   2.0   0:05.91 multipa+
+    788 root      20   0   29468  16040   3180 S   0.0   1.8   0:00.50 python3
+    166 root      19  -1   52276  13416  10168 S   0.0   1.5   0:02.36 systemd+
+    868 root      20   0  108124  12240   4576 S   0.0   1.3   0:00.08 unatten+
+    763 root      20   0   29856  12160   4100 S   0.0   1.3   0:00.10 network+
+      1 root      20   0  171664  11328   6064 S   0.0   1.2  12:55.38 systemd
+-e ###########################################################
+
+-e  
+
+    PID    PPID CMD                         %MEM %CPU
+  13084       1 /opt/microsoft/omsagent/rub  6.6  0.2
+   1088     788 python3 -u bin/WALinuxAgent  3.2  0.1
+ 101210       1 /usr/lib/snapd/snapd         2.5  0.0
+  11722       1 python3 /var/lib/waagent/Mi  2.1  0.0
+  12700   12674 python3 /opt/microsoft/omsc  2.0  0.0
+    409       1 /sbin/multipathd -d -s       1.9  0.0
+-e ###########################################################
+
+-e ping status 
+
+PING google.com (172.253.62.101) 56(84) bytes of data.
+
+--- google.com ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3071ms
+
+-e  
+
+
+PING localhost (127.0.0.1) 56(84) bytes of data.
+64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.025 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=2 ttl=64 time=0.050 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=3 ttl=64 time=0.064 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=4 ttl=64 time=0.050 ms
+
+--- localhost ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3054ms
+rtt min/avg/max/mdev = 0.025/0.047/0.064/0.014 ms
+-e ###########################################################
+
+-e  uptime 
+
+ 07:39:03 up 22:15,  3 users,  load average: 0.28, 0.12, 0.06
+-e 
+
+-e ###########################################################
+
+-e 
+ CMD: df -hT 
+
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4       29G  2.3G   27G   8% /
+devtmpfs       devtmpfs  443M     0  443M   0% /dev
+tmpfs          tmpfs     448M     0  448M   0% /dev/shm
+tmpfs          tmpfs      90M  996K   89M   2% /run
+tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs          tmpfs     448M     0  448M   0% /sys/fs/cgroup
+/dev/loop0     squashfs   64M   64M     0 100% /snap/core20/2318
+/dev/loop1     squashfs   92M   92M     0 100% /snap/lxd/24061
+/dev/loop2     squashfs   39M   39M     0 100% /snap/snapd/21759
+/dev/sda15     vfat      105M  6.1M   99M   6% /boot/efi
+/dev/sdb1      ext4      3.9G   28K  3.7G   1% /mnt
+tmpfs          tmpfs      90M     0   90M   0% /run/user/1000
+-e 
+
+-e ###########################################################
+
+-e  fstab entries & samba shares information 
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+UUID=01dafea9-69c2-429d-9c25-0add21c22cbd	/	 ext4	defaults,discard	0 1
+UUID=D622-1195	/boot/efi	vfat	umask=0077	0 1
+/dev/disk/cloud/azure_resource-part1	/mnt	auto	defaults,nofail,x-systemd.requires=cloud-init.service,_netdev,comment=cloudconfig	0	2
+-e 
+
+-e ###########################################################
+
+
+-e 
+ CMD detailed disk usage in server : 
+
+2.9G	/
+1.1G	/usr
+-e 
+
+-e ###########################################################
+
+
+-e CMD: CPU usage core wise 
+
+top - 07:39:06 up 22:15,  3 users,  load average: 0.28, 0.12, 0.06
+Threads: 227 total,   1 running, 226 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.9 us,  5.9 sy,  0.0 ni, 88.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :    894.1 total,     97.6 free,    394.9 used,    401.5 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    271.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 127018 root      20   0   11008   3884   3168 R   6.2   0.4   0:00.01 top
+      1 root      20   0  171664  11328   6064 S   0.0   1.2  12:55.36 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+
+     13 root      20   0       0      0      0 S   0.0   0.0   0:15.04 ksoftir+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:06.28 rcu_sch+
+     15 root      rt   0       0      0      0 S   0.0   0.0   0:00.40 migrati+
+     16 root      20   0       0      0      0 I   0.0   0.0   0:00.80 kworker+
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     19 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_fr+
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.03 khungta+
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     23 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeba+
+     24 root      20   0       0      0      0 S   0.0   0.0   0:05.31 kcompac+
+-e 
+
+-e ###########################################################
+
+
+-e CMD: network information 
+
+default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.11 metric 100 
+10.0.0.0/24 dev eth0 proto kernel scope link src 10.0.0.11 
+168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.11 metric 100 
+169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.11 metric 100 
+-e 
+
+ 
+-e  
+ routes information 
+
+-e 
+
+-e ###########################################################
+
+-e 
+ 
+ CMD: lscpu | grep -i Core 
+
+-e 
+
+
+-e ###########################################################
+
+-e 
+ 
+ 
+ CMD: ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head
+
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /sbin/init                   1.2  0.9
+  13084       1 /opt/microsoft/omsagent/rub  6.6  0.2
+   1088     788 python3 -u bin/WALinuxAgent  3.2  0.1
+      2       0 [kthreadd]                   0.0  0.0
+      3       2 [rcu_gp]                     0.0  0.0
+      4       2 [rcu_par_gp]                 0.0  0.0
+      5       2 [slub_flushwq]               0.0  0.0
+      6       2 [netns]                      0.0  0.0
+      8       2 [kworker/0:0H-events_highpr  0.0  0.0
+-e ###########################################################
+
+-e 
+ CMD: free -m 
+
+              total        used        free      shared  buff/cache   available
+Mem:            894         394          97           3         402         272
+Swap:             0           0           0
+-e 
+ CMD: sar 
+
+-e ###########################################################
+
+-e  
+ Load on server: 
+ 
+ 
+-e ###########################################################
+
+-e CMD: top 
+
+top - 07:39:06 up 22:15,  3 users,  load average: 0.28, 0.12, 0.06
+Tasks: 123 total,   1 running, 122 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  0.0 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :    894.1 total,     97.4 free,    394.6 used,    402.1 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    272.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  13084 omsagent  20   0  334000  60888   4516 S   0.0   6.7   1:54.47 omsagent
+   1088 root      20   0  402908  30144   7572 S   0.0   3.3   1:31.96 python3
+ 101210 root      20   0 1172916  23536   2580 S   0.0   2.6   0:00.84 snapd
+  11722 root      20   0  175004  19620   6596 S   0.0   2.1   0:03.37 python3
+  12700 nxautom+  20   0  175084  18468   6956 S   0.0   2.0   0:17.27 python3
+    409 root      rt   0  280336  18144   8212 S   0.0   2.0   0:05.91 multipa+
+    788 root      20   0   29468  16040   3180 S   0.0   1.8   0:00.50 python3
+    166 root      19  -1   52276  13416  10168 S   0.0   1.5   0:02.36 systemd+
+    868 root      20   0  108124  12240   4576 S   0.0   1.3   0:00.08 unatten+
+    763 root      20   0   29856  12160   4100 S   0.0   1.3   0:00.10 network+
+      1 root      20   0  171664  11328   6064 S   0.0   1.2  12:55.38 systemd
+  12674 nxautom+  20   0   18708  11052   5056 S   0.0   1.2   0:09.22 python3
+    542 systemd+  20   0   24696   9080   4868 S   0.0   1.0   0:04.17 systemd+
+ 126769 root      20   0   13948   8476   7016 S   0.0   0.9   0:00.02 sshd
+    740 root      20   0  241808   8236   4396 S   0.0   0.9   0:02.86 account+
+    850 root      20   0  318848   7232   3264 S   0.0   0.8   0:00.12 ModemMa+
+    787 root      20   0  395672   7012   4920 S   0.0   0.8   0:00.18 udisksd
+ 106643 root      20   0   13948   6664   5208 S   0.0   0.7   0:00.02 sshd
+   1637 suresh    20   0   19104   6324   4736 S   0.0   0.7   0:00.10 systemd
+ 126847 suresh    20   0   14084   6180   4440 S   0.0   0.7   0:00.02 sshd
+  11599 root      20   0  418028   5648   3984 S   0.0   0.6   0:49.91 omiagent
+    781 root      20   0   17528   5556   4580 S   0.0   0.6   0:02.14 systemd+
+ 101588 syslog    20   0  224500   5276   2740 S   0.0   0.6   0:00.07 rsyslogd
+-e ###########################################################
+
+-e 
+ CMD: ps aux --sort=-%mem | head
+
+       915556 K total memory
+       404020 K used memory
+       122688 K active memory
+       308892 K inactive memory
+        99708 K free memory
+        59080 K buffer memory
+       352748 K swap cache
+            0 K total swap
+            0 K used swap
+            0 K free swap
+       206169 non-nice user cpu ticks
+         5268 nice user cpu ticks
+        93971 system cpu ticks
+      7645640 idle cpu ticks
+        43901 IO-wait cpu ticks
+            0 IRQ cpu ticks
+         4476 softirq cpu ticks
+            0 stolen cpu ticks
+      7103278 pages paged in
+      9660333 pages paged out
+            0 pages swapped in
+            0 pages swapped out
+         2268 interrupts
+     25343147 CPU context switches
+   1718616242 boot time
+       127030 forks
+-e ###########################################################
+
+-e 
+ CMD: sar -r
+
+-e ###########################################################
+
+-e kernel information 
+
+5.15.0-1064-azure
+-e 
+
+-e ###########################################################
+
+-e 
+ last reboot information 
+
+reboot   system boot  5.15.0-1064-azur Mon Jun 17 09:24   still running
+-e 
+
+-e ###########################################################
+
+-e 
+ list of kernels available 
+
+-e 
+
+-e ###########################################################
+
+-e last patch updated in server: 
+
+lrwxrwxrwx 1 root root       25 2024-06-06 21:44 vmlinuz -> vmlinuz-5.15.0-1064-azure

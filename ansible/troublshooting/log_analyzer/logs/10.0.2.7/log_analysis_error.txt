@@ -1,0 +1,64 @@
+2633-/var/log/cloud-init.log:2024-04-30 03:24:18,534 - util.py[DEBUG]: Running command ['blkid', '-tTYPE=iso9660', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+2634-/var/log/cloud-init.log:2024-04-30 03:24:18,567 - util.py[DEBUG]: Running command ['blkid', '-tTYPE=udf', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+2635-/var/log/cloud-init.log:2024-04-30 03:24:18,573 - handlers.py[DEBUG]: finish: azure-ds/list_possible_azure_ds_devs: SUCCESS: list_possible_azure_ds_devs
+2636-/var/log/cloud-init.log:2024-04-30 03:24:18,574 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+2637-/var/log/cloud-init.log:2024-04-30 03:24:18,574 - handlers.py[DEBUG]: finish: azure-ds/load_azure_ds_dir: FAIL: load_azure_ds_dir
+2638-/var/log/cloud-init.log:2024-04-30 03:24:18,575 - handlers.py[DEBUG]: diagnostic: diagnostic message: Did not find Azure data source in /var/lib/cloud/seed/azure
+2639-/var/log/cloud-init.log:2024-04-30 03:24:18,575 - util.py[DEBUG]: Reading from /etc/os-release (quiet=False)
+2640-/var/log/cloud-init.log:2024-04-30 03:24:18,575 - util.py[DEBUG]: Read 393 bytes from /etc/os-release
+2641-/var/log/cloud-init.log:2024-04-30 03:24:18,576 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+2642-/var/log/cloud-init.log:2024-04-30 03:24:18,576 - util.py[DEBUG]: Read 2434 bytes from /proc/mounts
+2643:/var/log/cloud-init.log:2024-04-30 03:24:18,576 - util.py[DEBUG]: Fetched {'configfs': {'mountpoint': '/sys/kernel/config', 'opts': 'rw,relatime', 'fstype': 'configfs'}, 'efivarfs': {'mountpoint': '/sys/firmware/efi/efivars', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'efivarfs'}, 'devpts': {'mountpoint': '/dev/pts', 'opts': 'rw,seclabel,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'fstype': 'devpts'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime', 'fstype': 'debugfs'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'securityfs'}, 'sysfs': {'mountpoint': '/sys', 'opts': 'rw,seclabel,nosuid,nodev,noexec,relatime', 'fstype': 'sysfs'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'opts': 'rw,seclabel,relatime', 'fstype': 'mqueue'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'pstore'}, '/dev/sda1': {'mountpoint': '/boot', 'opts': 'rw,seclabel,relatime,attr2,inode64,noquota', 'fstype': 'xfs'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'opts': 'rw,seclabel,relatime', 'fstype': 'hugetlbfs'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=10012', 'fstype': 'autofs'}, 'selinuxfs': {'mountpoint': '/sys/fs/selinux', 'opts': 'rw,relatime', 'fstype': 'selinuxfs'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/cpuset', 'opts': 'rw,seclabel,nosuid,nodev,noexec,relatime,cpuset', 'fstype': 'cgroup'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro', 'fstype': 'vfat'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,seclabel,nosuid,nodev,noexec,mode=755', 'fstype': 'tmpfs'}, 'proc': {'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'proc'}, 'devtmpfs': {'mountpoint': '/dev', 'opts': 'rw,seclabel,nosuid,size=1928064k,nr_inodes=482016,mode=755', 'fstype': 'devtmpfs'}, '/dev/sda2': {'mountpoint': '/', 'opts': 'rw,seclabel,relatime,attr2,inode64,noquota', 'fstype': 'xfs'}, 'rootfs': {'mountpoint': '/', 'opts': 'rw', 'fstype': 'rootfs'}} mounts from proc
+2644-/var/log/cloud-init.log:2024-04-30 03:24:18,577 - util.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'auto', u'/dev/sr0', '/run/cloud-init/tmp/tmpQYh2k6'] with allowed return codes [0] (shell=False, capture=True)
+2645-/var/log/cloud-init.log:2024-04-30 03:24:18,687 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+2646-/var/log/cloud-init.log:2024-04-30 03:24:18,689 - handlers.py[DEBUG]: start: azure-ds/read_azure_ovf: read_azure_ovf
+2647-/var/log/cloud-init.log:2024-04-30 03:24:18,722 - handlers.py[DEBUG]: start: azure-ds/_extract_preprovisioned_vm_setting: _extract_preprovisioned_vm_setting
+2648-/var/log/cloud-init.log:2024-04-30 03:24:18,723 - handlers.py[DEBUG]: finish: azure-ds/_extract_preprovisioned_vm_setting: SUCCESS: _extract_preprovisioned_vm_setting
+2649-/var/log/cloud-init.log:2024-04-30 03:24:18,723 - handlers.py[DEBUG]: finish: azure-ds/read_azure_ovf: SUCCESS: read_azure_ovf
+2650-/var/log/cloud-init.log:2024-04-30 03:24:18,723 - handlers.py[DEBUG]: finish: azure-ds/load_azure_ds_dir: SUCCESS: load_azure_ds_dir
+2651-/var/log/cloud-init.log:2024-04-30 03:24:18,724 - util.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmpQYh2k6'] with allowed return codes [0] (shell=False, capture=True)
+2652-/var/log/cloud-init.log:2024-04-30 03:24:18,777 - util.py[DEBUG]: Running command ['systemd-detect-virt', '--quiet', '--container'] with allowed return codes [0] (shell=False, capture=True)
+2653-/var/log/cloud-init.log:2024-04-30 03:24:18,779 - util.py[DEBUG]: Running command ['running-in-container'] with allowed return codes [0] (shell=False, capture=True)
+--
+3347-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: Attempting to determine the real name of ephemeral0
+3348-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: Mapped metadata name ephemeral0 to /dev/disk/cloud/azure_resource
+3349-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: changed default device ephemeral0 => None
+3350-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount ephemeral0
+3351-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: Attempting to determine the real name of swap
+3352-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: changed default device swap => None
+3353-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount swap
+3354-/var/log/cloud-init.log:2024-04-30 03:26:24,684 - cc_mounts.py[DEBUG]: no need to setup swap
+3355-/var/log/cloud-init.log:2024-04-30 03:26:24,685 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+3356-/var/log/cloud-init.log:2024-04-30 03:26:24,685 - util.py[DEBUG]: Read 2434 bytes from /proc/mounts
+3357:/var/log/cloud-init.log:2024-04-30 03:26:24,685 - util.py[DEBUG]: Fetched {'configfs': {'mountpoint': '/sys/kernel/config', 'opts': 'rw,relatime', 'fstype': 'configfs'}, 'efivarfs': {'mountpoint': '/sys/firmware/efi/efivars', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'efivarfs'}, 'devpts': {'mountpoint': '/dev/pts', 'opts': 'rw,seclabel,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000', 'fstype': 'devpts'}, 'debugfs': {'mountpoint': '/sys/kernel/debug', 'opts': 'rw,relatime', 'fstype': 'debugfs'}, 'securityfs': {'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'securityfs'}, 'sysfs': {'mountpoint': '/sys', 'opts': 'rw,seclabel,nosuid,nodev,noexec,relatime', 'fstype': 'sysfs'}, 'mqueue': {'mountpoint': '/dev/mqueue', 'opts': 'rw,seclabel,relatime', 'fstype': 'mqueue'}, 'pstore': {'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'pstore'}, '/dev/sda1': {'mountpoint': '/boot', 'opts': 'rw,seclabel,relatime,attr2,inode64,noquota', 'fstype': 'xfs'}, 'hugetlbfs': {'mountpoint': '/dev/hugepages', 'opts': 'rw,seclabel,relatime', 'fstype': 'hugetlbfs'}, 'systemd-1': {'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=10012', 'fstype': 'autofs'}, 'selinuxfs': {'mountpoint': '/sys/fs/selinux', 'opts': 'rw,relatime', 'fstype': 'selinuxfs'}, 'cgroup': {'mountpoint': '/sys/fs/cgroup/cpuset', 'opts': 'rw,seclabel,nosuid,nodev,noexec,relatime,cpuset', 'fstype': 'cgroup'}, '/dev/sda15': {'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro', 'fstype': 'vfat'}, 'tmpfs': {'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,seclabel,nosuid,nodev,noexec,mode=755', 'fstype': 'tmpfs'}, 'proc': {'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime', 'fstype': 'proc'}, 'devtmpfs': {'mountpoint': '/dev', 'opts': 'rw,seclabel,nosuid,size=1928064k,nr_inodes=482016,mode=755', 'fstype': 'devtmpfs'}, '/dev/sda2': {'mountpoint': '/', 'opts': 'rw,seclabel,relatime,attr2,inode64,noquota', 'fstype': 'xfs'}, 'rootfs': {'mountpoint': '/', 'opts': 'rw', 'fstype': 'rootfs'}} mounts from proc
+3358-/var/log/cloud-init.log:2024-04-30 03:26:24,685 - util.py[DEBUG]: Restoring selinux mode for /mnt (recursive=True)
+3359-/var/log/cloud-init.log:2024-04-30 03:26:24,685 - util.py[DEBUG]: Writing to /etc/fstab - wb: [644] 623 bytes
+3360-/var/log/cloud-init.log:2024-04-30 03:26:24,686 - util.py[DEBUG]: Restoring selinux mode for /etc/fstab (recursive=False)
+3361-/var/log/cloud-init.log:2024-04-30 03:26:24,686 - util.py[DEBUG]: Restoring selinux mode for /etc/fstab (recursive=False)
+3362-/var/log/cloud-init.log:2024-04-30 03:26:24,686 - cc_mounts.py[DEBUG]: Changes to fstab: ['+ ephemeral0 /mnt/resource auto defaults,nofail,x-systemd.requires=cloud-init.service,comment=cloudconfig 0 2']
+3363-/var/log/cloud-init.log:2024-04-30 03:26:24,686 - util.py[DEBUG]: Running command ['mount', '-a'] with allowed return codes [0] (shell=False, capture=True)
+3364-/var/log/cloud-init.log:2024-04-30 03:26:24,696 - cc_mounts.py[DEBUG]: Activate mounts: PASS:mount -a
+3365-/var/log/cloud-init.log:2024-04-30 03:26:24,696 - util.py[DEBUG]: Running command ['systemctl', 'daemon-reload'] with allowed return codes [0] (shell=False, capture=True)
+3366-/var/log/cloud-init.log:2024-04-30 03:26:24,829 - cc_mounts.py[DEBUG]: Activate mounts: PASS:systemctl daemon-reload
+3367-/var/log/cloud-init.log:2024-04-30 03:26:24,829 - handlers.py[DEBUG]: finish: init-network/config-mounts: SUCCESS: config-mounts ran successfully
+27404-/var/log/messages:May  1 16:09:53 centos-slave1 systemd: Received SIGRTMIN+20 from PID 238 (plymouthd).
+27405-/var/log/messages:May  1 16:09:53 centos-slave1 systemd: Started Show Plymouth Boot Screen.
+27406-/var/log/messages:May  1 16:09:53 centos-slave1 systemd: Reached target Paths.
+27407-/var/log/messages:May  1 16:09:53 centos-slave1 systemd: Started Forward Password Requests to Plymouth Directory Watch.
+27408-/var/log/messages:May  1 16:09:53 centos-slave1 systemd: Reached target Basic System.
+27409-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: hv_vmbus: registering driver hv_storvsc
+27410-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: hyperv_fb: Synthvid Version major 3, minor 5
+27411-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: hyperv_fb: Screen resolution: 1024x768, Color depth: 32
+27412-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: fb: conflicting fb hw usage hyperv_fb vs EFI VGA - removing generic driver
+27413-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: Console: switching to colour dummy device 80x25
+27414:/var/log/messages:May  1 16:09:53 centos-slave1 systemd-vconsole-setup: /usr/bin/setfont failed with error code 71.
+27415-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: Console: switching to colour frame buffer device 128x48
+27416-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: scsi host0: storvsc_host_t
+27417-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+27418-/var/log/messages:May  1 16:09:53 centos-slave1 kernel: scsi host1: storvsc_host_t
+27419-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: hv_vmbus: registering driver hv_pci
+27420-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: hv_pci dc7d7a5c-028b-4b81-9cf4-5e991b04f0ee: PCI VMBus probing: Using version 0x10003
+27421-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: hv_pci dc7d7a5c-028b-4b81-9cf4-5e991b04f0ee: PCI host bridge to bus 028b:00
+27422-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: pci_bus 028b:00: root bus resource [mem 0xfe0000000-0xfe00fffff window]
+27423-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: pci 028b:00:02.0: 0.000 Gb/s available PCIe bandwidth, limited by Unknown speed x0 link at 028b:00:02.0 (capable of 63.008 Gb/s with 8 GT/s x8 link)
+27424-/var/log/messages:May  1 16:09:54 centos-slave1 kernel: pci 028b:00:02.0: BAR 0: assigned [mem 0xfe0000000-0xfe00fffff 64bit pref]

@@ -1,0 +1,10 @@
+ error : 579 
+ warning : 9 
+ Failed to mount : 0 
+ EXT4-fs error : 0 
+ kernel: Out of memory : 0 
+ kernel: oom_reaper : 0 
+ Failed to start due to high CPU load : 0 
+ Failed to start due to kernel crash : 0 
+ Kernel panic : 0 
+ xlog_iodone : 0 

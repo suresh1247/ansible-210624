@@ -1,0 +1,419 @@
+13569-/var/log/messages:Apr 30 03:26:32 centos-slave1 python: 2024-04-30T03:26:32.578690Z INFO ExtHandler ExtHandler Cgroup monitoring is not supported on ['centos', '7.7.1908', 'Core', 'CentOS Linux']
+13570-/var/log/messages:Apr 30 03:26:32 centos-slave1 python: 2024-04-30T03:26:32.579188Z INFO ExtHandler ExtHandler Starting setup for Persistent firewall rules
+13571-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Received SIGRTMIN+21 from PID 252 (plymouthd).
+13572-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+13573-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+13574-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Started Getty on tty1.
+13575-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Started Serial Getty on ttyS0.
+13576-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Reached target Login Prompts.
+13577-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Reached target Multi-User System.
+13578-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Starting Update UTMP about System Runlevel Changes...
+13579:/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+13580-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Reached target Cloud-init target.
+13581-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Started Update UTMP about System Runlevel Changes.
+13582:/var/log/messages:Apr 30 03:26:33 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+13583:/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+13584:/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+13585:/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+13586:/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+13587-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.451557Z INFO ExtHandler ExtHandler Firewalld service not running/unavailable, trying to set up waagent-network-setup.service
+13588-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.452326Z INFO ExtHandler ExtHandler Successfully updated the Binary file /var/lib/waagent/waagent-network-setup.py for firewall setup
+13589-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.458642Z INFO ExtHandler ExtHandler Service: waagent-network-setup.service not enabled. Adding it now
+13590-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Reloading.
+13591-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd-fstab-generator[2945]: Checking was requested for "ephemeral0", but it is not a device.
+13592-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.585359Z INFO ExtHandler ExtHandler Executing systemctl daemon-reload for setting up waagent-network-setup.service
+13593-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd: Reloading.
+13594-/var/log/messages:Apr 30 03:26:33 centos-slave1 systemd-fstab-generator[3004]: Checking was requested for "ephemeral0", but it is not a device.
+13595-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.694545Z INFO ExtHandler ExtHandler Successfully added and enabled the waagent-network-setup.service
+13596-/var/log/messages:Apr 30 03:26:33 centos-slave1 python: 2024-04-30T03:26:33.694693Z INFO ExtHandler ExtHandler Persistent firewall rules setup successfully
+--
+14394-/var/log/messages:Apr 30 05:43:05 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_continue.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14395-/var/log/messages:Apr 30 05:45:01 centos-slave1 systemd: Created slice User Slice of root.
+14396-/var/log/messages:Apr 30 05:45:01 centos-slave1 systemd: Started Session 61 of user root.
+14397-/var/log/messages:Apr 30 05:45:01 centos-slave1 systemd: Started Session 62 of user root.
+14398-/var/log/messages:Apr 30 05:45:01 centos-slave1 systemd: Removed slice User Slice of root.
+14399-/var/log/messages:Apr 30 05:45:16 centos-slave1 systemd: Created slice User Slice of suresh.
+14400-/var/log/messages:Apr 30 05:45:16 centos-slave1 systemd: Started Session 63 of user suresh.
+14401-/var/log/messages:Apr 30 05:45:16 centos-slave1 systemd-logind: New session 63 of user suresh.
+14402-/var/log/messages:Apr 30 05:45:17 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+14403-/var/log/messages:Apr 30 05:45:18 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf server_usage.txt service-uptime.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14404:/var/log/messages:Apr 30 05:45:18 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+14405-/var/log/messages:Apr 30 05:46:06 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=False path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+14406-/var/log/messages:Apr 30 05:46:06 centos-slave1 python: ansible-copy Invoked with directory_mode=None force=True remote_src=None _original_basename=tmp3v7smd0a owner=None follow=False local_follow=None group=None unsafe_writes=None setype=None content=NOT_LOGGING_PARAMETER serole=None dest=service-uptime.txt selevel=None regexp=None validate=None src=/home/suresh/.ansible/tmp/ansible-tmp-1714455965.824902-164230841852941/source checksum=e6b4ad800e0da229c334ec097b5767c5c194c73c seuser=None delimiter=None mode=None attributes=None backup=False
+14407-/var/log/messages:Apr 30 05:46:07 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+14408-/var/log/messages:Apr 30 05:46:07 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=server_usage.txt get_md5=False get_mime=True get_attributes=True
+14409-/var/log/messages:Apr 30 05:47:07 centos-slave1 systemd-logind: Removed session 63.
+14410-/var/log/messages:Apr 30 05:47:07 centos-slave1 systemd: Removed slice User Slice of suresh.
+14411-/var/log/messages:Apr 30 05:47:32 centos-slave1 systemd: Created slice User Slice of suresh.
+14412-/var/log/messages:Apr 30 05:47:32 centos-slave1 systemd-logind: New session 64 of user suresh.
+14413-/var/log/messages:Apr 30 05:47:32 centos-slave1 systemd: Started Session 64 of user suresh.
+14414-/var/log/messages:Apr 30 05:47:33 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+14415-/var/log/messages:Apr 30 05:47:34 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+14416-/var/log/messages:Apr 30 05:47:35 centos-slave1 python: ansible-ping Invoked with data=pong
+14417-/var/log/messages:Apr 30 05:47:35 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14418-/var/log/messages:Apr 30 05:47:36 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=free | grep Mem | awk '{print $3/$2 * 100.0}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14419-/var/log/messages:Apr 30 05:47:36 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=cat df_usage.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14420-/var/log/messages:Apr 30 05:47:37 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=cat inode_usage.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14421-/var/log/messages:Apr 30 05:47:37 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=ss -tnl | grep ':22 ' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14422-/var/log/messages:Apr 30 05:47:38 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=sshd -t removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14423-/var/log/messages:Apr 30 05:47:38 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=iptables -L | grep -q 'DROP' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14424-/var/log/messages:Apr 30 05:47:39 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=yum check-update removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14425:/var/log/messages:Apr 30 05:47:39 centos-slave1 python: ansible-command [WARNING] Consider using the yum module rather than running 'yum'.  If you need to use command because yum is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+14426-/var/log/messages:Apr 30 05:47:40 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=uname -r removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14427-/var/log/messages:Apr 30 05:47:41 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=awk '$1 !~ /^#/ && NF > 0 {print $2}' /etc/fstab removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14428-/var/log/messages:Apr 30 05:47:41 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=df -h --exclude-type=tmpfs --exclude-type=devtmpfs | awk 'NR > 1 {print $6}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14429-/var/log/messages:Apr 30 05:47:42 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl status kdump.service | grep Active | awk '{ print $2}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14430-/var/log/messages:Apr 30 05:47:42 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl status chronyd.service | grep Active | awk '{ print $2}' removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14431-/var/log/messages:Apr 30 05:47:42 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=uptime removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14432-/var/log/messages:Apr 30 05:47:43 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=getenforce removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14433-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+14434-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+14435-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+14448-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_continue.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14449-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_start.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14450-/var/log/messages:Apr 30 05:48:07 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_continue.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14451-/var/log/messages:Apr 30 05:48:43 centos-slave1 systemd-logind: Removed session 64.
+14452-/var/log/messages:Apr 30 05:48:43 centos-slave1 systemd: Removed slice User Slice of suresh.
+14453-/var/log/messages:Apr 30 05:49:50 centos-slave1 systemd: Created slice User Slice of suresh.
+14454-/var/log/messages:Apr 30 05:49:50 centos-slave1 systemd: Started Session 65 of user suresh.
+14455-/var/log/messages:Apr 30 05:49:50 centos-slave1 systemd-logind: New session 65 of user suresh.
+14456-/var/log/messages:Apr 30 05:49:51 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+14457-/var/log/messages:Apr 30 05:49:52 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14458:/var/log/messages:Apr 30 05:49:52 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+14459-/var/log/messages:Apr 30 05:49:52 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: yum check-update #012'; yum check-update  || test $? -eq 100;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14460-/var/log/messages:Apr 30 05:49:53 centos-slave1 python: ansible-slurp Invoked with src=patches-list.csv
+14461-/var/log/messages:Apr 30 05:50:01 centos-slave1 systemd: Created slice User Slice of root.
+14462-/var/log/messages:Apr 30 05:50:01 centos-slave1 systemd: Started Session 66 of user root.
+14463-/var/log/messages:Apr 30 05:50:01 centos-slave1 systemd: Started Session 67 of user root.
+14464-/var/log/messages:Apr 30 05:50:01 centos-slave1 systemd: Removed slice User Slice of root.
+14465-/var/log/messages:Apr 30 05:50:53 centos-slave1 systemd-logind: Removed session 65.
+14466-/var/log/messages:Apr 30 05:50:53 centos-slave1 systemd: Removed slice User Slice of suresh.
+14467-/var/log/messages:Apr 30 05:52:01 centos-slave1 systemd: Started Session 68 of user omsagent.
+14468-/var/log/messages:Apr 30 05:52:32 centos-slave1 systemd: Created slice User Slice of root.
+14544-/var/log/messages:Apr 30 06:03:12 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+14545-/var/log/messages:Apr 30 06:03:12 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+14546-/var/log/messages:Apr 30 06:03:13 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_continue.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14547-/var/log/messages:Apr 30 06:03:13 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_start.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14548-/var/log/messages:Apr 30 06:03:13 centos-slave1 systemd: [/usr/lib/systemd/system/mdcheck_continue.service:14] Invalid environment assignment, ignoring: MDADM_CHECK_DURATION='"6 hours"'
+14549-/var/log/messages:Apr 30 06:03:20 centos-slave1 systemd: Created slice User Slice of suresh.
+14550-/var/log/messages:Apr 30 06:03:20 centos-slave1 systemd: Started Session 74 of user suresh.
+14551-/var/log/messages:Apr 30 06:03:20 centos-slave1 systemd-logind: New session 74 of user suresh.
+14552-/var/log/messages:Apr 30 06:03:20 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+14553-/var/log/messages:Apr 30 06:03:21 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14554:/var/log/messages:Apr 30 06:03:21 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+14555-/var/log/messages:Apr 30 06:03:22 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: yum check-update #012'; yum check-update  || test $? -eq 100;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+14556-/var/log/messages:Apr 30 06:03:37 centos-slave1 python: ansible-slurp Invoked with src=patches-list.csv
+14557-/var/log/messages:Apr 30 06:04:37 centos-slave1 systemd-logind: Removed session 74.
+14558-/var/log/messages:Apr 30 06:04:37 centos-slave1 systemd: Removed slice User Slice of suresh.
+14559-/var/log/messages:Apr 30 06:05:01 centos-slave1 systemd: Created slice User Slice of root.
+14560-/var/log/messages:Apr 30 06:05:01 centos-slave1 systemd: Started Session 75 of user root.
+14561-/var/log/messages:Apr 30 06:05:01 centos-slave1 systemd: Removed slice User Slice of root.
+14562-/var/log/messages:Apr 30 06:07:01 centos-slave1 systemd: Started Session 76 of user omsagent.
+14563-/var/log/messages:Apr 30 06:08:14 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+14564-/var/log/messages:Apr 30 06:08:14 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+15528-/var/log/messages:Apr 30 06:11:05 centos-slave1 python: 2024-04-30T06:11:05.177225Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.19.0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Value\": \"1.0\", \"Key\": \"ExtensionTelemetryPipeline\"}]", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16"}
+15529-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Received SIGRTMIN+21 from PID 262 (plymouthd).
+15530-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+15531-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+15532-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Started Getty on tty1.
+15533-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Started Serial Getty on ttyS0.
+15534-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Reached target Login Prompts.
+15535-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Reached target Multi-User System.
+15536-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Reached target Cloud-init target.
+15537-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Starting Update UTMP about System Runlevel Changes...
+15538:/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+15539-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Started Update UTMP about System Runlevel Changes.
+15540:/var/log/messages:Apr 30 06:11:05 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+15541:/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+15542:/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+15543-/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Startup finished in 1.745s (kernel) + 3.064s (initrd) + 2min 11.467s (userspace) = 2min 17.949s.
+15544:/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+15545:/var/log/messages:Apr 30 06:11:05 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+15546-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.192496Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Command: omsagent_shim.sh -enable
+15547-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: [stdout]
+15548-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024/04/30 06:11:12 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable,success,0,Enable succeeded
+15549-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: [stderr]
+15550-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.194608Z INFO ExtHandler ExtHandler ProcessExtensionsGoalState completed [etag_12673439082714269661 9138 ms]
+15551-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.230093Z INFO ExtHandler ExtHandler Extension status: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+15552-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.230615Z INFO ExtHandler ExtHandler All extensions in the goal state have reached a terminal state: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+15553-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.231186Z INFO ExtHandler ExtHandler Looking for existing remote access users.
+15554-/var/log/messages:Apr 30 06:11:14 centos-slave1 python: 2024-04-30T06:11:14.240099Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.10.0.8 is running as the goal state agent [DEBUG HeartbeatCounter: 0;HeartbeatId: 318281E9-5241-48E7-8E87-1CDA12DE9126;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+15555-/var/log/messages:Apr 30 06:11:41 centos-slave1 systemd: Created slice User Slice of suresh.
+16520-/var/log/messages:Apr 30 06:16:30 centos-slave1 kdumpctl: Starting kdump: [OK]
+16521-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Crash recovery kernel arming.
+16522-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Received SIGRTMIN+21 from PID 275 (plymouthd).
+16523-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+16524-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+16525-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Getty on tty1.
+16526-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Serial Getty on ttyS0.
+16527-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Reached target Login Prompts.
+16528-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Reached target Multi-User System.
+16529-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Reached target Cloud-init target.
+16530:/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+16531-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Starting Update UTMP about System Runlevel Changes...
+16532-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Started Update UTMP about System Runlevel Changes.
+16533:/var/log/messages:Apr 30 06:16:30 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+16534:/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+16535:/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+16536-/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Startup finished in 1.750s (kernel) + 2.555s (initrd) + 2min 11.477s (userspace) = 2min 17.375s.
+16537:/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+16538:/var/log/messages:Apr 30 06:16:30 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+16539-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.563020Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Command: omsagent_shim.sh -enable
+16540-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: [stdout]
+16541-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024/04/30 06:16:37 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.19.0] Enable,success,0,Enable succeeded
+16542-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: [stderr]
+16543-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.565080Z INFO ExtHandler ExtHandler ProcessExtensionsGoalState completed [etag_12673439082714269661 9206 ms]
+16544-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.618642Z INFO ExtHandler ExtHandler Extension status: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+16545-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.619154Z INFO ExtHandler ExtHandler All extensions in the goal state have reached a terminal state: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+16546-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.619718Z INFO ExtHandler ExtHandler Looking for existing remote access users.
+16547-/var/log/messages:Apr 30 06:16:39 centos-slave1 python: 2024-04-30T06:16:39.630619Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.10.0.8 is running as the goal state agent [DEBUG HeartbeatCounter: 0;HeartbeatId: 9CC8790D-4252-4F87-ACA9-9BC51D36E1CE;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+16548-/var/log/messages:Apr 30 06:19:12 centos-slave1 systemd: Created slice User Slice of suresh.
+18621-/var/log/messages:Apr 30 06:29:17 centos-slave1 python: 2024-04-30T06:29:17.696417Z INFO Daemon Daemon Fetch goal state completed
+18622-/var/log/messages:Apr 30 06:29:17 centos-slave1 cloud-init: Cloud-init v. 19.4 running 'modules:final' at Tue, 30 Apr 2024 06:29:17 +0000. Up 128.36 seconds.
+18623-/var/log/messages:Apr 30 06:29:17 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Tue, 30 Apr 2024 06:29:17 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 128.56 seconds
+18624-/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Reloading Network Manager.
+18625-/var/log/messages:Apr 30 06:29:17 centos-slave1 NetworkManager[702]: <info>  [1714458557.9200] audit: op="reload" arg="0" pid=1886 uid=0 result="success"
+18626-/var/log/messages:Apr 30 06:29:17 centos-slave1 NetworkManager[702]: <info>  [1714458557.9210] config: signal: SIGHUP (no changes from disk)
+18627-/var/log/messages:Apr 30 06:29:17 centos-slave1 dbus-send: method return time=1714458557.933776 sender=:1.3 -> destination=:1.26 serial=280 reply_serial=2
+18628-/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Reloaded Network Manager.
+18629-/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Started Execute cloud user/final scripts.
+18630-/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Reached target Cloud-init target.
+18631:/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+18632:/var/log/messages:Apr 30 06:29:17 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+18633:/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+18634:/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+18635:/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+18636:/var/log/messages:Apr 30 06:29:17 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+18637-/var/log/messages:Apr 30 06:29:17 centos-slave1 dracut: dracut-033-572.el7
+18638-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: Executing: /usr/sbin/dracut --quiet --hostonly --hostonly-cmdline --hostonly-i18n --hostonly-mode strict -o "plymouth dash resume ifcfg" --mount "/dev/disk/by-uuid/05c866bf-01b2-460f-a691-cb885c5fe6d6 /sysroot xfs defaults" --no-hostonly-default-device -f /boot/initramfs-3.10.0-1160.114.2.el7.x86_64kdump.img 3.10.0-1160.114.2.el7.x86_64
+18639-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+18640-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'ifcfg' will not be installed, because it's in the list to be omitted!
+18641-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'plymouth' will not be installed, because it's in the list to be omitted!
+18642-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+18643-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+18644-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+18645-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+18646-/var/log/messages:Apr 30 06:29:18 centos-slave1 dracut: dracut module 'nfs' will not be installed, because command 'rpc.statd' could not be found!
+20447-/var/log/messages:Apr 30 10:11:15 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Tue, 30 Apr 2024 10:11:15 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 127.83 seconds
+20448-/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Reloading Network Manager.
+20449-/var/log/messages:Apr 30 10:11:15 centos-slave1 python: 2024-04-30T10:11:15.515432Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+20450-/var/log/messages:Apr 30 10:11:15 centos-slave1 NetworkManager[706]: <info>  [1714471875.5363] audit: op="reload" arg="0" pid=1717 uid=0 result="success"
+20451-/var/log/messages:Apr 30 10:11:15 centos-slave1 NetworkManager[706]: <info>  [1714471875.5373] config: signal: SIGHUP (no changes from disk)
+20452-/var/log/messages:Apr 30 10:11:15 centos-slave1 dbus-send: method return time=1714471875.557173 sender=:1.3 -> destination=:1.26 serial=280 reply_serial=2
+20453-/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Reloaded Network Manager.
+20454-/var/log/messages:Apr 30 10:11:15 centos-slave1 python: 2024-04-30T10:11:15.587102Z INFO Daemon Daemon Fetch goal state completed
+20455-/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Started Execute cloud user/final scripts.
+20456-/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Reached target Cloud-init target.
+20457:/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+20458:/var/log/messages:Apr 30 10:11:15 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+20459:/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+20460:/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+20461:/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+20462:/var/log/messages:Apr 30 10:11:15 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+20463-/var/log/messages:Apr 30 10:11:16 centos-slave1 kdumpctl: kexec: loaded kdump kernel
+20464-/var/log/messages:Apr 30 10:11:16 centos-slave1 kdumpctl: Starting kdump: [OK]
+20465-/var/log/messages:Apr 30 10:11:16 centos-slave1 systemd: Started Crash recovery kernel arming.
+20466-/var/log/messages:Apr 30 10:11:16 centos-slave1 systemd: Startup finished in 1.761s (kernel) + 1.430s (initrd) + 2min 5.641s (userspace) = 2min 10.331s.
+20467-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.612188Z INFO Daemon Daemon RDMA capabilities are not enabled, skipping
+20468-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.615236Z INFO Daemon Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+20469-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.789393Z INFO ExtHandler ExtHandler Azure Linux Agent (Goal State Agent version 2.10.0.8)
+20470-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.789640Z INFO ExtHandler ExtHandler OS: centos 7.9.2009
+20471-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.789699Z INFO ExtHandler ExtHandler Python: 2.7.5
+20472-/var/log/messages:Apr 30 10:11:21 centos-slave1 python: 2024-04-30T10:11:21.789755Z INFO ExtHandler ExtHandler CPU Arch: x86_64
+26878-/var/log/messages:May  1 16:05:01 centos-slave1 systemd: Created slice User Slice of root.
+26879-/var/log/messages:May  1 16:05:01 centos-slave1 systemd: Started Session 818 of user root.
+26880-/var/log/messages:May  1 16:05:01 centos-slave1 systemd: Removed slice User Slice of root.
+26881-/var/log/messages:May  1 16:05:47 centos-slave1 systemd-logind: Removed session 817.
+26882-/var/log/messages:May  1 16:05:47 centos-slave1 systemd: Removed slice User Slice of suresh.
+26883-/var/log/messages:May  1 16:05:53 centos-slave1 systemd: Created slice User Slice of suresh.
+26884-/var/log/messages:May  1 16:05:53 centos-slave1 systemd-logind: New session 819 of user suresh.
+26885-/var/log/messages:May  1 16:05:53 centos-slave1 systemd: Started Session 819 of user suresh.
+26886-/var/log/messages:May  1 16:05:53 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+26887-/var/log/messages:May  1 16:05:54 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26888:/var/log/messages:May  1 16:05:54 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+26889-/var/log/messages:May  1 16:05:54 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: yum check-update #012'; yum check-update  || test $? -eq 100;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26890-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+26891-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26892-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+26893-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26894-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26895-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26896-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+26897-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26898-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.path is marked executable. Please remove executable permission bits. Proceeding anyway.
+26901-/var/log/messages:May  1 16:06:13 centos-slave1 systemd: Configuration file /usr/lib/systemd/system/azure-repo-svc.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+26902-/var/log/messages:May  1 16:06:14 centos-slave1 python: ansible-slurp Invoked with src=patches-list.csv
+26903-/var/log/messages:May  1 16:07:01 centos-slave1 systemd: Started Session 820 of user omsagent.
+26904-/var/log/messages:May  1 16:07:15 centos-slave1 systemd-logind: Removed session 819.
+26905-/var/log/messages:May  1 16:07:15 centos-slave1 systemd: Removed slice User Slice of suresh.
+26906-/var/log/messages:May  1 16:07:41 centos-slave1 systemd: Created slice User Slice of suresh.
+26907-/var/log/messages:May  1 16:07:41 centos-slave1 systemd: Started Session 821 of user suresh.
+26908-/var/log/messages:May  1 16:07:41 centos-slave1 systemd-logind: New session 821 of user suresh.
+26909-/var/log/messages:May  1 16:07:41 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+26910-/var/log/messages:May  1 16:07:42 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26911:/var/log/messages:May  1 16:07:42 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+26912-/var/log/messages:May  1 16:07:43 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: yum check-update #012'; yum check-update  || test $? -eq 100;) >> patches-list.csv removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26913-/var/log/messages:May  1 16:08:03 centos-slave1 python: ansible-slurp Invoked with src=patches-list.csv
+26914-/var/log/messages:May  1 16:08:44 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+26915-/var/log/messages:May  1 16:08:45 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=(echo -e '#012CMD: cat /etc/redhat-release (Display Distribution information)#012'; cat /etc/redhat-release; echo -e '#012CMD: lsb_release -a (Display Distribution information)#012'; lsb_release -a; echo -e '#012CMD: date (Display Date of system)#012'; date; echo -e '#012CMD: ifconfig -a (Nic Card Details with Ips assigned)#012'; ifconfig -a; echo -e '#012CMD: df -Th (Filesystem with sizes and Type)#012'; df -h; echo -e '#012CMD: netstat -planetu (List of Services Running with their Ports)#012'; netstat -planetu; echo -e '#012CMD: uptime (Server Uptime Details)#012'; uptime; echo -e '#012CMD: route -n (Routing Details)#012'; route -n; echo -e '#012CMD: chronyc sources (Chrony Sources)#012'; chronyc sources; echo -e '#012CMD: chronyd status (Chrony Status)#012'; systemctl status chronyd; echo -e '#012CMD: uname -a (Print all information)#012'; uname -a; echo -e '#012CMD: free -h (Memory Details)#012'; free -h; echo -e '#012CMD: cat /etc/fstab (List of Mount Points in the directory)#012'; cat /etc/fstab; echo -e '#012CMD: cat /proc/mounts (List of Mount Points)#012'; cat /proc/mounts; echo -e '#012CMD: cat /etc/exports (List of file systems Exported)#012'; cat /etc/exports; echo -e '#012CMD: (uname -r) Kernel Version#012'; uname -r; echo -e '#012CMD: ip addr list (List of IP Address)#012'; ip addr list; echo -e '#012CMD: lsblk (Disk Allocated)#012'; lsblk; echo -e '#012CMD: cat /proc/cpuinfo | grep -i processor | wc -l (Total Cpus)#012'; cat /proc/cpuinfo | grep -i processor | wc -l; echo -e '#012CMD: dmidecode (Display Product details of Server)#012'; dmidecode | grep -i Product; echo -e '#012CMD: sestatus (Display SELinux status)#012'; sestatus | grep -i SELinux; echo -e '#012CMD: cat /etc/sysconfig/network-scripts/ifcfg* (Display Nic Details) #012'; cat /etc/sysconfig/network-scripts/ifcfg*; echo -e '#012CMD: ps -ef (Display Process running) #012'; ps -ef;) >> Beforeartifacts.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26916-/var/log/messages:May  1 16:08:46 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=True strip_empty_ends=True _raw_params=systemctl list-units --type=service --state=running --no-pager | awk '{print $1}' > running_services.txt && sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '$d' running_services.txt; sed -i '1d;$d' running_services.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+26917-/var/log/messages:May  1 16:08:47 centos-slave1 python: ansible-yum Invoked with lock_timeout=30 update_cache=True disable_excludes=None exclude=[] allow_downgrade=False disable_gpg_check=False conf_file=None use_backend=auto state=latest disablerepo=[] releasever=None skip_broken=False autoremove=False download_dir=None enable_plugin=[] installroot=/ install_weak_deps=True name=['*'] download_only=False bugfix=False list=None install_repoquery=True update_only=False disable_plugin=[] enablerepo=[] security=False validate_certs=True
+26918-/var/log/messages:May  1 16:08:56 centos-slave1 yum[14969]: Updated: 1:grub2-common-2.02-0.87.0.2.el7.centos.14.noarch
+26919-/var/log/messages:May  1 16:08:56 centos-slave1 yum[14969]: Updated: 1:grub2-tools-minimal-2.02-0.87.0.2.el7.centos.14.x86_64
+26920-/var/log/messages:May  1 16:08:57 centos-slave1 yum[14969]: Updated: 1:grub2-tools-2.02-0.87.0.2.el7.centos.14.x86_64
+26921-/var/log/messages:May  1 16:08:57 centos-slave1 yum[14969]: Updated: 1:grub2-tools-extra-2.02-0.87.0.2.el7.centos.14.x86_64
+27841-/var/log/messages:May  1 16:12:03 centos-slave1 python: 2024-05-01T16:12:03.071372Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+27842-/var/log/messages:May  1 16:12:03 centos-slave1 cloud-init: Cloud-init v. 19.4 running 'modules:final' at Wed, 01 May 2024 16:12:02 +0000. Up 128.10 seconds.
+27843-/var/log/messages:May  1 16:12:03 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Wed, 01 May 2024 16:12:03 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 128.28 seconds
+27844-/var/log/messages:May  1 16:12:03 centos-slave1 python: 2024-05-01T16:12:03.233753Z INFO Daemon Daemon Fetch goal state completed
+27845-/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Reloading Network Manager.
+27846-/var/log/messages:May  1 16:12:03 centos-slave1 NetworkManager[708]: <info>  [1714579923.2708] audit: op="reload" arg="0" pid=1799 uid=0 result="success"
+27847-/var/log/messages:May  1 16:12:03 centos-slave1 NetworkManager[708]: <info>  [1714579923.2719] config: signal: SIGHUP (no changes from disk)
+27848-/var/log/messages:May  1 16:12:03 centos-slave1 dbus-send: method return time=1714579923.295527 sender=:1.3 -> destination=:1.26 serial=280 reply_serial=2
+27849-/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Reloaded Network Manager.
+27850-/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Started Execute cloud user/final scripts.
+27851:/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+27852-/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Reached target Cloud-init target.
+27853:/var/log/messages:May  1 16:12:03 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+27854:/var/log/messages:May  1 16:12:03 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+27855:/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+27856:/var/log/messages:May  1 16:12:03 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+27857:/var/log/messages:May  1 16:12:03 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+27858-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut-033-572.el7
+27859-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: Executing: /usr/sbin/dracut --quiet --hostonly --hostonly-cmdline --hostonly-i18n --hostonly-mode strict -o "plymouth dash resume ifcfg" --mount "/dev/disk/by-uuid/05c866bf-01b2-460f-a691-cb885c5fe6d6 /sysroot xfs defaults" --no-hostonly-default-device -f /boot/initramfs-3.10.0-1160.118.1.el7.x86_64kdump.img 3.10.0-1160.118.1.el7.x86_64
+27860-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+27861-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'ifcfg' will not be installed, because it's in the list to be omitted!
+27862-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'plymouth' will not be installed, because it's in the list to be omitted!
+27863-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'dmsquash-live-ntfs' will not be installed, because command 'ntfs-3g' could not be found!
+27864-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+27865-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+27866-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+27867-/var/log/messages:May  1 16:12:03 centos-slave1 dracut: dracut module 'nfs' will not be installed, because command 'rpc.statd' could not be found!
+28981-/var/log/messages:May  1 16:42:18 centos-slave1 python: 2024-05-01T16:42:18.136120Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+28982-/var/log/messages:May  1 16:42:18 centos-slave1 python: 2024-05-01T16:42:18.240846Z INFO Daemon Daemon Fetch goal state completed
+28983-/var/log/messages:May  1 16:42:18 centos-slave1 cloud-init: Cloud-init v. 19.4 running 'modules:final' at Wed, 01 May 2024 16:42:18 +0000. Up 127.69 seconds.
+28984-/var/log/messages:May  1 16:42:18 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Wed, 01 May 2024 16:42:18 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 127.83 seconds
+28985-/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Reloading Network Manager.
+28986-/var/log/messages:May  1 16:42:18 centos-slave1 NetworkManager[707]: <info>  [1714581738.5859] audit: op="reload" arg="0" pid=1778 uid=0 result="success"
+28987-/var/log/messages:May  1 16:42:18 centos-slave1 NetworkManager[707]: <info>  [1714581738.5868] config: signal: SIGHUP (no changes from disk)
+28988-/var/log/messages:May  1 16:42:18 centos-slave1 dbus-send: method return time=1714581738.605111 sender=:1.3 -> destination=:1.26 serial=280 reply_serial=2
+28989-/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Reloaded Network Manager.
+28990-/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Started Execute cloud user/final scripts.
+28991:/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+28992-/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Reached target Cloud-init target.
+28993:/var/log/messages:May  1 16:42:18 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+28994:/var/log/messages:May  1 16:42:18 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+28995:/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+28996:/var/log/messages:May  1 16:42:18 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+28997:/var/log/messages:May  1 16:42:18 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+28998-/var/log/messages:May  1 16:42:19 centos-slave1 kdumpctl: kexec: loaded kdump kernel
+28999-/var/log/messages:May  1 16:42:19 centos-slave1 kdumpctl: Starting kdump: [OK]
+29000-/var/log/messages:May  1 16:42:19 centos-slave1 systemd: Started Crash recovery kernel arming.
+29001-/var/log/messages:May  1 16:42:19 centos-slave1 systemd: Startup finished in 1.737s (kernel) + 1.368s (initrd) + 2min 5.576s (userspace) = 2min 10.665s.
+29002-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.276600Z INFO Daemon Daemon RDMA capabilities are not enabled, skipping
+29003-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.279525Z INFO Daemon Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+29004-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.452781Z INFO ExtHandler ExtHandler Azure Linux Agent (Goal State Agent version 2.10.0.8)
+29005-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.453078Z INFO ExtHandler ExtHandler OS: centos 7.9.2009
+29006-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.453139Z INFO ExtHandler ExtHandler Python: 2.7.5
+29007-/var/log/messages:May  1 16:42:24 centos-slave1 python: 2024-05-01T16:42:24.453190Z INFO ExtHandler ExtHandler CPU Arch: x86_64
+29982-/var/log/messages:May  1 16:56:09 centos-slave1 cloud-init: Cloud-init v. 19.4 running 'modules:final' at Wed, 01 May 2024 16:56:09 +0000. Up 127.42 seconds.
+29983-/var/log/messages:May  1 16:56:09 centos-slave1 python: 2024-05-01T16:56:09.470080Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+29984-/var/log/messages:May  1 16:56:09 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Wed, 01 May 2024 16:56:09 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 127.70 seconds
+29985-/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Reloading Network Manager.
+29986-/var/log/messages:May  1 16:56:09 centos-slave1 python: 2024-05-01T16:56:09.558428Z INFO Daemon Daemon Fetch goal state completed
+29987-/var/log/messages:May  1 16:56:09 centos-slave1 NetworkManager[705]: <info>  [1714582569.5618] audit: op="reload" arg="0" pid=1747 uid=0 result="success"
+29988-/var/log/messages:May  1 16:56:09 centos-slave1 NetworkManager[705]: <info>  [1714582569.5627] config: signal: SIGHUP (no changes from disk)
+29989-/var/log/messages:May  1 16:56:09 centos-slave1 dbus-send: method return time=1714582569.575957 sender=:1.3 -> destination=:1.26 serial=280 reply_serial=2
+29990-/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Reloaded Network Manager.
+29991-/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Started Execute cloud user/final scripts.
+29992:/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+29993-/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Reached target Cloud-init target.
+29994:/var/log/messages:May  1 16:56:09 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+29995:/var/log/messages:May  1 16:56:09 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+29996:/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+29997:/var/log/messages:May  1 16:56:09 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+29998:/var/log/messages:May  1 16:56:09 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+29999-/var/log/messages:May  1 16:56:10 centos-slave1 kdumpctl: kexec: loaded kdump kernel
+30000-/var/log/messages:May  1 16:56:10 centos-slave1 kdumpctl: Starting kdump: [OK]
+30001-/var/log/messages:May  1 16:56:10 centos-slave1 systemd: Started Crash recovery kernel arming.
+30002-/var/log/messages:May  1 16:56:10 centos-slave1 systemd: Startup finished in 1.749s (kernel) + 1.423s (initrd) + 2min 5.376s (userspace) = 2min 9.993s.
+30003-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.586456Z INFO Daemon Daemon RDMA capabilities are not enabled, skipping
+30004-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.588829Z INFO Daemon Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+30005-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.759685Z INFO ExtHandler ExtHandler Azure Linux Agent (Goal State Agent version 2.10.0.8)
+30006-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.760111Z INFO ExtHandler ExtHandler OS: centos 7.9.2009
+30007-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.760166Z INFO ExtHandler ExtHandler Python: 2.7.5
+30008-/var/log/messages:May  1 16:56:15 centos-slave1 python: 2024-05-01T16:56:15.760219Z INFO ExtHandler ExtHandler CPU Arch: x86_64
+30979-/var/log/messages:May  1 17:06:30 centos-slave1 cloud-init: Cloud-init v. 19.4 finished at Wed, 01 May 2024 17:06:30 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 127.70 seconds
+30980-/var/log/messages:May  1 17:06:30 centos-slave1 python: 2024-05-01T17:06:30.524244Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+30981-/var/log/messages:May  1 17:06:30 centos-slave1 python: 2024-05-01T17:06:30.584675Z INFO Daemon Daemon Fetch goal state completed
+30982-/var/log/messages:May  1 17:06:30 centos-slave1 systemd: Reloading Network Manager.
+30983-/var/log/messages:May  1 17:06:30 centos-slave1 NetworkManager[693]: <info>  [1714583190.6247] audit: op="reload" arg="0" pid=1772 uid=0 result="success"
+30984-/var/log/messages:May  1 17:06:30 centos-slave1 NetworkManager[693]: <info>  [1714583190.6258] config: signal: SIGHUP (no changes from disk)
+30985-/var/log/messages:May  1 17:06:31 centos-slave1 dbus-send: method return time=1714583191.433138 sender=:1.3 -> destination=:1.27 serial=296 reply_serial=2
+30986-/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Reloaded Network Manager.
+30987-/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Started Execute cloud user/final scripts.
+30988-/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Reached target Cloud-init target.
+30989:/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+30990:/var/log/messages:May  1 17:06:31 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+30991:/var/log/messages:May  1 17:06:31 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+30992:/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+30993:/var/log/messages:May  1 17:06:31 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+30994:/var/log/messages:May  1 17:06:31 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+30995-/var/log/messages:May  1 17:06:31 centos-slave1 python: ansible-ping Invoked with data=pong
+30996-/var/log/messages:May  1 17:06:32 centos-slave1 kdumpctl: kexec: loaded kdump kernel
+30997-/var/log/messages:May  1 17:06:32 centos-slave1 kdumpctl: Starting kdump: [OK]
+30998-/var/log/messages:May  1 17:06:32 centos-slave1 systemd: Started Crash recovery kernel arming.
+30999-/var/log/messages:May  1 17:06:32 centos-slave1 systemd: Startup finished in 1.754s (kernel) + 1.264s (initrd) + 2min 6.530s (userspace) = 2min 11.206s.
+31000-/var/log/messages:May  1 17:06:36 centos-slave1 python: 2024-05-01T17:06:36.605678Z INFO Daemon Daemon RDMA capabilities are not enabled, skipping
+31001-/var/log/messages:May  1 17:06:36 centos-slave1 python: 2024-05-01T17:06:36.608444Z INFO Daemon Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+31002-/var/log/messages:May  1 17:06:36 centos-slave1 python: 2024-05-01T17:06:36.778835Z INFO ExtHandler ExtHandler Azure Linux Agent (Goal State Agent version 2.10.0.8)
+31003-/var/log/messages:May  1 17:06:36 centos-slave1 python: 2024-05-01T17:06:36.779088Z INFO ExtHandler ExtHandler OS: centos 7.9.2009
+31004-/var/log/messages:May  1 17:06:36 centos-slave1 python: 2024-05-01T17:06:36.779143Z INFO ExtHandler ExtHandler Python: 2.7.5
+31940-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.462463Z INFO Daemon Daemon Fabric preferred wire protocol version:2015-04-05
+31941-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.462852Z INFO Daemon Daemon Wire protocol version:2012-11-30
+31942-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.462899Z INFO Daemon Daemon Server preferred version:2015-04-05
+31943-/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Reloading Network Manager.
+31944-/var/log/messages:May  1 17:11:00 centos-slave1 NetworkManager[698]: <info>  [1714583460.5710] audit: op="reload" arg="0" pid=1716 uid=0 result="success"
+31945-/var/log/messages:May  1 17:11:00 centos-slave1 NetworkManager[698]: <info>  [1714583460.5720] config: signal: SIGHUP (no changes from disk)
+31946-/var/log/messages:May  1 17:11:00 centos-slave1 dbus-send: method return time=1714583460.583316 sender=:1.3 -> destination=:1.26 serial=292 reply_serial=2
+31947-/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Reloaded Network Manager.
+31948-/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Started Execute cloud user/final scripts.
+31949-/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Reached target Cloud-init target.
+31950:/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Starting Azure temporary resource disk dataloss warning file creation...
+31951-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.645755Z INFO Daemon Daemon Initializing goal state during protocol detection
+31952:/var/log/messages:May  1 17:11:00 centos-slave1 temp-disk-dataloss-warning: There is no mountpoint of /dev/disk/cloud/azure_resource-part1 in /etc/fstab
+31953:/var/log/messages:May  1 17:11:00 centos-slave1 systemd: temp-disk-dataloss-warning.service: main process exited, code=exited, status=1/FAILURE
+31954:/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Failed to start Azure temporary resource disk dataloss warning file creation.
+31955:/var/log/messages:May  1 17:11:00 centos-slave1 systemd: Unit temp-disk-dataloss-warning.service entered failed state.
+31956:/var/log/messages:May  1 17:11:00 centos-slave1 systemd: temp-disk-dataloss-warning.service failed.
+31957-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.703315Z INFO Daemon Daemon HostGAPlugin version: 1.0.8.151
+31958-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.705033Z INFO Daemon Daemon Fetched new vmSettings [correlation ID: a1a02ef8-2949-4e27-9523-e57bd3c9fb77 New eTag: 8256656058972944083]
+31959-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.705323Z INFO Daemon Daemon Forcing an update of the goal state..
+31960-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.705379Z INFO Daemon Daemon Fetching goal state [incarnation 1]
+31961-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.813760Z INFO Daemon Daemon Found private key matching thumbprint 790958584334244C2681D44D250556E0EA5C40C0
+31962-/var/log/messages:May  1 17:11:00 centos-slave1 python: 2024-05-01T17:11:00.864041Z INFO Daemon Daemon Fetch goal state completed
+31963-/var/log/messages:May  1 17:11:01 centos-slave1 kdumpctl: kexec: loaded kdump kernel
+31964-/var/log/messages:May  1 17:11:01 centos-slave1 kdumpctl: Starting kdump: [OK]
+31965-/var/log/messages:May  1 17:11:01 centos-slave1 systemd: Started Crash recovery kernel arming.
+31966-/var/log/messages:May  1 17:11:01 centos-slave1 systemd: Startup finished in 1.735s (kernel) + 1.407s (initrd) + 2min 5.630s (userspace) = 2min 10.428s.
+32058-/var/log/messages:May  1 17:11:16 centos-slave1 python: 2024-05-01T17:11:16.530451Z INFO ExtHandler ExtHandler ProcessExtensionsGoalState completed [etag_8256656058972944083 9073 ms]
+32059-/var/log/messages:May  1 17:11:16 centos-slave1 python: 2024-05-01T17:11:16.574088Z INFO ExtHandler ExtHandler Extension status: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+32060-/var/log/messages:May  1 17:11:16 centos-slave1 python: 2024-05-01T17:11:16.574594Z INFO ExtHandler ExtHandler All extensions in the goal state have reached a terminal state: [(u'Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux', u'success')]
+32061-/var/log/messages:May  1 17:11:16 centos-slave1 python: 2024-05-01T17:11:16.575155Z INFO ExtHandler ExtHandler Looking for existing remote access users.
+32062-/var/log/messages:May  1 17:11:16 centos-slave1 python: 2024-05-01T17:11:16.584392Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.10.0.8 is running as the goal state agent [DEBUG HeartbeatCounter: 0;HeartbeatId: 7CB9DB87-D1E7-417E-9393-AB5F057EA1E0;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+32063-/var/log/messages:May  1 17:12:00 centos-slave1 systemd: Created slice User Slice of suresh.
+32064-/var/log/messages:May  1 17:12:00 centos-slave1 systemd: Started Session 1 of user suresh.
+32065-/var/log/messages:May  1 17:12:00 centos-slave1 systemd-logind: New session 1 of user suresh.
+32066-/var/log/messages:May  1 17:12:01 centos-slave1 python: ansible-setup Invoked with filter=* gather_subset=['all'] fact_path=/etc/ansible/facts.d gather_timeout=10
+32067-/var/log/messages:May  1 17:12:02 centos-slave1 python: ansible-command Invoked with creates=None executable=None _uses_shell=False strip_empty_ends=True _raw_params=rm -rf server_usage.txt service-uptime.txt removes=None argv=None warn=True chdir=None stdin_add_newline=True stdin=None
+32068:/var/log/messages:May  1 17:12:02 centos-slave1 python: ansible-command [WARNING] Consider using the file module with state=absent rather than running 'rm'.  If you need to use command because file is insufficient you can add 'warn: false' to this command task or set 'command_warnings=False' in ansible.cfg to get rid of this message.
+32069-/var/log/messages:May  1 17:12:24 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=False path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+32070-/var/log/messages:May  1 17:12:24 centos-slave1 python: ansible-copy Invoked with directory_mode=None force=True remote_src=None _original_basename=tmpb4eg85i9 owner=None follow=False local_follow=None group=None unsafe_writes=None setype=None content=NOT_LOGGING_PARAMETER serole=None dest=service-uptime.txt selevel=None regexp=None validate=None src=/home/suresh/.ansible/tmp/ansible-tmp-1714583543.873342-230765845666225/source checksum=deb8493d2be0fd535a52751a52015ce7529437df seuser=None delimiter=None mode=None attributes=None backup=False
+32071-/var/log/messages:May  1 17:12:24 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=service-uptime.txt get_md5=False get_mime=True get_attributes=True
+32072-/var/log/messages:May  1 17:12:25 centos-slave1 python: ansible-stat Invoked with checksum_algorithm=sha1 get_checksum=True follow=True path=server_usage.txt get_md5=False get_mime=True get_attributes=True
+32073-/var/log/messages:May  1 17:13:25 centos-slave1 systemd-logind: Removed session 1.
+32074-/var/log/messages:May  1 17:13:25 centos-slave1 systemd: Removed slice User Slice of suresh.
+32075-/var/log/messages:May  1 17:15:01 centos-slave1 systemd: Created slice User Slice of root.
+32076-/var/log/messages:May  1 17:15:01 centos-slave1 systemd: Started Session 2 of user root.
+32077-/var/log/messages:May  1 17:15:01 centos-slave1 systemd: Started Session 3 of user root.
+32078-/var/log/messages:May  1 17:15:01 centos-slave1 systemd: Removed slice User Slice of root.

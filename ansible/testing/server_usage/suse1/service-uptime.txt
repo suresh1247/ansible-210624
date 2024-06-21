@@ -1,0 +1,31 @@
+ 
+ 
+ accounts-daemon.service        Tue 2024-06-11 08:22:31 UTC
+atd.service                    Tue 2024-06-11 08:22:30 UTC
+chrony.service                 Tue 2024-06-11 08:22:31 UTC
+cron.service                   Tue 2024-06-11 08:22:30 UTC
+dbus.service                   Tue 2024-06-11 08:22:30 UTC
+getty@tty1.service             Tue 2024-06-11 08:22:31 UTC
+hv-kvp-daemon.service          Thu 2024-06-13 07:47:50 UTC
+irqbalance.service             Tue 2024-06-11 08:22:30 UTC
+ModemManager.service           Tue 2024-06-11 08:22:31 UTC
+multipathd.service             Tue 2024-06-11 08:22:24 UTC
+networkd-dispatcher.service    Tue 2024-06-11 08:22:30 UTC
+omid.service                   Tue 2024-06-11 08:22:31 UTC
+omsagent-552b9630-b106-4fe7-a1fa-97d04a0010ef.service Tue 2024-06-11 08:22:30 UTC
+packagekit.service             Tue 2024-06-18 07:35:54 UTC
+polkit.service                 Tue 2024-06-11 08:22:31 UTC
+rsyslog.service                Tue 2024-06-11 08:22:31 UTC
+serial-getty@ttyS0.service     Tue 2024-06-11 08:22:31 UTC
+snapd.service                  Tue 2024-06-11 08:22:39 UTC
+ssh.service                    Tue 2024-06-11 08:22:31 UTC
+systemd-journald.service       Tue 2024-06-11 08:22:23 UTC
+systemd-logind.service         Tue 2024-06-11 08:22:31 UTC
+systemd-networkd.service       Tue 2024-06-11 08:22:28 UTC
+systemd-resolved.service       Tue 2024-06-11 08:22:28 UTC
+systemd-udevd.service          Tue 2024-06-11 08:22:23 UTC
+udisks2.service                Tue 2024-06-11 08:22:31 UTC
+unattended-upgrades.service    Tue 2024-06-11 08:22:31 UTC
+user@1000.service              Sat 2024-06-15 06:33:53 UTC
+uuidd.service                  Tue 2024-06-11 08:27:32 UTC
+walinuxagent.service           Tue 2024-06-11 08:22:30 UTC

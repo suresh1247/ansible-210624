@@ -1,0 +1,358 @@
+541-/var/log/boot.log-20240501:[[32m  OK  [0m] Reached target Cloud-config availability.
+542-/var/log/boot.log-20240501:         Mounting /mnt/resource...
+543-/var/log/boot.log-20240501:         Starting Permit User Sessions...
+544-/var/log/boot.log-20240501:         Starting OpenSSH server daemon...
+545-/var/log/boot.log-20240501:[[32m  OK  [0m] Reached target Network is Online.
+546-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Azure Linux Agent.
+547-/var/log/boot.log-20240501:         Starting Crash recovery kernel arming...
+548-/var/log/boot.log-20240501:         Starting Apply the settings specified in cloud-config...
+549-/var/log/boot.log-20240501:         Starting System Logging Service...
+550-/var/log/boot.log-20240501:[[32m  OK  [0m] Started OpenSSH server daemon.
+551:/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+552-/var/log/boot.log-20240501:See 'systemctl status mnt-resource.mount' for details.
+553-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Permit User Sessions.
+554-/var/log/boot.log-20240501:[[32m  OK  [0m] Created slice User Slice of root.
+555-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Job spooling tools.
+556-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+557-/var/log/boot.log-20240501:See 'systemctl status session-c2.scope' for details.
+558-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c4 of user root.
+559-/var/log/boot.log-20240501:See 'systemctl status session-c4.scope' for details.
+560-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+561-/var/log/boot.log-20240501:See 'systemctl status session-c3.scope' for details.
+--
+833-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+834-/var/log/boot.log-20240501:See 'systemctl status session-c2.scope' for details.
+835-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+836-/var/log/boot.log-20240501:See 'systemctl status session-c3.scope' for details.
+837-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c6 of user root.
+838-/var/log/boot.log-20240501:See 'systemctl status session-c6.scope' for details.
+839-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c4 of user root.
+840-/var/log/boot.log-20240501:See 'systemctl status session-c4.scope' for details.
+841-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c5 of user root.
+842-/var/log/boot.log-20240501:See 'systemctl status session-c5.scope' for details.
+843:/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+844-/var/log/boot.log-20240501:See 'systemctl status mnt-resource.mount' for details.
+845-/var/log/boot.log-20240501:[  133.236476] cloud-init[1709]: Cloud-init v. 19.4 running 'modules:config' at Tue, 30 Apr 2024 06:16:28 +0000. Up 132.95 seconds.
+846-/var/log/boot.log-20240501:2024/04/30 06:16:28.317106 INFO Daemon cloud-init is enabled: True
+847-/var/log/boot.log-20240501:2024/04/30 06:16:28.339882 INFO Daemon Using cloud-init for provisioning
+848-/var/log/boot.log-20240501:2024/04/30 06:16:28.340861 INFO Daemon Clean protocol
+849-/var/log/boot.log-20240501:[[32m  OK  [0m] Removed slice User Slice of root.
+850-/var/log/boot.log-20240501:2024/04/30 06:16:28.393041 INFO Daemon Provisioning already completed, skipping.
+851-/var/log/boot.log-20240501:2024/04/30 06:16:28.396239 INFO Daemon RDMA capabilities are not enabled, skipping
+852-/var/log/boot.log-20240501:2024/04/30 06:16:28.413790 INFO Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+853-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Apply the settings specified in cloud-config.
+1077-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+1078-/var/log/boot.log-20240501:[[32m  OK  [0m] Reached target Network is Online.
+1079-/var/log/boot.log-20240501:         Starting Crash recovery kernel arming...
+1080-/var/log/boot.log-20240501:         Starting System Logging Service...
+1081-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Azure Linux Agent.
+1082-/var/log/boot.log-20240501:         Mounting /mnt/resource...
+1083-/var/log/boot.log-20240501:         Starting Permit User Sessions...
+1084-/var/log/boot.log-20240501:[[32m  OK  [0m] Reached target Cloud-config availability.
+1085-/var/log/boot.log-20240501:         Starting Apply the settings specified in cloud-config...
+1086-/var/log/boot.log-20240501:         Starting OpenSSH server daemon...
+1087:/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+1088-/var/log/boot.log-20240501:See 'systemctl status mnt-resource.mount' for details.
+1089-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Permit User Sessions.
+1090-/var/log/boot.log-20240501:[[32m  OK  [0m] Created slice User Slice of root.
+1091-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+1092-/var/log/boot.log-20240501:See 'systemctl status session-c1.scope' for details.
+1093-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+1094-/var/log/boot.log-20240501:See 'systemctl status session-c2.scope' for details.
+1095-/var/log/boot.log-20240501:[[1;31mFAILED[0m] Failed to start Session c4 of user root.
+1096-/var/log/boot.log-20240501:See 'systemctl status session-c4.scope' for details.
+1097-/var/log/boot.log-20240501:[[32m  OK  [0m] Started Job spooling tools.
+1558-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+1559-/var/log/boot.log-20240502:         Mounting /mnt/resource...
+1560-/var/log/boot.log-20240502:         Starting Permit User Sessions...
+1561-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Network is Online.
+1562-/var/log/boot.log-20240502:         Starting System Logging Service...
+1563-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Azure Linux Agent.
+1564-/var/log/boot.log-20240502:         Starting Crash recovery kernel arming...
+1565-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Cloud-config availability.
+1566-/var/log/boot.log-20240502:         Starting Apply the settings specified in cloud-config...
+1567-/var/log/boot.log-20240502:         Starting OpenSSH server daemon...
+1568:/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+1569-/var/log/boot.log-20240502:See 'systemctl status mnt-resource.mount' for details.
+1570-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Permit User Sessions.
+1571-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Job spooling tools.
+1572-/var/log/boot.log-20240502:         Starting Wait for Plymouth Boot Screen to Quit...
+1573-/var/log/boot.log-20240502:[[32m  OK  [0m] Created slice User Slice of root.
+1574-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+1575-/var/log/boot.log-20240502:See 'systemctl status session-c3.scope' for details.
+1576-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+1577-/var/log/boot.log-20240502:See 'systemctl status session-c2.scope' for details.
+1578-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+1802-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Network is Online.
+1803-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Azure Linux Agent.
+1804-/var/log/boot.log-20240502:         Starting System Logging Service...
+1805-/var/log/boot.log-20240502:         Starting Crash recovery kernel arming...
+1806-/var/log/boot.log-20240502:         Mounting /mnt/resource...
+1807-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Cloud-config availability.
+1808-/var/log/boot.log-20240502:         Starting Apply the settings specified in cloud-config...
+1809-/var/log/boot.log-20240502:         Starting Permit User Sessions...
+1810-/var/log/boot.log-20240502:         Starting OpenSSH server daemon...
+1811-/var/log/boot.log-20240502:[[32m  OK  [0m] Started OpenSSH server daemon.
+1812:/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+1813-/var/log/boot.log-20240502:See 'systemctl status mnt-resource.mount' for details.
+1814-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Permit User Sessions.
+1815-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Job spooling tools.
+1816-/var/log/boot.log-20240502:[[32m  OK  [0m] Created slice User Slice of root.
+1817-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+1818-/var/log/boot.log-20240502:See 'systemctl status session-c3.scope' for details.
+1819-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+1820-/var/log/boot.log-20240502:See 'systemctl status session-c1.scope' for details.
+1821-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+1822-/var/log/boot.log-20240502:See 'systemctl status session-c2.scope' for details.
+2059-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+2060-/var/log/boot.log-20240502:See 'systemctl status session-c3.scope' for details.
+2061-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+2062-/var/log/boot.log-20240502:See 'systemctl status session-c1.scope' for details.
+2063-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Command Scheduler.
+2064-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c4 of user root.
+2065-/var/log/boot.log-20240502:See 'systemctl status session-c4.scope' for details.
+2066-/var/log/boot.log-20240502:         Starting Wait for Plymouth Boot Screen to Quit...
+2067-/var/log/boot.log-20240502:         Starting Terminate Plymouth Boot Screen...
+2068-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Job spooling tools.
+2069:/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+2070-/var/log/boot.log-20240502:See 'systemctl status mnt-resource.mount' for details.
+2071-/var/log/boot.log-20240502:[[32m  OK  [0m] Removed slice User Slice of root.
+2072-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+2073-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Paths.
+2074-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+2075-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Basic System.
+2076-/var/log/boot.log-20240502:%G%G%G[[32m  OK  [0m] Found device Virtual_Disk 2.
+2077-/var/log/boot.log-20240502:         Starting File System Check on /dev/...f-01b2-460f-a691-cb885c5fe6d6...
+2078-/var/log/boot.log-20240502:[[32m  OK  [0m] Started dracut initqueue hook.
+2079-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+2288-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Network is Online.
+2289-/var/log/boot.log-20240502:         Starting System Logging Service...
+2290-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Azure Linux Agent.
+2291-/var/log/boot.log-20240502:         Starting Crash recovery kernel arming...
+2292-/var/log/boot.log-20240502:         Starting Permit User Sessions...
+2293-/var/log/boot.log-20240502:         Mounting /mnt/resource...
+2294-/var/log/boot.log-20240502:[[32m  OK  [0m] Reached target Cloud-config availability.
+2295-/var/log/boot.log-20240502:         Starting Apply the settings specified in cloud-config...
+2296-/var/log/boot.log-20240502:         Starting OpenSSH server daemon...
+2297-/var/log/boot.log-20240502:[[32m  OK  [0m] Started OpenSSH server daemon.
+2298:/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+2299-/var/log/boot.log-20240502:See 'systemctl status mnt-resource.mount' for details.
+2300-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Permit User Sessions.
+2301-/var/log/boot.log-20240502:[[32m  OK  [0m] Created slice User Slice of root.
+2302-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+2303-/var/log/boot.log-20240502:See 'systemctl status session-c3.scope' for details.
+2304-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Job spooling tools.
+2305-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Command Scheduler.
+2306-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+2307-/var/log/boot.log-20240502:See 'systemctl status session-c1.scope' for details.
+2308-/var/log/boot.log-20240502:         Starting Terminate Plymouth Boot Screen...
+2544-/var/log/boot.log-20240502:See 'systemctl status session-c4.scope' for details.
+2545-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c3 of user root.
+2546-/var/log/boot.log-20240502:See 'systemctl status session-c3.scope' for details.
+2547-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Job spooling tools.
+2548-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c1 of user root.
+2549-/var/log/boot.log-20240502:See 'systemctl status session-c1.scope' for details.
+2550-/var/log/boot.log-20240502:         Starting Wait for Plymouth Boot Screen to Quit...
+2551-/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to start Session c2 of user root.
+2552-/var/log/boot.log-20240502:See 'systemctl status session-c2.scope' for details.
+2553-/var/log/boot.log-20240502:[[32m  OK  [0m] Started Command Scheduler.
+2554:/var/log/boot.log-20240502:[[1;31mFAILED[0m] Failed to mount /mnt/resource.
+2555-/var/log/boot.log-20240502:See 'systemctl status mnt-resource.mount' for details.
+2556-/var/log/cloud-init.log:2024-04-30 03:24:18,091 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2557-/var/log/cloud-init.log:2024-04-30 03:24:18,091 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2558-/var/log/cloud-init.log:2024-04-30 03:24:18,092 - handlers.py[WARNING]: failed to truncate kvp pool file, [Errno 2] No such file or directory: '/var/lib/hyperv/.kvp_pool_1'
+2559-/var/log/cloud-init.log:2024-04-30 03:24:18,107 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2560-/var/log/cloud-init.log:2024-04-30 03:24:18,107 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2561-/var/log/cloud-init.log:2024-04-30 03:24:18,107 - util.py[DEBUG]: Cloud-init v. 19.4 running 'init-local' at Tue, 30 Apr 2024 03:24:18 +0000. Up 22.58 seconds.
+2562-/var/log/cloud-init.log:2024-04-30 03:24:18,107 - main.py[DEBUG]: No kernel command line url found.
+2563-/var/log/cloud-init.log:2024-04-30 03:24:18,107 - main.py[DEBUG]: Closing stdin.
+2564-/var/log/cloud-init.log:2024-04-30 03:24:18,108 - util.py[DEBUG]: Restoring selinux mode for /var/lib/cloud (recursive=False)
+15381-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Starting Permit User Sessions...
+15382-/var/log/messages:Apr 30 06:11:02 centos-slave1 mount: mount: special device ephemeral0 does not exist
+15383-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Starting OpenSSH server daemon...
+15384-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Reached target Network is Online.
+15385-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Started Azure Linux Agent.
+15386-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Starting Crash recovery kernel arming...
+15387-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Starting Apply the settings specified in cloud-config...
+15388-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Starting System Logging Service...
+15389-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Started OpenSSH server daemon.
+15390-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+15391:/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to mount /mnt/resource.
+15392-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+15393-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Started Permit User Sessions.
+15394-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Created slice User Slice of root.
+15395-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Started Job spooling tools.
+15396-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to start Session c2 of user root.
+15397-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to start Session c4 of user root.
+15398-/var/log/messages:Apr 30 06:11:02 centos-slave1 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-41.el7_7.2" x-pid="1698" x-info="http://www.rsyslog.com"] start
+15399-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to start Session c3 of user root.
+15400-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to start Session c6 of user root.
+15401-/var/log/messages:Apr 30 06:11:02 centos-slave1 systemd: Failed to start Session c1 of user root.
+16393-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.005985 INFO Daemon OS: centos 7.7.1908
+16394-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to start Session c2 of user root.
+16395-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.020470 INFO Daemon Python: 2.7.5
+16396-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.081565 INFO Daemon CGroups Status: The cgroup filesystem is ready to use
+16397-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.084838 INFO Daemon Run daemon
+16398-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to start Session c3 of user root.
+16399-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to start Session c6 of user root.
+16400-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to start Session c4 of user root.
+16401-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to start Session c5 of user root.
+16402-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+16403:/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Failed to mount /mnt/resource.
+16404-/var/log/messages:Apr 30 06:16:28 centos-slave1 cloud-init: Cloud-init v. 19.4 running 'modules:config' at Tue, 30 Apr 2024 06:16:28 +0000. Up 132.95 seconds.
+16405-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+16406-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.317106 INFO Daemon cloud-init is enabled: True
+16407-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Removed slice User Slice of root.
+16408-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.339882 INFO Daemon Using cloud-init for provisioning
+16409-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.340861 INFO Daemon Clean protocol
+16410-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.393041 INFO Daemon Provisioning already completed, skipping.
+16411-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.396239 INFO Daemon RDMA capabilities are not enabled, skipping
+16412-/var/log/messages:Apr 30 06:16:28 centos-slave1 python: 2024/04/30 06:16:28.413790 INFO Daemon Determined Agent WALinuxAgent-2.10.0.8 to be the latest agent
+16413-/var/log/messages:Apr 30 06:16:28 centos-slave1 systemd: Started Apply the settings specified in cloud-config.
+18558-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting Crash recovery kernel arming...
+18559-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting System Logging Service...
+18560-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Started Azure Linux Agent.
+18561-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Mounting /mnt/resource...
+18562-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting Permit User Sessions...
+18563-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Reached target Cloud-config availability.
+18564-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting Apply the settings specified in cloud-config...
+18565-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting OpenSSH server daemon...
+18566-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+18567-/var/log/messages:Apr 30 06:29:16 centos-slave1 mount: mount: special device ephemeral0 does not exist
+18568:/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Failed to mount /mnt/resource.
+18569-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+18570-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Started Permit User Sessions.
+18571-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Created slice User Slice of root.
+18572-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Failed to start Session c1 of user root.
+18573-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Failed to start Session c2 of user root.
+18574-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Failed to start Session c4 of user root.
+18575-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Started Job spooling tools.
+18576-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Failed to start Session c3 of user root.
+18577-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+18578-/var/log/messages:Apr 30 06:29:16 centos-slave1 systemd: Starting Terminate Plymouth Boot Screen...
+20397-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Starting Terminate Plymouth Boot Screen...
+20398-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+20399-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Created slice User Slice of root.
+20400-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Failed to start Session c4 of user root.
+20401-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started Command Scheduler.
+20402-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Failed to start Session c2 of user root.
+20403-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Failed to start Session c3 of user root.
+20404-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Failed to start Session c1 of user root.
+20405-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started OpenSSH server daemon.
+20406-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+20407:/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Failed to mount /mnt/resource.
+20408-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+20409-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Received SIGRTMIN+21 from PID 248 (plymouthd).
+20410-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+20411-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+20412-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started Getty on tty1.
+20413-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started Serial Getty on ttyS0.
+20414-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Reached target Login Prompts.
+20415-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Removed slice User Slice of root.
+20416-/var/log/messages:Apr 30 10:11:14 centos-slave1 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1554" x-info="http://www.rsyslog.com"] start
+20417-/var/log/messages:Apr 30 10:11:14 centos-slave1 systemd: Started System Logging Service.
+27779-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting Permit User Sessions...
+27780-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Reached target Network is Online.
+27781-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting System Logging Service...
+27782-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Started Azure Linux Agent.
+27783-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting Crash recovery kernel arming...
+27784-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Reached target Cloud-config availability.
+27785-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting Apply the settings specified in cloud-config...
+27786-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting OpenSSH server daemon...
+27787-/var/log/messages:May  1 16:12:02 centos-slave1 mount: mount: special device ephemeral0 does not exist
+27788-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+27789:/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Failed to mount /mnt/resource.
+27790-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+27791-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Started Permit User Sessions.
+27792-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Started Job spooling tools.
+27793-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+27794-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Created slice User Slice of root.
+27795-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Failed to start Session c3 of user root.
+27796-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Failed to start Session c2 of user root.
+27797-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Failed to start Session c1 of user root.
+27798-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Failed to start Session c4 of user root.
+27799-/var/log/messages:May  1 16:12:02 centos-slave1 systemd: Started Command Scheduler.
+28922-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting System Logging Service...
+28923-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting Crash recovery kernel arming...
+28924-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Mounting /mnt/resource...
+28925-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Reached target Cloud-config availability.
+28926-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting Apply the settings specified in cloud-config...
+28927-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting Permit User Sessions...
+28928-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting OpenSSH server daemon...
+28929-/var/log/messages:May  1 16:42:17 centos-slave1 mount: mount: special device ephemeral0 does not exist
+28930-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Started OpenSSH server daemon.
+28931-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+28932:/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Failed to mount /mnt/resource.
+28933-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+28934-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Started Permit User Sessions.
+28935-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Started Job spooling tools.
+28936-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Created slice User Slice of root.
+28937-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Failed to start Session c3 of user root.
+28938-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Failed to start Session c1 of user root.
+28939-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Failed to start Session c2 of user root.
+28940-/var/log/messages:May  1 16:42:17 centos-slave1 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1552" x-info="http://www.rsyslog.com"] start
+28941-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Failed to start Session c4 of user root.
+28942-/var/log/messages:May  1 16:42:17 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+29932-/var/log/messages:May  1 16:56:08 centos-slave1 mount: mount: special device ephemeral0 does not exist
+29933-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Failed to start Session c2 of user root.
+29934-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Failed to start Session c3 of user root.
+29935-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Failed to start Session c1 of user root.
+29936-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Command Scheduler.
+29937-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Failed to start Session c4 of user root.
+29938-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+29939-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Starting Terminate Plymouth Boot Screen...
+29940-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Job spooling tools.
+29941-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+29942:/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Failed to mount /mnt/resource.
+29943-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+29944-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Removed slice User Slice of root.
+29945-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Received SIGRTMIN+21 from PID 236 (plymouthd).
+29946-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started OpenSSH server daemon.
+29947-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+29948-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Getty on tty1.
+29949-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Serial Getty on ttyS0.
+29950-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Reached target Login Prompts.
+29951-/var/log/messages:May  1 16:56:08 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+29952-/var/log/messages:May  1 16:56:08 centos-slave1 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1551" x-info="http://www.rsyslog.com"] start
+30916-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Started Azure Linux Agent.
+30917-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Starting Crash recovery kernel arming...
+30918-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Starting Permit User Sessions...
+30919-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Mounting /mnt/resource...
+30920-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Reached target Cloud-config availability.
+30921-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Starting Apply the settings specified in cloud-config...
+30922-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Starting OpenSSH server daemon...
+30923-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Started OpenSSH server daemon.
+30924-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+30925-/var/log/messages:May  1 17:06:29 centos-slave1 mount: mount: special device ephemeral0 does not exist
+30926:/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Failed to mount /mnt/resource.
+30927-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+30928-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Started Permit User Sessions.
+30929-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Created slice User Slice of root.
+30930-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Failed to start Session c3 of user root.
+30931-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Started Job spooling tools.
+30932-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Started Command Scheduler.
+30933-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Failed to start Session c1 of user root.
+30934-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Starting Terminate Plymouth Boot Screen...
+30935-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Failed to start Session c2 of user root.
+30936-/var/log/messages:May  1 17:06:29 centos-slave1 systemd: Failed to start Session c4 of user root.
+31896-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Starting Terminate Plymouth Boot Screen...
+31897-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Created slice User Slice of root.
+31898-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Failed to start Session c4 of user root.
+31899-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Failed to start Session c3 of user root.
+31900-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Job spooling tools.
+31901-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Failed to start Session c1 of user root.
+31902-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+31903-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Failed to start Session c2 of user root.
+31904-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Command Scheduler.
+31905-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: mnt-resource.mount mount process exited, code=exited status=32
+31906:/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Failed to mount /mnt/resource.
+31907-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Unit mnt-resource.mount entered failed state.
+31908-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started OpenSSH server daemon.
+31909-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Received SIGRTMIN+21 from PID 240 (plymouthd).
+31910-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Terminate Plymouth Boot Screen.
+31911-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Wait for Plymouth Boot Screen to Quit.
+31912-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Serial Getty on ttyS0.
+31913-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Started Getty on tty1.
+31914-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Reached target Login Prompts.
+31915-/var/log/messages:May  1 17:10:59 centos-slave1 systemd: Removed slice User Slice of root.
+31916-/var/log/messages:May  1 17:10:59 centos-slave1 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1567" x-info="http://www.rsyslog.com"] start
